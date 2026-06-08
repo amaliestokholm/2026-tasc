@@ -19,16 +19,17 @@ section.has-light-background, section.has-light-background h1, section.has-light
   height: 100%;
 }
 
-.reveal section .footer {
-  text-align: left;
+.reveal .footer {
   position: fixed;
-  bottom: 0.5em;
+  bottom: 1.2em;
   left: 1.5em;
   width: auto;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 0.15em;
-  line-height: 1;
+  gap: 0.1em;
+  z-index: 100;
+  pointer-events: none;
 }
 
 

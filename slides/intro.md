@@ -41,11 +41,6 @@ Stars are resonant cavities vibrate at specific eigenfrequencies.
 This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable <b>precise age records</b>.
 </div>
 
-<div class="footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
 
 Note:
 Stars are the grains of sand on these small islands of matter we call galaxies in the vast void of space.
@@ -62,12 +57,8 @@ This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yi
 
 ### Outline of talk
 
+Here is some text, does that fix it?
 
-
-<div class="footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
 
 
 

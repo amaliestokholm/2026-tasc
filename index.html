@@ -8,9 +8,9 @@
 <!-- This is the title shown in the tab-header in the browser -->
 <title>Amalie Stokholm | Galactic archaeology | TASC 2026</title>
 
-<link rel="stylesheet" href="dist/reset.css">
-<link rel="stylesheet" href="dist/reveal.css">
-<link rel="stylesheet" href="dist/theme/lestat.css">
+<link rel="stylesheet" href="./dist/reset.css">
+<link rel="stylesheet" href="./dist/reveal.css">
+<link rel="stylesheet" href="./dist/theme/lestat.css">
 
 <!-- This is for a generic Google font and can be changed -->
 <!-- Go to fonts.google.com and find your font. Then click 'Get font', 'Get embed code', and copy the lines for html -->
@@ -124,17 +124,21 @@
 <div class="reveal">
 	 <!-- data-background-color="#EFEFEF"> -->
 	<div class="slides">
-		<section data-markdown="./slides/intro.md">
-			 data-separator="^\n---\n$"
-			 data-separator-vertical="^\n------\n$"
-			 data-separator-notes="^Note:"
-			 data-transition="slide"
+		<section data-markdown="./slides/intro.md"
+		     data-separator="^\n---\n$"
+		     data-separator-vertical="^\n------\n$"
+		     data-separator-notes="^Note:"
+		     data-transition="slide">
 		</section>
 		<section id="thank-you">
                       <h3>Thank you for your attention!</h3>
                       <h3>Have a wonderful day!</h3>
                 </section>
 	</div>
+	<div class="footer">
+		<div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+		<div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+    </div>
 </div>
 
 <!-- This below here are stuff like plugins or initialisation set-ups -->
@@ -149,6 +153,17 @@
   Reveal.initialize({
     hash: true,
     plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+  });
+
+  // Hide footer on title slide
+  Reveal.on('ready', () => {
+    document.querySelector('.reveal .footer').style.opacity = '0';
+  });
+
+  Reveal.on('slidechanged', event => {
+    const footer = document.querySelector('.reveal .footer');
+    footer.style.opacity = event.indexh === 0 ? '0' : '1';
+    footer.style.transition = 'opacity 0.4s ease';
   });
 </script>
 
