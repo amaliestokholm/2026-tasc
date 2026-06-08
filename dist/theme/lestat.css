@@ -19,17 +19,13 @@ section.has-light-background, section.has-light-background h1, section.has-light
   height: 100%;
 }
 
-.reveal .footer {
-  position: fixed;
-  bottom: 1.2em;
+.slide-footer {
+  position: absolute;
+  top: 650px;          /* slide height (700) minus a small margin */
   left: 1.5em;
-  width: auto;
-  text-align: left;
   display: flex;
   flex-direction: column;
   gap: 0.1em;
-  z-index: 100;
-  pointer-events: none;
 }
 
 
