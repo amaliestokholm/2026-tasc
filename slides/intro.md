@@ -1,30 +1,31 @@
 <!-- .slide: data-auto-animate -->
+<div data-id="conference" style="color: #6272a4; font-size: 0.7em; letter-spacing: 0.08em; margin: 0 0 0.6rem;">TASC · July 2026</div>
 
-## <b> Galactic Archaeology </b>: From cartography to reconstructing the Milky Way’s assembly history in detail
-#### TASC, July 2026
+<h2 style="color: #FFB86C; font-weight: 700; margin: 0 0 0.4rem;">Galactic Archaeology</h2>
 
-<br>
+<p style="color: #6272a4; font-size: 0.85em; font-weight: 500; margin: 0 0 1.6rem; line-height: 1.4;">
+  From cartography to reconstructing<br>
+  the Milky Way's assembly history in detail
+</p>
 
-### Amalie Stokholm
+<div data-id="speaker-name" style="font-size: 1.15em; font-weight: 700; margin: 0 0 0.3rem;">Amalie Stokholm</div>
 
-<span style="color: #888; font-family: monospace;">
-a.l.stokholm@bham.ac.uk
+<span style="color: #6272a4; font-family: monospace; font-size: 0.6em; display: block; margin: 0 0 1.8rem;">
+  a.l.stokholm@bham.ac.uk &nbsp;·&nbsp;
+  <a href="https://a.strova.dk/2026-tasc" style="color: #ff79c6;">a.strova.dk/2026-tasc</a>
 </span>
 
-https://a.strova.dk/2026-tasc
-
-<div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="assets/uobcrest.png" style="width: 30%;">
-  <img src="assets/cartography_whitebg.png" style="width: 30%;">
-  <img src="assets/plato_logo.png" style="width: 30%;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 3rem; margin-top: 1.5rem;">
+  <img src="assets/uobcrest_whitetext.png" style="width: 30%;">
+  <img src="assets/cartography_whitetext.png" style="width: 30%;">
+  <img src="assets/plato_logo.png" style="height: 150px; width: auto;">
 </div>
 
 ---
 
-<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate data-auto-animate-duration="0.85" -->
 
-### What is my science about?
-
+### What is the aim of Galactic archaeology?
 ✨ Stars as cosmic clocks ✨
 
 <div class="fragment" data-fragment-index="1">
@@ -32,13 +33,19 @@ https://a.strova.dk/2026-tasc
 </div>
 <br>
 <div class="fragment" data-fragment-index="2">
-I treat <b>stars as fossil records</b>, which <b> allows</b> me to construct a more <b> precise timeline</b> of cosmic events.
+We treat <b>stars as fossil records</b>, which <b> allows</b> us to construct a more <b> precise timeline</b> of cosmic events.
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
 Stars are resonant cavities vibrate at specific eigenfrequencies.
 This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable <b>precise age records</b>.
 </div>
+
+<div class="footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
 
 Note:
 Stars are the grains of sand on these small islands of matter we call galaxies in the vast void of space.
@@ -50,6 +57,19 @@ We treat stars as fossil records and study how they have been shaped and influen
 
 Stars are resonant cavities vibrate at specific eigenfrequencies, producing subtle brightness variations as the modes are excited and observed.
 This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable precise age records.
+
+---
+
+### Outline of talk
+
+
+
+<div class="footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
 
 ---
 
@@ -95,3 +115,5 @@ This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yi
 <div class="timeline-year fragment" data-fragment-index="7" style="left: 91%;">2026</div>
 
 </div>
+
+---
