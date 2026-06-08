@@ -21,7 +21,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 
 .slide-footer {
   position: absolute;
-  top: 650px;          /* slide height (700) minus a small margin */
+  top: 670px;          /* slide height (700) minus a small margin */
   left: 1.5em;
   display: flex;
   flex-direction: column;
