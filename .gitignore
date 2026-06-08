@@ -1,0 +1,4 @@
+./dist/theme/*.css
+./slides/coding_example.md
+./slides/math_example.md
+./slides/moon*

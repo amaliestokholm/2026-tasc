@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<!-- This head is essentially a preamble. Stylesheets, fonts and the like are here -->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- This is the title shown in the tab-header in the browser -->
+<title>Amalie Stokholm | Galactic archaeology | TASC 2026</title>
+
+<link rel="stylesheet" href="dist/reset.css">
+<link rel="stylesheet" href="dist/reveal.css">
+<link rel="stylesheet" href="dist/theme/lestat.css">
+
+<!-- This is for a generic Google font and can be changed -->
+<!-- Go to fonts.google.com and find your font. Then click 'Get font', 'Get embed code', and copy the lines for html -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Theme used for syntax highlighted code -->
+<link rel="stylesheet" href="plugin/highlight/monokai.css">
+<script src="//cdn.jsdelivr.net/npm/globe.gl"></script>
+<style>
+:root {
+	/* https://github.com/hakimel/reveal.js/blob/master/css/theme/template/exposer.scss */
+	--r-main-font: "Raleway", sans-serif;
+	--r-heading-font: "Raleway", sans-serif;
+	--r-main-font-weight: 300;
+	--r-heading-font-weight: 600;
+	--r-main-font-size: 35px;
+}
+
+.reveal {
+	/* Needed because reveal.js doesn't officially have --r-main-font-weight */
+	font-weight: var(--r-main-font-weight);
+}
+.reveal ul li::marker {
+  color: #ff79c6;
+}
+
+.reveal ol li::marker {
+  color: #ff79c6;
+}
+/* Timeline stuff */
+.horizontal-timeline {
+  position: relative;
+  width: 80%;
+  margin: 60px auto 20px;
+  height: 80px;
+}
+.timeline-line-horizontal {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: calc(100% - 20px);
+  height: 4px;
+  background: linear-gradient(to right, #bd93f9, #ff79c6);
+  border-radius: 2px;
+}
+.timeline-arrow-horizontal {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 20px solid #ff79c6;
+}
+.timeline-dot {
+  position: absolute;
+  top: 40px;
+  transform: translate(-50%, -50%);
+  width: 18px;
+  height: 18px;
+  border: 3px solid #282a36;
+  border-radius: 50%;
+  z-index: 10;
+}
+/* Dynamic gradient colors using color-mix based on position */
+/* The color interpolates from purple (#bd93f9) to pink (#ff79c6) based on left percentage */
+.timeline-dot[style*="left: 0%"] { background: color-mix(in srgb, #bd93f9 100%, #ff79c6 0%); }
+.timeline-dot[style*="left: 10%"] { background: color-mix(in srgb, #bd93f9 90%, #ff79c6 10%); }
+.timeline-dot[style*="left: 20%"] { background: color-mix(in srgb, #bd93f9 80%, #ff79c6 20%); }
+.timeline-dot[style*="left: 28%"] { background: color-mix(in srgb, #bd93f9 71%, #ff79c6 28%); }
+.timeline-dot[style*="left: 30%"] { background: color-mix(in srgb, #bd93f9 70%, #ff79c6 30%); }
+.timeline-dot[style*="left: 40%"] { background: color-mix(in srgb, #bd93f9 60%, #ff79c6 40%); }
+.timeline-dot[style*="left: 49%"] { background: color-mix(in srgb, #bd93f9 51%, #ff79c6 49%); }
+.timeline-dot[style*="left: 50%"] { background: color-mix(in srgb, #bd93f9 50%, #ff79c6 50%); }
+.timeline-dot[style*="left: 56%"] { background: color-mix(in srgb, #bd93f9 44%, #ff79c6 56%); }
+.timeline-dot[style*="left: 60%"] { background: color-mix(in srgb, #bd93f9 40%, #ff79c6 60%); }
+.timeline-dot[style*="left: 63%"] { background: color-mix(in srgb, #bd93f9 37%, #ff79c6 63%); }
+.timeline-dot[style*="left: 70%"] { background: color-mix(in srgb, #bd93f9 30%, #ff79c6 70%); }
+.timeline-dot[style*="left: 80%"] { background: color-mix(in srgb, #bd93f9 20%, #ff79c6 80%); }
+.timeline-dot[style*="left: 90%"] { background: color-mix(in srgb, #bd93f9 10%, #ff79c6 90%); }
+.timeline-dot[style*="left: 91%"] { background: color-mix(in srgb, #bd93f9 9%, #ff79c6 91%); }
+.timeline-dot[style*="left: 100%"] { background: color-mix(in srgb, #bd93f9 0%, #ff79c6 100%); }
+.timeline-year {
+  position: absolute;
+  top: 60px;
+  transform: translateX(-50%);
+  font-size: 0.7em;
+  color: #6272a4;
+  font-weight: 300;
+}
+.reveal .slides section.small-text {
+  font-size: 0.75em;
+}
+.small-text {
+  font-size: 0.75em;
+}
+.small-text table {
+  transform: scale(0.7);
+  transform-origin: top left;
+}
+</style>
+
+</head>
+
+<!-- This is the main set-up of the slides -->
+<body>
+<div class="reveal">
+	 <!-- data-background-color="#EFEFEF"> -->
+	<div class="slides">
+		<section data-markdown="./slides/intro.md"
+			 data-separator="^\n---\n$"
+			 data-separator-vertical="^\n------\n$"
+			 data-separator-notes="^Note:"
+			 data-transition="slide"
+		</section>
+		<section id="thank-you">
+                      <h3>Thank you for your attention!</h3>
+                      <h3>Have a wonderful day!</h3>
+                </section>
+	</div>
+</div>
+
+<!-- This below here are stuff like plugins or initialisation set-ups -->
+<script src="dist/reveal.js"></script>
+<script src="plugin/notes/notes.js"></script>
+<script src="plugin/markdown/markdown.js"></script>
+<script src="plugin/highlight/highlight.js"></script>
+<script src="plugin/math/math.js"></script>
+<script src="plugin/smallcontrol/smallcontrol.js"></script>
+
+<script>
+  Reveal.initialize({
+    hash: true,
+    plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
+  });
+</script>
+
+</body>
+</html>
