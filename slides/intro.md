@@ -23,7 +23,7 @@
 
 ---
 
-<!-- .slide: data-auto-animate data-auto-animate-duration="0.85" -->
+<!-- .slide: class="titled" data-auto-animate data-auto-animate-duration="0.85" -->
 
 ### What is the aim of Galactic archaeology?
 ✨ Stars as cosmic clocks ✨
@@ -55,14 +55,28 @@ The Universe evolves on times scales far longer than human life times, making it
 Stars have been around cosmically for a long time
 We treat stars as fossil records and study how they have been shaped and influenced over billions of years, and thus construct a more precise timeline of cosmic events.
 
-Stars are resonant cavities vibrate at specific eigenfrequencies, producing subtle brightness variations as the modes are excited and observed.
-This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable precise age records.
+Asteroseismology can provide a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable <b>precise age records</b>.
 
 ---
 
-### Outline of talk
+### Outline of this talk
 
-Here is some text, does that fix it?
+
+<div class="fragment" data-fragment-index="1">
+<b>What does Galactic archaeology cover</b>?
+</div>
+<div class="fragment" data-fragment-index="2">
+<b>Why now?</b>, elaborating on the current state of affairs
+</div>
+<br>
+<div class="fragment" data-fragment-index="3">
+<b>Which key discoveries about our Milky Way have been made recently?</b> This include recent breakthroughs from Gaia, spectroscopic surveys, and JWST.
+</div>
+<br>
+<div class="fragment" data-fragment-index="4">
+<b>What is in the near/far future?</b>
+</div>
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -72,9 +86,13 @@ Here is some text, does that fix it?
 
 ---
 
-### Outline of talk
+### What is GA?
 
-Here is some text, does that fix it?
+<div>chemistry, dynamics, ages </div>
+<div>colour, movement, sounds </div>
+<div>Not a cloud of chaos, but a lot of structure</div>
+<div>Chemically distinct populations, orbits</div>
+<div>Chemically distinct populations, orbits</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -84,7 +102,8 @@ Here is some text, does that fix it?
 
 ---
 
-### How did I end up here?
+### How did we end up here?
+
 
 <ul style="list-style: none; padding: 0; margin: 0 auto; max-width: 800px; text-align: left;">
 <li class="fragment" data-fragment-index="1" style="margin-bottom: 15px; font-size: 0.9em;">
