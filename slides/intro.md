@@ -23,9 +23,9 @@
 
 ---
 
-<!-- .slide: class="titled" data-auto-animate data-auto-animate-duration="0.85" -->
+<!-- .slide: data-auto-animate data-auto-animate-duration="0.85" -->
 
-### What is the aim of Galactic archaeology?
+#### What is the aim of Galactic archaeology?
 ✨ Stars as cosmic clocks ✨
 
 <div class="fragment" data-fragment-index="1">
