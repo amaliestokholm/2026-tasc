@@ -1,4 +1,5 @@
-<!-- .slide: data-auto-animate -->
+<!-- .slide: data-auto-animate  -->
+<div class="title-slide">
 <div data-id="conference" style="color: #6272a4; font-size: 0.7em; letter-spacing: 0.08em; margin: 0 0 0.6rem;">TASC · July 2026</div>
 
 <h2 style="color: #FFB86C; font-weight: 700; margin: 0 0 0.4rem;">Galactic Archaeology</h2>
@@ -19,6 +20,7 @@
   <img src="assets/uobcrest_whitetext.png" style="width: 30%;">
   <img src="assets/cartography_whitetext.png" style="width: 30%;">
   <img src="assets/plato_logo.png" style="height: 150px; width: auto;">
+</div>
 </div>
 
 ---

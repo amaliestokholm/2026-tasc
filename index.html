@@ -157,16 +157,19 @@
     plugins: [ RevealMarkdown, RevealHighlight, RevealNotes, RevealMath ]
   });
 
-  // Hide footer on title slide
-  Reveal.on('ready', () => {
-    document.querySelector('.reveal .footer').style.opacity = '0';
-  });
+  function pinSlides() {
+    const allSlides = document.querySelectorAll('.reveal .slides > section');
+    allSlides.forEach((slide, index) => {
+      if (index !== 0) {
+        slide.style.setProperty('top', '0px', 'important');
+      } else {
+        slide.style.removeProperty('top');
+      }
+    });
+  }
 
-  Reveal.on('slidechanged', event => {
-    const footer = document.querySelector('.reveal .footer');
-    footer.style.opacity = event.indexh === 0 ? '0' : '1';
-    footer.style.transition = 'opacity 0.4s ease';
-  });
+  Reveal.on('ready', pinSlides);
+  Reveal.on('slidechanged', pinSlides);
 </script>
 
 </body>
