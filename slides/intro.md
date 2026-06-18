@@ -27,21 +27,21 @@
 
 <!-- .slide: data-auto-animate data-auto-animate-duration="0.85" -->
 
-#### What is the aim of Galactic archaeology?
+#### What is Galactic archaeology?
 ✨ Stars as cosmic clocks ✨
 
 <div class="fragment" data-fragment-index="1">
-<b>The Universe evolves on times scales far longer than human life times</b>, making it difficult to study when what happened and at what rate.
-</div>
+<b>The Universe evolves on times scales far longer than human life times</b>, making it difficult to study when what happened and at what rate. </div>
 <br>
 <div class="fragment" data-fragment-index="2">
 We treat <b>stars as fossil records</b>, which <b> allows</b> us to construct a more <b> precise timeline</b> of cosmic events.
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
-Stars are resonant cavities vibrate at specific eigenfrequencies.
-This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable <b>precise age records</b>.
+Stars provide us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkably <b>precise age records</b>.</p>
 </div>
+
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -50,33 +50,30 @@ This provides us with a <b>seismic</b> probe into otherwise hidden interiors, yi
 
 
 Note:
-Stars are the grains of sand on these small islands of matter we call galaxies in the vast void of space.
-
 The Universe evolves on times scales far longer than human life times, making it difficult to obtain the temporal resolution needed to disentangle the events and processes that shape it. 
 
-Stars have been around cosmically for a long time
-We treat stars as fossil records and study how they have been shaped and influenced over billions of years, and thus construct a more precise timeline of cosmic events.
-
-Asteroseismology can provide a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkable <b>precise age records</b>.
+Stars have been around cosmically for a long time, so
+if we treat stars as fossil records and study how they have been shaped and influenced over billions of years, we can construct a timeline of cosmic events happening in the Milky Way's past.
 
 ---
 
-### Outline of this talk
+<!-- .slide: data-auto-animate -->
 
+#### Why stars?
 
 <div class="fragment" data-fragment-index="1">
-<b>What does Galactic archaeology cover</b>?
-</div>
+Stars are briliant
+<br>
 <div class="fragment" data-fragment-index="2">
-<b>Why now?</b>, elaborating on the current state of affairs
+They preserve chemistry
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
-<b>Which key discoveries about our Milky Way have been made recently?</b> This include recent breakthroughs from Gaia, spectroscopic surveys, and JWST.
+They preserve history in motion
 </div>
 <br>
-<div class="fragment" data-fragment-index="4">
-<b>What is in the near/far future?</b>
+<div class="fragment" data-fragment-index="3">
+They last a long time
 </div>
 
 
@@ -86,15 +83,45 @@ Asteroseismology can provide a <b>seismic</b> probe into otherwise hidden interi
 </div>
 
 
+Note:
+Strictly speaking, stars are not necessary for doing galactic archaeology, any tracer will do.
+However, as I am sure I do not need to emphasize many times in this room, stars are brilliant and they make in my eyes some of the best tracers of Galactic history.
+
+
+Why do we care about stars?
+
 ---
 
-### What is GA?
+<!-- .slide: data-auto-animate -->
 
-<div>chemistry, dynamics, ages </div>
-<div>colour, movement, sounds </div>
-<div>Not a cloud of chaos, but a lot of structure</div>
-<div>Chemically distinct populations, orbits</div>
-<div>Chemically distinct populations, orbits</div>
+I would like to include an inline, pretty and simplified version of galactic-game here?
+
+
+Note:
+Things to say
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+#### Why now?
+
+<div class="fragment" data-fragment-index="1">
+We live in a post-Gaia era. We have parallaxes, proper motions and positions with micro-arcsecond precision.
+We have broad-band spectroscopy for most brighter targets, we have both broad and relatively narrow band photometry available.
+We have classifications and 
+<br>
+<div class="fragment" data-fragment-index="2">
+Other missions as well.
+</div>
+<div class="fragment" data-fragment-index="3">
+We have better technologies. Big data tools, ML, better computer, gpu/cpu. Better simulations with better resolutions
+</div>
+<br>
+<div class="fragment" data-fragment-index="3">
+So we are exploring deeper into our own galaxy.
+</div>
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -102,50 +129,31 @@ Asteroseismology can provide a <b>seismic</b> probe into otherwise hidden interi
 </div>
 
 
+Note:
+In the last few years, so many things have happened that have revolutionizes the way we see galactic history and galactic evolution.
+The field is moving rapidly
+
+What has happened since last time I payed attention to galactic studies.
+
 ---
 
-### How did we end up here?
+<!-- .slide: data-auto-animate -->
+
+### Outline of this talk
+
+How has recent missions reshaped the field?
+
+Which key discoveries about our Milky Way have been made recently?
+
+Which things can we look forward to in the near future?
 
 
-<ul style="list-style: none; padding: 0; margin: 0 auto; max-width: 800px; text-align: left;">
-<li class="fragment" data-fragment-index="1" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2013:</strong> Started Aarhus University, Denmark</li>
-<li class="fragment" data-fragment-index="2" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2017:</strong> Started PhD (4+4) </li>
-<li class="fragment" data-fragment-index="3" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2020:</strong> Research stay at MPIA, Germany</li>
-<li class="fragment" data-fragment-index="4" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2021:</strong> Started Postdoc at Università di Bologna, Italy </li>
-<li class="fragment" data-fragment-index="5" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2022:</strong> Defended PhD</li>
-<li class="fragment" data-fragment-index="6" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2023:</strong> Started Postdoc at University of Birmingham, UK </li>
-<li class="fragment" data-fragment-index="7" style="margin-bottom: 15px; font-size: 0.9em;">
-<strong style="color: #ff79c6;">2026:</strong> Current position at Birmingham </li>
-</ul>
-
-
-<!-- Time-line -->
-<div class="horizontal-timeline" style="position: relative; width: 80%; margin: 60px auto 20px; height: 80px;">
-<div class="timeline-line-horizontal"></div>
-<div class="timeline-arrow-horizontal"></div>
-<!-- Timeline dots (one per event) -->
-<div class="timeline-dot fragment" data-fragment-index="1" style="left: 0%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="2" style="left: 28%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="3" style="left: 49%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="4" style="left: 56%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="5" style="left: 63%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="6" style="left: 70%;"></div>
-<div class="timeline-dot fragment" data-fragment-index="7" style="left: 91%;"></div>
-<!-- Year labels -->
-<div class="timeline-year fragment" data-fragment-index="1" style="left: 0%;">2013</div>
-<div class="timeline-year fragment" data-fragment-index="2" style="left: 28%;">'17</div>
-<div class="timeline-year fragment" data-fragment-index="3" style="left: 49%;">'20</div>
-<div class="timeline-year fragment" data-fragment-index="4" style="left: 56%;">'21</div>
-<div class="timeline-year fragment" data-fragment-index="5" style="left: 63%;">'22</div>
-<div class="timeline-year fragment" data-fragment-index="6" style="left: 70%;">'23</div>
-<div class="timeline-year fragment" data-fragment-index="7" style="left: 91%;">2026</div>
-
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
 </div>
 
----
+
+Note:
+
+With this brief introduction out of the way, the remainder of this talk is as follows.

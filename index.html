@@ -81,22 +81,33 @@
 }
 /* Dynamic gradient colors using color-mix based on position */
 /* The color interpolates from purple (#bd93f9) to pink (#ff79c6) based on left percentage */
-.timeline-dot[style*="left: 0%"] { background: color-mix(in srgb, #bd93f9 100%, #ff79c6 0%); }
-.timeline-dot[style*="left: 10%"] { background: color-mix(in srgb, #bd93f9 90%, #ff79c6 10%); }
-.timeline-dot[style*="left: 20%"] { background: color-mix(in srgb, #bd93f9 80%, #ff79c6 20%); }
-.timeline-dot[style*="left: 28%"] { background: color-mix(in srgb, #bd93f9 71%, #ff79c6 28%); }
-.timeline-dot[style*="left: 30%"] { background: color-mix(in srgb, #bd93f9 70%, #ff79c6 30%); }
-.timeline-dot[style*="left: 40%"] { background: color-mix(in srgb, #bd93f9 60%, #ff79c6 40%); }
-.timeline-dot[style*="left: 49%"] { background: color-mix(in srgb, #bd93f9 51%, #ff79c6 49%); }
-.timeline-dot[style*="left: 50%"] { background: color-mix(in srgb, #bd93f9 50%, #ff79c6 50%); }
-.timeline-dot[style*="left: 56%"] { background: color-mix(in srgb, #bd93f9 44%, #ff79c6 56%); }
-.timeline-dot[style*="left: 60%"] { background: color-mix(in srgb, #bd93f9 40%, #ff79c6 60%); }
-.timeline-dot[style*="left: 63%"] { background: color-mix(in srgb, #bd93f9 37%, #ff79c6 63%); }
-.timeline-dot[style*="left: 70%"] { background: color-mix(in srgb, #bd93f9 30%, #ff79c6 70%); }
-.timeline-dot[style*="left: 80%"] { background: color-mix(in srgb, #bd93f9 20%, #ff79c6 80%); }
-.timeline-dot[style*="left: 90%"] { background: color-mix(in srgb, #bd93f9 10%, #ff79c6 90%); }
-.timeline-dot[style*="left: 91%"] { background: color-mix(in srgb, #bd93f9 9%, #ff79c6 91%); }
-.timeline-dot[style*="left: 100%"] { background: color-mix(in srgb, #bd93f9 0%, #ff79c6 100%); }
+.timeline-dot[style*="left:0%"] {
+  background: color-mix(in srgb,#bd93f9 100%,#ff79c6 0%);
+}
+
+.timeline-dot[style*="left:23.1%"] {
+  background: color-mix(in srgb,#bd93f9 77%,#ff79c6 23%);
+}
+
+.timeline-dot[style*="left:38.5%"] {
+  background: color-mix(in srgb,#bd93f9 62%,#ff79c6 38%);
+}
+
+.timeline-dot[style*="left:53.8%"] {
+  background: color-mix(in srgb,#bd93f9 46%,#ff79c6 54%);
+}
+
+.timeline-dot[style*="left:76.9%"] {
+  background: color-mix(in srgb,#bd93f9 23%,#ff79c6 77%);
+}
+
+.timeline-dot[style*="left:92.3%"] {
+  background: color-mix(in srgb,#bd93f9 8%,#ff79c6 92%);
+}
+
+.timeline-dot[style*="left:100%"] {
+  background:#ff79c6;
+}
 .timeline-year {
   position: absolute;
   top: 60px;
@@ -122,7 +133,6 @@
 <!-- This is the main set-up of the slides -->
 <body>
 <div class="reveal">
-	 <!-- data-background-color="#EFEFEF"> -->
 	<div class="slides">
 		<section data-markdown="./slides/intro.md"
 		     data-separator="^\n---\n$"
@@ -136,10 +146,24 @@
 		     data-separator-notes="^Note:"
 		     data-transition="slide">
 		</section>
-		<section id="thank-you">
-                      <h3>Thank you for your attention!</h3>
-                      <h3>Have a wonderful day!</h3>
-                </section>
+		<section data-markdown="./slides/keydiscoveries.md"
+		     data-separator="^\n---\n$"
+		     data-separator-vertical="^\n------\n$"
+		     data-separator-notes="^Note:"
+		     data-transition="slide">
+		</section>
+		<section data-markdown="./slides/nearfuture.md"
+		     data-separator="^\n---\n$"
+		     data-separator-vertical="^\n------\n$"
+		     data-separator-notes="^Note:"
+		     data-transition="slide">
+		</section>
+		<section data-markdown="./slides/outtro.md"
+		     data-separator="^\n---\n$"
+		     data-separator-vertical="^\n------\n$"
+		     data-separator-notes="^Note:"
+		     data-transition="slide">
+		</section>
 	</div>
 </div>
 
