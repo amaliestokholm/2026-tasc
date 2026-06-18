@@ -12,7 +12,7 @@
 <div data-id="speaker-name" style="font-size: 1.15em; font-weight: 700; margin: 0 0 0.3rem;">Amalie Stokholm</div>
 
 <span style="color: #6272a4; font-family: monospace; font-size: 0.6em; display: block; margin: 0 0 1.8rem;">
-  a.l.stokholm@bham.ac.uk &nbsp;·&nbsp;
+  a.l.stokholm@bham.ac.uk  · 
   <a href="https://a.strova.dk/2026-tasc" style="color: #ff79c6;">a.strova.dk/2026-tasc</a>
 </span>
 
@@ -60,20 +60,22 @@ if we treat stars as fossil records and study how they have been shaped and infl
 <!-- .slide: data-auto-animate -->
 
 #### Why stars?
+Stars are brilliant
 
 <div class="fragment" data-fragment-index="1">
-Stars are briliant
-<br>
-<div class="fragment" data-fragment-index="2">
 They preserve chemistry
 </div>
 <br>
-<div class="fragment" data-fragment-index="3">
+<div class="fragment" data-fragment-index="2">
 They preserve history in motion
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
 They last a long time
+</div>
+<br>
+<div class="fragment" data-fragment-index="4">
+They are numerous, representative
 </div>
 
 
@@ -118,7 +120,7 @@ Other missions as well.
 We have better technologies. Big data tools, ML, better computer, gpu/cpu. Better simulations with better resolutions
 </div>
 <br>
-<div class="fragment" data-fragment-index="3">
+<div class="fragment" data-fragment-index="4">
 So we are exploring deeper into our own galaxy.
 </div>
 
@@ -141,11 +143,20 @@ What has happened since last time I payed attention to galactic studies.
 
 ### Outline of this talk
 
-How has recent missions reshaped the field?
-
-Which key discoveries about our Milky Way have been made recently?
-
-Which things can we look forward to in the near future?
+<div class="talk-outline" style="text-align:left;">
+  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
+    <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">01</span>
+    <span>How has the field changed in recent years?</span>
+  </div>
+  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
+    <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">02</span>
+    <span>Which key discoveries about our Milky Way have been made recently?</span>
+  </div>
+  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;">
+    <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">03</span>
+    <span>Which things can we look forward to in the near future?</span>
+  </div>
+</div>
 
 
 <div class="slide-footer">

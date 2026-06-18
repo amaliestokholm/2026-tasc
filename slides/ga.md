@@ -18,104 +18,53 @@ Not a cloud of chaos but a lot of structure. Structure that preserves informatio
 
 <!-- .slide: data-auto-animate -->
 
-#### How has recent missions reshaped what we thought of the MW?
-
-Top results from Gaia
-Top results from JWST
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-Results
-
----
-
-<!-- .slide: data-auto-animate -->
-
-#### (Simplified) time line of Galactic events
-<!-- Time-line -->
+#### Pre-Gaia time line of Galactic events
 <div class="horizontal-timeline">
-
 <div class="timeline-line-horizontal"></div>
-
 <div class="timeline-arrow-horizontal"></div>
 
 <!-- Event dots -->
-
-<div class="timeline-dot fragment"
-     data-fragment-index="1"
+<div class="timeline-dot"
      style="left:0%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="2"
+<div class="timeline-dot"
      style="left:23.1%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="3"
+<div class="timeline-dot"
      style="left:38.5%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="4"
+<div class="timeline-dot"
      style="left:53.8%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="5"
+<div class="timeline-dot"
      style="left:76.9%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="6"
+<div class="timeline-dot"
      style="left:92.3%;"></div>
-
-<div class="timeline-dot fragment"
-     data-fragment-index="7"
+<div class="timeline-dot"
      style="left:100%;"></div>
 
 <!-- Labels -->
-
-<div class="timeline-year fragment"
-     data-fragment-index="1"
-     style="left:0%;">
+<div class="timeline-year" style="left:0%;">
 13
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="2"
-     style="left:23.1%;">
+<div class="timeline-year" style="left:23.1%;">
 10
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="3"
-     style="left:38.5%;">
+<div class="timeline-year" style="left:38.5%;">
 8
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="4"
-     style="left:53.8%;">
+<div class="timeline-year" style="left:53.8%;">
 6
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="5"
-     style="left:76.9%;">
+<div class="timeline-year" style="left:76.9%;">
 3
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="6"
-     style="left:92.3%;">
+<div class="timeline-year" style="left:92.3%;">
 1
 </div>
 
-<div class="timeline-year fragment"
-     data-fragment-index="7"
-     style="left:100%;">
+<div class="timeline-year" style="left:100%;">
 0
 </div>
 

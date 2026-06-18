@@ -90,7 +90,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
   font-weight: inherit;
 }
 .title-slide {
-	  height: 700px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
