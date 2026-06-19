@@ -1,6 +1,7 @@
         let scene, camera, renderer;
         let starParticles = [];
         let activeRings = []; // { ring, opacity } — rings currently fading out
+        let galaxyCore = null; // { core, nucleus } sprites for the central glow
         let time = 0;
         let audioContext;
 
@@ -85,6 +86,46 @@
             return '#' + hex.toString(16).padStart(6, '0');
         }
 
+        // Soft radial glow texture for the galactic core — same gradient technique as
+        // makeStarTexture but larger, no spikes, just a smooth bright-to-transparent falloff.
+        function makeCoreTexture(color) {
+            const size = 4096;
+            const c = document.createElement('canvas');
+            c.width = c.height = size;
+            const ctx = c.getContext('2d');
+            const cx = size / 2, cy = size / 2;
+
+            const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, size / 2);
+            glow.addColorStop(0,    '#f6f6f6f6');
+            glow.addColorStop(0.08, color + 'ff');
+            glow.addColorStop(0.25, color + 'aa');
+            glow.addColorStop(0.55, color + '33');
+            glow.addColorStop(1,    color + '00');
+            ctx.fillStyle = glow;
+            ctx.fillRect(0, 0, size, size);
+
+            return new THREE.CanvasTexture(c);
+        }
+
+        function makeBgObject(color) {
+            const size = 128;
+            const c = document.createElement('canvas');
+            c.width = c.height = size;
+            const ctx = c.getContext('2d');
+            const cx = size / 2, cy = size / 2;
+
+            const glow = ctx.createRadialGradient(cx, cy, 0, cx, cy, size / 2);
+            glow.addColorStop(0,    '#f6f6f6f6');
+            glow.addColorStop(0.08, color + 'ff');
+            glow.addColorStop(0.25, color + 'aa');
+            glow.addColorStop(0.55, color + '33');
+            glow.addColorStop(1,    color + '00');
+            ctx.fillStyle = glow;
+            ctx.fillRect(0, 0, size, size);
+
+            return new THREE.CanvasTexture(c);
+        }
+
         function initThreeJS() {
             const container = document.getElementById('canvas-container');
             scene = new THREE.Scene();
@@ -107,17 +148,60 @@
             pLight.position.set(0, 5, 0);
             scene.add(pLight);
 
-            const bgGeo = new THREE.BufferGeometry();
-            const bgCount = 3500;
-            const bgPos = new Float32Array(bgCount * 3);
-            for (let i = 0; i < bgCount; i++) {
-                bgPos[i * 3]     = (Math.random() - 0.5) * 80;
-		bgPos[i * 3 + 1] = (Math.random() < 0.5 ? 1 : -1) * (2 + Math.random() * 18); // avoid y=0 centre
-                bgPos[i * 3 + 2] = (Math.random() - 0.5) * 60 - 10;
-            }
-            bgGeo.setAttribute('position', new THREE.BufferAttribute(bgPos, 3));
-            const bgMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.06, transparent: true, opacity: 0.5 });
-            scene.add(new THREE.Points(bgGeo, bgMat));
+	    const bgTexture = makeBgObject('#ffffff');
+	    const bgMat = new THREE.SpriteMaterial({
+			map: bgTexture,
+			transparent: true,
+			blending: THREE.AdditiveBlending,
+			depthWrite: false
+		});
+
+	    const bgCount = 3500;
+
+	    for (let i = 0; i < bgCount; i++) {
+
+		const star = new THREE.Sprite(bgMat.clone());
+
+		star.position.set(
+				(Math.random() - 0.5) * 80,
+
+				(Math.random() < 0.5 ? 1 : -1)
+				* (2 + Math.random() * 18),
+
+				(Math.random() - 0.5) * 60 - 10
+		);
+		const s = 0.05 + Math.random() * 0.08;
+
+		star.scale.set(s, s, 1);
+
+		scene.add(star);
+        	}
+
+            // Galactic core: a soft warm-white glow at the center, plus a small hot point
+            // for a bright nucleus. Stored in galaxyCore so animate() can pulse it.
+            const coreTexture = makeCoreTexture('#f7eac6');
+            const coreMat = new THREE.SpriteMaterial({
+                map: coreTexture,
+                transparent: true,
+                blending: THREE.AdditiveBlending,
+                depthWrite: false
+            });
+            const core = new THREE.Sprite(coreMat);
+            core.scale.set(10.2, 10.2, 1);
+            scene.add(core);
+
+            const nucleusTexture = makeCoreTexture('#e2dcc8');
+            const nucleusMat = new THREE.SpriteMaterial({
+                map: nucleusTexture,
+                transparent: true,
+                blending: THREE.AdditiveBlending,
+                depthWrite: false
+            });
+            const nucleus = new THREE.Sprite(nucleusMat);
+            nucleus.scale.set(0.05, 0.05, 0.1);
+            scene.add(nucleus);
+
+            galaxyCore = { core, nucleus };
 
             // CHAOS VERSION: every color shares the same orbit family — a circle of random
             // radius, tilted at a fully random orientation around a common center. Colors,
@@ -160,7 +244,7 @@
                     // CHAOS: fully random radius around the shared center (not evenly spaced,
                     // not tied to color) — this is what gives the scattered, chaotic look.
                     const radiusBase = RADIUS_MIN + Math.random() * (RADIUS_MAX - RADIUS_MIN);
-                    const speedMult  = 0.18 + Math.random() * 0.45;
+                    const speedMult  = 0.18 + Math.random() * 0.9;
                     const phase      = Math.random() * Math.PI * 2;
 
                     // CHAOS: every star gets a fully random orbital-plane orientation, so
@@ -240,6 +324,13 @@
 
 	    camera.position.x = Math.sin(time * 0.1) * 0.5;
             camera.lookAt(0, 0, 0);
+
+            // Gentle pulse for the galactic core glow
+            if (galaxyCore) {
+                const pulse = 1 + 0.05 * Math.sin(time * 1.3);
+                galaxyCore.core.scale.set(10.2 * pulse, 10.2 * pulse, 1);
+                galaxyCore.nucleus.scale.set(1.1 * pulse, 1.1 * pulse, 1);
+            }
 
             starParticles.forEach(star => {
                 const { radiusBase, speedMult, phase, randomTiltX, randomTiltZ, twinkleOffset, twinkleSpeed } = star.userData;
