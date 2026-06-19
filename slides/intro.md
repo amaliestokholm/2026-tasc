@@ -101,6 +101,26 @@ The Universe is unique because
 
 
 <iframe
+src="./slides/galaxy-chaos.html"
+style="
+width:100%;
+height:500px;
+border:none;
+border-radius:20px;
+">
+</iframe>
+
+
+Note:
+Things to say
+
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+
+<iframe
 src="./slides/galaxy.html"
 style="
 width:100%;

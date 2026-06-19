@@ -119,10 +119,17 @@
             const bgMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.06, transparent: true, opacity: 0.5 });
             scene.add(new THREE.Points(bgGeo, bgMat));
 
+            // shapeIndex selects which orbit family a color uses (0: tilted ellipse like red,
+            // 1: flat ellipse like green, 2: circle like blue). colorIndex just identifies the
+            // color/sound group and no longer needs to match shapeIndex 1:1.
             const colorGroups = [
-                { hex: 0xff4466, cssHex: '#ff4466', name: 'red',   sound: 'buzz',  colorIndex: 0 },
-                { hex: 0x00ffaa, cssHex: '#00ffaa', name: 'green', sound: null,    colorIndex: 1 },
-                { hex: 0x44aaff, cssHex: '#44aaff', name: 'blue',  sound: null,    colorIndex: 2 }
+                { hex: 0xff4466, cssHex: '#ff4466', name: 'red',    sound: 'buzz', colorIndex: 0, shapeIndex: 0 },
+                { hex: 0x00ffaa, cssHex: '#00ffaa', name: 'green',  sound: null,   colorIndex: 1, shapeIndex: 1 },
+                { hex: 0x44aaff, cssHex: '#44aaff', name: 'blue',   sound: null,   colorIndex: 2, shapeIndex: 2 },
+                { hex: 0xffaa33, cssHex: '#ffaa33', name: 'orange', sound: null,   colorIndex: 3, shapeIndex: 2 },
+                { hex: 0xbb66ff, cssHex: '#bb66ff', name: 'violet', sound: null,   colorIndex: 4, shapeIndex: 0 },
+                { hex: 0x33eeff, cssHex: '#33eeff', name: 'cyan',   sound: null,   colorIndex: 5, shapeIndex: 1 },
+                { hex: 0xff44cc, cssHex: '#ff44cc', name: 'pink',   sound: null,   colorIndex: 6, shapeIndex: 2 }
             ];
 
             const textures = {};
@@ -130,22 +137,24 @@
 
             // Orbit shape parameters — defined once, shared by both stars and trail rings
             // Flat plane is X-Z. tilt rotates orbits up into Y around the X-axis.
-            // Red:   steeply tilted ellipse (out of X-Z plane)
-            // Green: flat ellipse in X-Z plane + small per-star Y offset
-            // Blue:  circle in X-Z plane (y = 0)
+            // Indexed by shapeIndex (0/1/2), shared by multiple colors now.
+            // Shape 0: steeply tilted ellipse (out of X-Z plane) — like red
+            // Shape 1: flat ellipse in X-Z plane + small per-star Y offset — like green
+            // Shape 2: circle in X-Z plane (y = 0) — like blue
             const TILT = Math.PI / 2.2; // ~82° — very clearly out-of-plane
             const orbitDefs = [
-                { rx: (r) => r * 1.5,  ry: (r) => r * 0.65, tilt: TILT }, // red:   tilted ellipse
-                { rx: (r) => r * 1.7,  ry: (r) => r * 0.55, tilt: 0    }, // green: flat ellipse
-                { rx: (r) => r,        ry: (r) => r,         tilt: 0    }, // blue:  circle
+                { rx: (r) => r * 1.5,  ry: (r) => r * 0.65, tilt: TILT }, // shape 0: tilted ellipse
+                { rx: (r) => r * 1.7,  ry: (r) => r * 0.55, tilt: 0    }, // shape 1: flat ellipse
+                { rx: (r) => r,        ry: (r) => r,         tilt: 0    }, // shape 2: circle
             ];
 
             // Radius levels used for BOTH stars and trail rings (evenly spaced)
             const RADIUS_MIN = 1.5, RADIUS_MAX = 6.8;
-	    // Green stars use a closer, tighter radius range than blue
-            const GREEN_RADIUS_MIN = 0.75, GREEN_RADIUS_MAX = 3.6;
+            // Colors on shape 1 (flat-ellipse family) use a closer, tighter radius range,
+            // matching green's original "inner disc" feel
+            const INNER_RADIUS_MIN = 0.75, INNER_RADIUS_MAX = 3.6;
 
-            const counts = { red: 35, green: 50, blue: 120 };
+            const counts = { red: 35, green: 50, blue: 120, orange: 40, violet: 45, cyan: 100, pink: 35 };
 
             colorGroups.forEach((grp) => {
                 const mat = new THREE.SpriteMaterial({
@@ -162,50 +171,58 @@
                     const spriteScale = 0.28 + Math.random() * 0.22;
                     sprite.scale.set(spriteScale, spriteScale, 1);
 
-	            // Green uses a tighter radius range closer to centre; red/blue use full range
-                    const rMin = grp.colorIndex === 1 ? GREEN_RADIUS_MIN : RADIUS_MIN;
-                    const rMax = grp.colorIndex === 1 ? GREEN_RADIUS_MAX : RADIUS_MAX;
+                    const isShape0 = grp.shapeIndex === 0; // tilted-ellipse family (like red)
+                    const isShape1 = grp.shapeIndex === 1; // flat-ellipse family (like green)
+
+                    // Shape-1 colors use a tighter radius range closer to centre; others use full range
+                    const rMin = isShape1 ? INNER_RADIUS_MIN : RADIUS_MIN;
+                    const rMax = isShape1 ? INNER_RADIUS_MAX : RADIUS_MAX;
                     const radiusBase = rMin + (i / (COUNT - 1)) * (rMax - rMin);
                     // const speedMult  = 0.25 + Math.random() * 0.35;
-	            const speedMult =
-			    grp.colorIndex === 0 ? 0.53 + Math.random() * 0.35  :  // red
-			    grp.colorIndex === 2 ? 0.25 + Math.random() * 0.35  :  // blue
-						   0.1 + Math.random() * 0.2;    // green
+                    const speedMult =
+                            isShape0 ? 0.53 + Math.random() * 0.35  :  // shape 0 (tilted ellipse)
+                            isShape1 ? 0.1 + Math.random() * 0.2    :  // shape 1 (flat ellipse)
+                                       0.25 + Math.random() * 0.35;    // shape 2 (circle)
                     const phase      = Math.random() * Math.PI * 2;
 
-                    // Green gets a small fixed z-offset so they form a slightly puffed disc
-                    const zWobble = grp.colorIndex === 1 ? (Math.random() - 0.5) * 0.52 : 0;
+                    // Shape-1 colors get a small fixed z-offset so they form a slightly puffed disc
+                    const zWobble = isShape1 ? (Math.random() - 0.5) * 0.52 : 0;
 
-                    // Green stars: per-star ellipse eccentricity and apogee direction in the disc plane
-                    const greenEcc    = grp.colorIndex === 1 ? 0.3 + Math.random() * 0.65 : null;
-                    const greenApogee = grp.colorIndex === 1 ? Math.random() * Math.PI * 2 : null;
+                    // Shape-1 colors: per-star ellipse eccentricity and apogee direction in the disc plane
+                    const greenEcc    = isShape1 ? 0.3 + Math.random() * 0.65 : null;
+                    const greenApogee = isShape1 ? Math.random() * Math.PI * 2 : null;
 
-		    // Red stars each get a fully random orbital plane orientation
-                    const randomTiltX = grp.colorIndex === 0 ? Math.random() * Math.PI * 2 : null;
-                    const randomTiltZ = grp.colorIndex === 0 ? Math.random() * Math.PI * 2 : null;
+                    // Shape-0 colors each get a fully random orbital plane orientation
+                    const randomTiltX = isShape0 ? Math.random() * Math.PI * 2 : null;
+                    const randomTiltZ = isShape0 ? Math.random() * Math.PI * 2 : null;
 
-                    // Determine sound per star for blue and green
+                    // Determine sound per star, following the same radius-threshold pattern
+                    // used originally by blue/green: split each color's population by radius
+                    // into two of the three sounds.
                     let starSound = grp.sound;
-                    if (grp.colorIndex === 2) {
-                        // Blue: inner (small radius) -> bloop, outer (large radius) -> beep
-                        const blueThreshold = (RADIUS_MIN + RADIUS_MAX) / 2; // ~3.8
-                        starSound = radiusBase < blueThreshold ? 'bloop' : 'beep';
-                    } else if (grp.colorIndex === 1) {
-                        // Green: biggest radii -> bloop, smaller -> buzz
-                        const greenThreshold = (GREEN_RADIUS_MIN + GREEN_RADIUS_MAX) / 2; // ~2.4
-                        starSound = radiusBase > greenThreshold ? 'bloop' : 'buzz';
+                    if (starSound === null) {
+                        if (isShape1) {
+                            // shape-1 colors (like green): biggest radii -> bloop, smaller -> buzz
+                            const innerThreshold = (INNER_RADIUS_MIN + INNER_RADIUS_MAX) / 2;
+                            starSound = radiusBase > innerThreshold ? 'bloop' : 'buzz';
+                        } else {
+                            // shape-0/2 colors (like blue): inner -> bloop, outer -> beep
+                            const outerThreshold = (RADIUS_MIN + RADIUS_MAX) / 2;
+                            starSound = radiusBase < outerThreshold ? 'bloop' : 'beep';
+                        }
                     }
 
                     sprite.userData = {
                         color: grp.name,
                         sound: starSound,
                         colorIndex: grp.colorIndex,
+                        shapeIndex: grp.shapeIndex,
                         index: i,
                         radiusBase,
                         speedMult,
                         phase,
                         zWobble,
-			randomTiltX,
+                        randomTiltX,
                         randomTiltZ,
                         greenEcc,
                         greenApogee,
@@ -214,13 +231,13 @@
                     };
 
                     // Create a hidden orbit ring sized exactly for this star's radius
-                    const def = orbitDefs[grp.colorIndex];
-		    const tiltXForRing = grp.colorIndex === 0 ? randomTiltX : def.tilt;
-                    const tiltZForRing = grp.colorIndex === 0 ? randomTiltZ : 0;
-                    // Green: derive rx/ry from per-star eccentricity; others use shared def
-                    const ringRx = grp.colorIndex === 1 ? radiusBase * (1 + greenEcc * 0.5) : def.rx(radiusBase);
-                    const ringRy = grp.colorIndex === 1 ? radiusBase * (1 - greenEcc)        : def.ry(radiusBase);
-                    const ring = makeOrbitRing(ringRx, ringRy, tiltXForRing, tiltZForRing, zWobble, grp.hex, grp.colorIndex === 1 ? greenApogee : 0);
+                    const def = orbitDefs[grp.shapeIndex];
+                    const tiltXForRing = isShape0 ? randomTiltX : def.tilt;
+                    const tiltZForRing = isShape0 ? randomTiltZ : 0;
+                    // Shape-1 colors: derive rx/ry from per-star eccentricity; others use shared def
+                    const ringRx = isShape1 ? radiusBase * (1 + greenEcc * 0.5) : def.rx(radiusBase);
+                    const ringRy = isShape1 ? radiusBase * (1 - greenEcc)        : def.ry(radiusBase);
+                    const ring = makeOrbitRing(ringRx, ringRy, tiltXForRing, tiltZForRing, zWobble, grp.hex, isShape1 ? greenApogee : 0);
                     ring.material.opacity = 0;
                     ring.visible = false;
                     scene.add(ring);
@@ -262,9 +279,9 @@
         // Mirror the orbit definitions from init (must match exactly)
         const TILT_ANIM = Math.PI / 2.2; // ~82° — steeply out of X-Z plane
         const orbitDefsAnim = [
-            { rx: (r) => r * 1.5,  ry: (r) => r * 0.65, tilt: TILT_ANIM }, // red:   tilted ellipse
-            { rx: (r) => r * 1.7,  ry: (r) => r * 0.55, tilt: 0          }, // green: flat ellipse in X-Z + yWobble
-            { rx: (r) => r,        ry: (r) => r,         tilt: 0          }, // blue:  circle in X-Z plane
+            { rx: (r) => r * 1.5,  ry: (r) => r * 0.65, tilt: TILT_ANIM }, // shape 0: tilted ellipse (like red)
+            { rx: (r) => r * 1.7,  ry: (r) => r * 0.55, tilt: 0          }, // shape 1: flat ellipse in X-Z + yWobble (like green)
+            { rx: (r) => r,        ry: (r) => r,         tilt: 0          }, // shape 2: circle in X-Z plane (like blue)
         ];
 
         function animate() {
@@ -276,14 +293,14 @@
             camera.lookAt(0, 0, 0);
 
             starParticles.forEach(star => {
-                const { colorIndex, radiusBase, speedMult, phase, zWobble, randomTiltX, randomTiltZ, greenEcc, greenApogee, twinkleOffset, twinkleSpeed } = star.userData;
+                const { shapeIndex, radiusBase, speedMult, phase, zWobble, randomTiltX, randomTiltZ, greenEcc, greenApogee, twinkleOffset, twinkleSpeed } = star.userData;
                 const t = time * speedMult + phase;
                 const r = radiusBase;
 
                 let px, py, pz;
-                if (colorIndex === 0) {
-                    // Red: each star has its own randomly oriented orbital plane (tiltX + tiltZ)
-                    const def = orbitDefsAnim[colorIndex];
+                if (shapeIndex === 0) {
+                    // Shape 0: each star has its own randomly oriented orbital plane (tiltX + tiltZ)
+                    const def = orbitDefsAnim[shapeIndex];
                     const lx0 = Math.cos(t) * def.rx(r);
                     const lz0 = Math.sin(t) * def.ry(r);
                     const ly1 = lz0 * Math.sin(randomTiltX);
@@ -291,8 +308,8 @@
                     px = lx0 * Math.cos(randomTiltZ) - ly1 * Math.sin(randomTiltZ);
                     py = lx0 * Math.sin(randomTiltZ) + ly1 * Math.cos(randomTiltZ);
                     pz = lz1;
-                } else if (colorIndex === 1) {
-                    // Green: per-star eccentricity and apogee direction; flat in X-Z plane + zWobble
+                } else if (shapeIndex === 1) {
+                    // Shape 1: per-star eccentricity and apogee direction; flat in X-Z plane + zWobble
                     const rx = r * (1 + greenEcc * 0.5);
                     const ry = r * (1 - greenEcc);
                     const lx0 = Math.cos(t + greenApogee) * rx;
@@ -301,8 +318,8 @@
                     py = zWobble || 0;
                     pz = lz0;
                 } else {
-                    // Blue: circle in X-Z plane
-                    const def = orbitDefsAnim[colorIndex];
+                    // Shape 2: circle in X-Z plane
+                    const def = orbitDefsAnim[shapeIndex];
                     const lx0 = Math.cos(t) * def.rx(r);
                     const lz0 = Math.sin(t) * def.ry(r);
                     px = lx0;
