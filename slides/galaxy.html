@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<style>
+html,body{
+  margin:0;
+  overflow:hidden;
+  background:#03020f;
+}
+
+#canvas-container{
+  width:100vw;
+  height:100vh;
+}
+#speech-bubble{
+  background:rgba(255,255,255,0.95);
+  border-radius:12px;
+  padding:8px 14px;
+  font-size:1.6em;
+  transform:translate(-50%,-100%) scale(0.6);
+  opacity:0;
+  transition:opacity 0.15s ease, transform 0.15s ease;
+}
+#speech-bubble.show{
+  opacity:1;
+  transform:translate(-50%,-100%) scale(1);
+}
+</style>
+
+</head>
+
+<body>
+<div id="canvas-container"></div>
+<div id="speech-bubble" style="position:absolute; display:block; pointer-events:none; z-index:10;">
+  <span class="sound-icon"></span>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="galaxy.js"></script>
+</body>
+
+</html>

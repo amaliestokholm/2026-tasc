@@ -1,6 +1,6 @@
 <!-- .slide: data-auto-animate -->
 
-#### How has recent missions reshaped what we thought of the MW?
+### How does it look now?
 
 Milky way image
 

@@ -2,7 +2,7 @@
 
 <!-- .slide: data-auto-animate -->
 
-#### How has recent missions reshaped what we thought of the MW?
+#### The Galaxy is not in dynamic equilibrium
 
 Top results from Gaia
 

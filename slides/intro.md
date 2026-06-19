@@ -60,7 +60,7 @@ if we treat stars as fossil records and study how they have been shaped and infl
 <!-- .slide: data-auto-animate -->
 
 #### Why stars?
-Stars are brilliant
+Stars are brilliant and they make great tracers of Galactic history
 
 <div class="fragment" data-fragment-index="1">
 They preserve chemistry
@@ -92,11 +92,23 @@ However, as I am sure I do not need to emphasize many times in this room, stars 
 
 Why do we care about stars?
 
+The Universe is unique because
+
+
 ---
 
 <!-- .slide: data-auto-animate -->
 
-I would like to include an inline, pretty and simplified version of galactic-game here?
+
+<iframe
+src="./slides/galaxy.html"
+style="
+width:100%;
+height:500px;
+border:none;
+border-radius:20px;
+">
+</iframe>
 
 
 Note:
@@ -107,6 +119,8 @@ Things to say
 <!-- .slide: data-auto-animate -->
 
 #### Why now?
+
+We have moved from small stellar samples to data-rich, chemo-dynamic
 
 <div class="fragment" data-fragment-index="1">
 We live in a post-Gaia era. We have parallaxes, proper motions and positions with micro-arcsecond precision.
