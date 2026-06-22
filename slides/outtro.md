@@ -1,3 +1,56 @@
+<!-- .slide: data-auto-animate -->
+
+#### Take-away message
+
+We have moved from small stellar samples to data-rich, chemo-dynamic
+
+<div class="fragment" data-fragment-index="1">
+We live in a post-Gaia era. We have parallaxes, proper motions and positions with micro-arcsecond precision.
+We have broad-band spectroscopy for most brighter targets, we have both broad and relatively narrow band photometry available.
+We have classifications and
+<br>
+<div class="fragment" data-fragment-index="2">
+Other missions as well.
+</div>
+<div class="fragment" data-fragment-index="3">
+We have better technologies. Big data tools, ML, better computer, gpu/cpu. Better simulations with better resolutions
+</div>
+<br>
+<div class="fragment" data-fragment-index="4">
+So we are exploring deeper into our own galaxy.
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+
+Ten years ago we mostly studied nearby stars.
+
+Today we have positions, motions, chemistry and classifications for unprecedented numbers of stars.
+
+Combined with modern computational tools, we can study the Milky Way as a system rather than isolated pieces of it.
+
+Galactic events leave scars that can survice for billions of years.
+We finally have the data and tools to read those scars.
+
+In the last few years, so many things have happened that have revolutionizes the way we see galactic history and galactic evolution.
+We used to have smaller stellar samples, mostly ion the solar neighbourhood.
+We now build on that legacy with tools and methods that allows us to
+
+
+Now we can see further away and study the differences across the Galactic disk and structure.s
+We have 6D phase information available for more than 1 billion stars from Gaia.
+We also have photometry and classificaitons.
+
+We have better cpu/gpu availability and we can utilise a different toolbox for analysing big data.
+
+---
+
 <!-- .slide: data-auto-animate  -->
 <div class="title-slide">
 

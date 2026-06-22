@@ -203,10 +203,8 @@
 
             galaxyCore = { core, nucleus };
 
-            // CHAOS VERSION: every color shares the same orbit family — a circle of random
-            // radius, tilted at a fully random orientation around a common center. Colors,
-            // counts and sounds are unchanged from the structured version; only the orbit
-            // shape/placement logic differs.
+            // CHAOS VERSION: every color shares the same orbit family: a circle of random
+            // radius, tilted at a fully random orientation around a common center.
             const colorGroups = [
                 { hex: 0xff4466, cssHex: '#ff4466', name: 'red',    sound: 'buzz', colorIndex: 0 },
                 { hex: 0x00ffaa, cssHex: '#00ffaa', name: 'green',  sound: null,   colorIndex: 1 },
@@ -220,11 +218,12 @@
             const textures = {};
             colorGroups.forEach(g => { textures[g.name] = makeStarTexture(g.cssHex); });
 
-            // Shared radius range — every star, regardless of color, picks a random radius
+            // Shared radius range. every star, regardless of color, picks a random radius
             // somewhere in this band around the common center.
             const RADIUS_MIN = 0.9, RADIUS_MAX = 7.2;
 
             const counts = { red: 35, green: 50, blue: 120, orange: 40, violet: 45, cyan: 60, pink: 35 };
+	    const multiplyer = 2;
 
             colorGroups.forEach((grp) => {
                 const mat = new THREE.SpriteMaterial({
@@ -234,7 +233,7 @@
                     depthWrite: false
                 });
 
-                const COUNT = counts[grp.name];
+                const COUNT = counts[grp.name] * multiplyer;
 
                 for (let i = 0; i < COUNT; i++) {
                     const sprite = new THREE.Sprite(mat.clone());

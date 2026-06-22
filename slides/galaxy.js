@@ -238,6 +238,7 @@
             const INNER_RADIUS_MIN = 0.75, INNER_RADIUS_MAX = 3.6;
 
             const counts = { red: 35, green: 50, blue: 120, orange: 40, violet: 45, cyan: 100, pink: 35 };
+	    const multiplyer = 2;
 
             colorGroups.forEach((grp) => {
                 const mat = new THREE.SpriteMaterial({
@@ -247,7 +248,7 @@
                     depthWrite: false
                 });
 
-                const COUNT = counts[grp.name];
+                const COUNT = counts[grp.name] * multiplyer;
 
                 for (let i = 0; i < COUNT; i++) {
                     const sprite = new THREE.Sprite(mat.clone());
