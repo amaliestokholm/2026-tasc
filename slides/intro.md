@@ -31,10 +31,10 @@
 ✨ Stars as cosmic clocks ✨
 
 <div class="fragment" data-fragment-index="1">
-<b>The Universe evolves on times scales far longer than human life times</b>, making it difficult to study when what happened and at what rate. </div>
+<b>The Universe evolves on time scales far longer than human life times</b>, making it difficult to study when what happened and at what rate. </div>
 <br>
 <div class="fragment" data-fragment-index="2">
-We treat <b>stars as fossil records</b>, which <b> allows</b> us to construct a more <b> precise timeline</b> of cosmic events.
+We treat <b>stars as fossil records</b>, which <b>allows</b> us to construct a more <b>precise timeline</b> of cosmic events.
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
@@ -50,10 +50,15 @@ Stars provide us with a <b>seismic</b> probe into otherwise hidden interiors, yi
 
 
 Note:
+The challenge is that.
 The Universe evolves on times scales far longer than human life times, making it difficult to obtain the temporal resolution needed to disentangle the events and processes that shape it. 
 
-Stars have been around cosmically for a long time, so
+Stars have been around cosmically for a long time, 
+so
 if we treat stars as fossil records and study how they have been shaped and influenced over billions of years, we can construct a timeline of cosmic events happening in the Milky Way's past.
+
+The Galaxy remembers its past and stars preserve that memory.
+So by learning to read the stars, we can learn the history of the Milky Way.
 
 ---
 
@@ -63,19 +68,19 @@ if we treat stars as fossil records and study how they have been shaped and infl
 Stars are brilliant and they make great tracers of Galactic history
 
 <div class="fragment" data-fragment-index="1">
-They preserve chemistry
+They largely preserve their birth <b>chemistry</b>
 </div>
 <br>
 <div class="fragment" data-fragment-index="2">
-They preserve history in motion
+They preserve history in <b>orbital motion</b>.
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
-They last a long time
+Their typical <b>lifetimes</b> are billions of years.
 </div>
 <br>
 <div class="fragment" data-fragment-index="4">
-They are numerous, representative
+They are <b>numerous</b> and bright so we can observe them.
 </div>
 
 
@@ -89,16 +94,22 @@ Note:
 Strictly speaking, stars are not necessary for doing galactic archaeology, any tracer will do.
 However, as I am sure I do not need to emphasize many times in this room, stars are brilliant and they make in my eyes some of the best tracers of Galactic history.
 
+They retain much of the chemistry of the cloud from which they were born.
 
-Why do we care about stars?
+They move through the Galactic potential carrying dynamical information,
 
-The Universe is unique because
+Some of them can live for billions of years.
 
+And as especially low-mass stars are rather abundant, a lot of stars have survived for a significant portion of the lifetime of the Milky Way, maybe even close to its entirety.
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
+
+#### This is not our Galaxy
+
+Stars are not randomly distributed.
 
 <iframe
 src="./slides/galaxy-chaos.html"
@@ -112,13 +123,22 @@ border-radius:20px;
 
 
 Note:
-Things to say
+This is not a simulation of the Milky Way.
+
+Our galaxy is not a cloud of chaos like this where
+we have stars of different colours, representing different chemical compositions here, on random orbits around their common center of mass.
+
+There is information encoded in its structure.
+And the Galaxy takes billions of years to forget.
 
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
+#### This is closer -- but still not our Galaxy
+
+The Milky Way has patterns and structure.
 
 <iframe
 src="./slides/galaxy.html"
@@ -132,44 +152,18 @@ border-radius:20px;
 
 
 Note:
-Things to say
+Our Galaxy looks more like this. We have big structural components such as the Galactic disk and the Galactic bulge.
+We have spiral arms, streams, ripples and other dynamical scars
 
----
+The colored patterns are caused by different effects, all intertwined, but can leave important clues for the strength of these different processes.
 
-<!-- .slide: data-auto-animate -->
+These structures in movement are caused by interactions in the Galactic past perturbating the stars and the underlying potential.
 
-#### Why now?
+Perturbations to the potential and to the stellar movements take millions or billions of years to reach equilibrium and to disappear.
 
-We have moved from small stellar samples to data-rich, chemo-dynamic
-
-<div class="fragment" data-fragment-index="1">
-We live in a post-Gaia era. We have parallaxes, proper motions and positions with micro-arcsecond precision.
-We have broad-band spectroscopy for most brighter targets, we have both broad and relatively narrow band photometry available.
-We have classifications and 
-<br>
-<div class="fragment" data-fragment-index="2">
-Other missions as well.
-</div>
-<div class="fragment" data-fragment-index="3">
-We have better technologies. Big data tools, ML, better computer, gpu/cpu. Better simulations with better resolutions
-</div>
-<br>
-<div class="fragment" data-fragment-index="4">
-So we are exploring deeper into our own galaxy.
-</div>
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-In the last few years, so many things have happened that have revolutionizes the way we see galactic history and galactic evolution.
-The field is moving rapidly
-
-What has happened since last time I payed attention to galactic studies.
+So by looking at stars
+we can still today see these ripples of events that happened long ago.
+and we can see how 
 
 ---
 
