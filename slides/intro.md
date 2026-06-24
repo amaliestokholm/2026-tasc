@@ -188,13 +188,23 @@ and we can see how
 #### Why Galactic archaeology now?
 
 
-- <b>Gaia</b> mapping the Milky Way in 5/6D phase space.
-
-- Stellar <b>chemistry at scale</b>: APOGEE, GALAH, LAMOST, Gaia-ESO, ...
-
-- Advances in <b>asteroseismology</b> anchoring precise ages
-
-- Better and more <b>realistic modelling</b> and computing: IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...
+<ul style="list-style-type: disc; line-height: 1.8;">
+<li class="fragment" data-fragment-index="1">
+<b>Gaia</b> mapping the Milky Way in 5/6D phase space.</li>
+<li class="fragment" data-fragment-index="2">
+Stellar <b>chemistry at scale</b>:
+<br>
+<div style="font-size: 0.85em; opacity: 0.7;">APOGEE, GALAH, LAMOST, Gaia-ESO, ...</div>
+</li>
+<li class="fragment" data-fragment-index="3">
+Advances in <b>asteroseismology</b> anchoring precise ages
+</li>
+<li class="fragment" data-fragment-index="4">
+Better and more <b>realistic modelling</b> and computing:
+<br>
+<div style="font-size: 0.85em; opacity: 0.7;">IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...</div>
+</li>
+</style>
 
 
 <div class="slide-footer">
@@ -204,7 +214,7 @@ and we can see how
 
 
 Note:
-So why is this such an exciting time to be doing galactic archaeology?
+So why is this such an exciting time to be doing Galactic Archaeology?
 
 Gaia has been transformative.
 After more than 11 years in space, Gaia completed its survey of the Milky Way
@@ -260,4 +270,7 @@ while advances in computing allow us to compare those models directly with the v
 
 Note:
 
-With this brief introduction out of the way, the remainder of this talk is as follows.
+This is the outline of the talk, we start with a brief introduction.
+But actually you already survived that so well done.
+Now we will move on to more specific results.
+I apologies if you favourite result is not covered here -- I tried my best to include what I could, but I only have 20 minutes.
