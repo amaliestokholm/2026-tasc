@@ -1,5 +1,3 @@
-<!-- .slide: data-auto-animate -->
-
 #### Which big changes have there been recently?
 
 We have moved from small stellar samples to data-rich, chemo-dynamic
