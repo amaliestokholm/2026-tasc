@@ -1,24 +1,6 @@
 <!-- .slide: data-auto-animate -->
 
-### How does it look now?
-
-Milky way image
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-This is the Milky Way. It seems typical spiral galaxy. It has these structures.
-Not a cloud of chaos but a lot of structure. Structure that preserves information.
-
----
-
-<!-- .slide: data-auto-animate -->
-
-#### Why now?
+#### Which big changes have there been recently?
 
 We have moved from small stellar samples to data-rich, chemo-dynamic
 
@@ -73,8 +55,6 @@ What has happened since last time I payed attention to galactic studies.
      style="left:76.9%;"></div>
 <div class="timeline-dot"
      style="left:92.3%;"></div>
-<div class="timeline-dot"
-     style="left:100%;"></div>
 
 <!-- Labels -->
 <div class="timeline-year" style="left:0%;">
@@ -102,7 +82,7 @@ What has happened since last time I payed attention to galactic studies.
 </div>
 
 <div class="timeline-year" style="left:100%;">
-0
+today
 </div>
 
 </div>

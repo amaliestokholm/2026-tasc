@@ -1,5 +1,3 @@
----
-
 <!-- .slide: data-auto-animate -->
 
 #### The Galaxy is not in dynamic equilibrium

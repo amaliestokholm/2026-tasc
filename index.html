@@ -126,6 +126,18 @@
   transform: scale(0.7);
   transform-origin: top left;
 }
+.outline-item {
+  position: relative;
+  display: inline-block;
+}
+.strike {
+  width: 0;
+  transition: width 0.8s ease;
+}
+.fragment.visible.strike {
+  width: 100%;
+}
+
 </style>
 
 </head>

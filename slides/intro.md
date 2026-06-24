@@ -55,7 +55,7 @@ The Universe evolves on times scales far longer than human life times, making it
 
 Stars have been around cosmically for a long time, 
 so
-if we treat stars as fossil records and study how they have been shaped and influenced over billions of years, we can construct a timeline of cosmic events happening in the Milky Way's past.
+the metaphor goes that we treat stars as fossil records and study how they have been shaped and influenced over billions of years, we can construct a timeline of cosmic events happening in the Milky Way's past.
 
 The Galaxy remembers its past and stars preserve that memory.
 So by learning to read the stars, we can learn the history of the Milky Way.
@@ -107,9 +107,10 @@ And as especially low-mass stars are rather abundant, a lot of stars have surviv
 <!-- .slide: data-auto-animate -->
 
 
-#### This is not our Galaxy
+#### How do you reconstruct a 13 Gyr history from a collection of stars?
 
-Stars are not randomly distributed.
+This is not our Galaxy
+
 
 <iframe
 src="./slides/galaxy-chaos.html"
@@ -122,8 +123,16 @@ border-radius:20px;
 </iframe>
 
 
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
 Note:
 This is not a simulation of the Milky Way.
+
+Stars are not randomly distributed.
 
 Our galaxy is not a cloud of chaos like this where
 we have stars of different colours, representing different chemical compositions here, on random orbits around their common center of mass.
@@ -136,9 +145,9 @@ And the Galaxy takes billions of years to forget.
 
 <!-- .slide: data-auto-animate -->
 
-#### This is closer -- but still not our Galaxy
+#### How do you reconstruct a 13 Gyr history from a collection of stars?
 
-The Milky Way has patterns and structure.
+This looks more like it
 
 <iframe
 src="./slides/galaxy.html"
@@ -151,7 +160,14 @@ border-radius:20px;
 </iframe>
 
 
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
 Note:
+The Milky Way has patterns and structure.
 Our Galaxy looks more like this. We have big structural components such as the Galactic disk and the Galactic bulge.
 We have spiral arms, streams, ripples and other dynamical scars
 
@@ -169,22 +185,71 @@ and we can see how
 
 <!-- .slide: data-auto-animate -->
 
+#### Why Galactic archaeology now?
+
+
+- <b>Gaia</b> mapping the Milky Way in 5/6D phase space.
+
+- Stellar <b>chemistry at scale</b>: APOGEE, GALAH, LAMOST, Gaia-ESO, ...
+
+- Advances in <b>asteroseismology</b> anchoring precise ages
+
+- Better and more <b>realistic modelling</b> and computing: IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+So why is this such an exciting time to be doing galactic archaeology?
+
+Gaia has been transformative.
+After more than 11 years in space, Gaia completed its survey of the Milky Way
+in January last year — giving us positions, proper motions, and parallaxes over two billion stars.
+A map of our Galaxy we simply didn't have before.
+
+Large spectroscopic surveys such as APOGEE, GALAH, LAMOST, Gaia-ESO, have added the chemical dimension to a significant fraction of the sky.
+We can now measure the elemental abundances of millions of stars
+(GALAH is 900k stars, APOGEE almost 700k, LAMOST 5 million, Gaia-ESO about 100k)
+
+And of course, asteroseismology giving us the precise ages to anchor it all in time.
+
+On top of that, modern cosmological simulations such as IllustrisTNG, Auriga, EAGLE, FIRE, and EDGE can produce Milky Way-like galaxies in a cosmological context,
+while advances in computing allow us to compare those models directly with the vast observational datasets now available.
+
+
+---
+
+<!-- .slide: data-auto-animate -->
+
 ### Outline of this talk
 
 <div class="talk-outline" style="text-align:left;">
-  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
+<div style="display:flex; align-items:center; gap:38px; padding:10px 0; border-bottom:1px solid rgba(255,255,255,0.15);">
+  <span style="font-size:1.4em; font-weight:500; color:#B5D4F4; min-width:28px;">00</span>
+  <span style="position:relative; display:inline-block;">
+    Brief introduction to the field
+    <span class="fragment strike" style="position:absolute; left:0; top:45%; height:7px; background:#ff79c6; display:block;"></span>
+  </span>
+</div>
+</span>
+  <div style="display:flex;align-items:center;gap:42px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">01</span>
-    <span>How has the field changed in recent years?</span>
+<span>How has the field changed in recent years?</span>
   </div>
-  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
+  <div style="display:flex;align-items:center;gap:48px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">02</span>
-    <span>Which key discoveries about our Milky Way have been made recently?</span>
+<span>Which key discoveries about our Milky Way have been made recently?</span>
   </div>
-  <div style="display:flex;align-items:flex-start;gap:14px;padding:10px 0;">
+  <div style="display:flex;align-items:center;gap:38px;padding:10px 0;">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">03</span>
-    <span>Which things can we look forward to in the near future?</span>
+<span>Which things can we look forward to in the near future?</span>
   </div>
 </div>
+
 
 
 <div class="slide-footer">
