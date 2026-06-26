@@ -2,14 +2,14 @@
 
 #### The Galaxy is not in dynamic equilibrium
 
-<a style="color: #6272a4; font-size: 0.6em;" href="https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html">
-Antoja et al. 2022
-</a>
 
-See
 <a class="paper-ref"
-   href="https://arxiv.org/abs/1706.03762">
-Attention Is All You Need</a>.
+   href="https://ui.adsabs.harvard.edu/abs/1957AJ.....62...93K/abstract">
+Kerr 1957</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">
+Hunt & Vasiliev 2025</a>,
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -33,13 +33,20 @@ We have apiral
 #### The Phase spiral
 
 
-
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
+<div style="display: flex; justify-content: center;">
+  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+</div>
 
 
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018Natur.561..360A/abstract">Antoja et al. 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.1501B/abstract">Binney &amp; Schönrich 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.516L...7H/abstract">Hunt et al. 2022</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524..801G/abstract">Grand et al. 2023</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...673A.115A/abstract">Antoja et al. 2023</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...987...81F/abstract">Frankel et al. 2025</a>
+</div>
 
 
 <div class="slide-footer">

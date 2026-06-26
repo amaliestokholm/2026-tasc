@@ -137,10 +137,31 @@
 .fragment.visible.strike {
   width: 100%;
 }
-.reveal a.paper-ref {
+.reveal .footrefs {
+    position: absolute;
+    left: 0.8em;
+    right: 0.8em;
+    bottom: 0.5em;
+    font-size: 0.5em;
+    line-height: 1.05;
+    text-align: left;
+}
+.reveal .footrefs .prefix {
+    color: #6272a4;
+}
+
+.reveal .footrefs .paper-ref {
     color: #6272a4;
     text-decoration: none;
-    font-size: 0.6em;
+    font-size: inherit;
+}
+
+.reveal .footrefs .paper-ref:hover {
+    text-decoration: underline;
+}
+.reveal .paper-ref.highlight {
+    color: #6272a4;
+    font-weight: 700;
 }
 
 </style>
