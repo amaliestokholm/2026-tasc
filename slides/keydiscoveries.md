@@ -2,9 +2,14 @@
 
 #### The Galaxy is not in dynamic equilibrium
 
-Saggittaurius Dwarf Galaxy
-New stellar steams
+<a style="color: #6272a4; font-size: 0.6em;" href="https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html">
+Antoja et al. 2022
+</a>
 
+See
+<a class="paper-ref"
+   href="https://arxiv.org/abs/1706.03762">
+Attention Is All You Need</a>.
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -13,7 +18,13 @@ New stellar steams
 
 
 Note:
-Results
+So the Galaxy is not in dynamic equilibrium. We have know this for year
+During a Hubble time, the Milky Way disk at the radius of the Sun has only had time to rotate 40 or 50 times.
+Our Sun has only made about 20 revolutions in its lifetime.
+So there is little time for dynamical relaxation.
+
+We have apiral 
+
 
 ---
 
@@ -23,6 +34,9 @@ Results
 
 
 
+[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
+[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
+[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
 [Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
 
 
@@ -35,7 +49,11 @@ Results
 
 
 Note:
-Results
+One of the most important discoveries made since the launch of the Gaia Mission has been the discovery of the 
+phase space spiral or the Gaia snail.
+
+
+It was first discovered in the solar vicinity 
 
 ---
 
@@ -66,6 +84,11 @@ Results
 #### The Great Wave
 
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+</div>
+
+
 
 [Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
 
@@ -80,6 +103,32 @@ Results
 
 Note:
 Results
+
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+### Can this dynamical ringing be explained by Saggittaurius Dwarf Galaxy
+
+Saggittaurius Dwarf Galaxy
+
+Kavli prize - Rodrigo Ibata
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+</div>
+
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+
 
 ---
 
@@ -101,7 +150,7 @@ Dan/Jens/Mia/Chris -- the synergy with learning about the low-metallicity system
 
 
 Note:
-Results fra JWST
+Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
 
 ---
 

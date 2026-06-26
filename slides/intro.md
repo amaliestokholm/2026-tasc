@@ -204,7 +204,7 @@ Better and more <b>realistic modelling</b> and computing:
 <br>
 <div style="font-size: 0.85em; opacity: 0.7;">IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...</div>
 </li>
-</style>
+</ul>
 
 
 <div class="slide-footer">
@@ -248,18 +248,21 @@ while advances in computing allow us to compare those models directly with the v
 </span>
   <div style="display:flex;align-items:center;gap:42px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">01</span>
-<span>How has the field changed in recent years?</span>
+<span>The Galaxy is not in dynamical equilibrium</span>
   </div>
   <div style="display:flex;align-items:center;gap:48px;padding:10px 0;border-bottom:1px solid rgba(255,255,255,0.15);">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">02</span>
-<span>Which key discoveries about our Milky Way have been made recently?</span>
+<span>The Milky Way grew through mergers</span>
   </div>
   <div style="display:flex;align-items:center;gap:38px;padding:10px 0;">
     <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">03</span>
-<span>Which things can we look forward to in the near future?</span>
+<span>Galactic evolution is being rewritten</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:38px;padding:10px 0;">
+    <span style="font-size:1.4em;font-weight:500;color:#B5D4F4;min-width:28px;line-height:1;">04</span>
+<span>Near-future missions</span>
   </div>
 </div>
-
 
 
 <div class="slide-footer">
