@@ -2,13 +2,20 @@
 
 #### The Galaxy is not in dynamic equilibrium
 
+We have know that the Milky Way is not in dynamics equilibrium since 1957.
 
+But as we can probe deeper out in the Galaxy, we are learning that the extent exceised our believes from a decade ago.
+
+
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
 <a class="paper-ref"
    href="https://ui.adsabs.harvard.edu/abs/1957AJ.....62...93K/abstract">
 Kerr 1957</a>,
 <a class="paper-ref"
    href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">
 Hunt & Vasiliev 2025</a>,
+</div>
 
 
 <div class="slide-footer">
@@ -23,8 +30,10 @@ During a Hubble time, the Milky Way disk at the radius of the Sun has only had t
 Our Sun has only made about 20 revolutions in its lifetime.
 So there is little time for dynamical relaxation.
 
-We have apiral 
+A decade ago, the belief was that our Galaxy was a relatively calm environment.
+We could observe merger events going on in other galaxies, but our own seemed rather calm -- unusual for the largest galaxy in our local galaxy cluster!
 
+But we were wrong.
 
 ---
 
@@ -32,11 +41,13 @@ We have apiral
 
 #### The Phase spiral
 
-
 <div style="display: flex; justify-content: center;">
-  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+  <img src="assets/disc/antoja_phase_spiral.jpg" style="width: 100%;">
 </div>
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/newer_phase_spiral.jpg" style="width: 100%;">
+</div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
@@ -59,30 +70,7 @@ Note:
 One of the most important discoveries made since the launch of the Gaia Mission has been the discovery of the 
 phase space spiral or the Gaia snail.
 
-
 It was first discovered in the solar vicinity 
-
----
-
-<!-- .slide: data-auto-animate -->
-
-#### The Radcliffe Wave
-
-
-
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
-
-
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-Results
 
 ---
 
@@ -90,16 +78,15 @@ Results
 
 #### The Great Wave
 
-
 <div style="display: flex; justify-content: center;">
-  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+  <img src="assets/disc/poggio_greatwave_press.jpg" style="width: 100%;">
 </div>
 
-
-
-[Antoja et al. 2022](https://www.aanda.org/articles/aa/full_html/2023/05/aa45518-22/aa45518-22.html)
-
-
+<div class="footrefs">
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.199P/abstract">
+Poggio et al. 2025</a>,
+</div>
 
 
 <div class="slide-footer">
@@ -109,8 +96,46 @@ Results
 
 
 Note:
-Results
+One of the big results of last year was the discovery of the Great wave in our Galactic disc.
 
+This
+
+------
+
+<!-- .slide: data-auto-animate -->
+
+#### The Radcliffe Wave
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/radcliffe-wave-animated.gif" style="width: 100%;">
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/radcliffe-wave-animated.gif" style="width: 100%;">
+</div>
+
+
+<div class="footrefs">
+  <span class="prefix">see </span>
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.199P/abstract">
+Poggio et al. 2025</a>,
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+This is distinct to the Radcliffe wave.
+
+The Radcliffe wave is an on-going wave in a gas cloud.
+It was discovered in the radial velocities of this gas cloud.
+
+The Great wave and the Radcliffe wave differ: 
 
 ---
 
@@ -118,14 +143,12 @@ Results
 
 ### Can this dynamical ringing be explained by Saggittaurius Dwarf Galaxy
 
-Saggittaurius Dwarf Galaxy
-
-Kavli prize - Rodrigo Ibata
-
 <div style="display: flex; justify-content: center;">
-  <img src="assets/poggio_greatwave_press.jpg" style="width: 100%;">
+  <img src="assets/disc/sgr.jpg" style="width: 100%;">
 </div>
-
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/kavli.jpg" style="width: 100%;">
+</div>
 
 
 <div class="slide-footer">
@@ -135,7 +158,48 @@ Kavli prize - Rodrigo Ibata
 
 
 Note:
+Saggittaurius Dwarf Galaxy
 
+Kavli prize - Rodrigo Ibata
+
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+#### Gaia-Enceladus
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/kavli.jpg" style="width: 100%;">
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/pen.jpg" style="width: 100%;">
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/helmi.jpg" style="width: 100%;">
+</div>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/sausage.jpg" style="width: 100%;">
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+The other part of the Kavli prize was given to Belkurov and Amina Helmi fort
+
+PEN results
+
+Helmi / Belkurov
+
+Kavli price this year
 
 ---
 
@@ -146,6 +210,8 @@ Note:
 Merger remnants
 
 Montalban/Borre
+
+nuindi!
 
 Dan/Jens/Mia/Chris -- the synergy with learning about the low-metallicity systematics are incredibly important.
 
@@ -159,35 +225,10 @@ Dan/Jens/Mia/Chris -- the synergy with learning about the low-metallicity system
 Note:
 Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
 
----
-
-<!-- .slide: data-auto-animate -->
-
-#### Gaia-Enceladus
-
-PEN results
-
-Helmi / Belkurov
-
-Kavli price this year
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-Results fra JWST
-
----
-
 
 <!-- .slide: data-auto-animate -->
 
 #### Other galaxy relics
-
 
 Arjuna/Sequoia/l’itoi -- satellite dwarf galaxies 
 Kraken/midgalaxy
@@ -201,7 +242,37 @@ We have learned a lot and
 
 
 Note:
+There has been a deep
 Results fra JWST
+Just because you find 
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+#### The Galactic bulge
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/bulge/euclid_bulge.jpg" style="width: 100%;">
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+Another area of interest now and in the near-future is the Galactic bulge.
+
+This is the largest high-resolution photo ever made of our Milky Way galaxy’s centre in visible light.
+
+It was taken on 23 March 2025 by the ESA Euclid and the size of it corresponds to 22 times the area of the full Moon as seen from Earth.
+
+This single mosaic encompasses the entire region that Roman will monitor.
+
+(Euclid main mission: study high-redshift galaxies and from their position and velocities study the properties of dark matter and dark energy.)
 
 ---
 

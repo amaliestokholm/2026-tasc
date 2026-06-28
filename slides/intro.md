@@ -17,11 +17,34 @@
 </span>
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 3rem; margin-top: 1.5rem;">
-  <img src="assets/uobcrest_whitetext.png" style="width: 30%;">
-  <img src="assets/cartography_whitetext.png" style="width: 30%;">
-  <img src="assets/plato_logo.png" style="height: 150px; width: auto;">
+  <img src="assets/logos/uobcrest_whitetext.png" style="width: 30%;">
+  <img src="assets/logos/cartography_whitetext.png" style="width: 30%;">
+  <img src="assets/logos/plato_logo.png" style="height: 150px; width: auto;">
 </div>
 </div>
+
+Note:
+Amalie Stokholm
+UoB
+And to kick this session off, I will give you a review of Galactic Archaeology.
+I would like to thank the S O C for giving me this time and opportunity to do so.
+
+I know that it is 8:30 and there was the conference dinner yesterday,
+So before we begin, 
+so I would like all of you to do a quick little thing to wake up your body and mind
+stand up with me, please, if you can.
+Then move your arms like the oscillations of a red giant
+Slow waves but big amplitudes. Think: lots of power and a delightfully mixture of p and g modes.
+Let us move down the evolutionary track to a subgiant.
+A bit faster, smaller amplitude, don't forget to throw a few mixed modes in there.
+Then a main sequence star. Nice and regular, but still stochastic . Quicker, quicker.
+Faster
+Faster
+And I think we stop before the zero-age main sequence so the oscillations don't become to quick but low amplitude for us for now.
+
+Thank you all so much! -- Please sit down again
+
+Alright, let us do this.
 
 ---
 
