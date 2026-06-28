@@ -141,13 +141,13 @@ The Great wave and the Radcliffe wave differ:
 
 <!-- .slide: data-auto-animate -->
 
-### Can this dynamical ringing be explained by Saggittaurius Dwarf Galaxy
+### Saggittaurius Dwarf Galaxy
 
 <div style="display: flex; justify-content: center;">
   <img src="assets/disc/sgr.jpg" style="width: 100%;">
 </div>
 <div style="display: flex; justify-content: center;">
-  <img src="assets/disc/kavli.jpg" style="width: 100%;">
+  <img src="assets/disc/kavlimedal.png" style="width: 10%;">
 </div>
 
 
@@ -158,19 +158,21 @@ The Great wave and the Radcliffe wave differ:
 
 
 Note:
+Can this ringing be explained by
 Saggittaurius Dwarf Galaxy
 
-Kavli prize - Rodrigo Ibata
+Kavli prize this year was awarded partly to prof. Rodrigo Ibata for the discovery of the Saggiraurius dwarf galaxy and 
+for uncovering the fossil evidence of past mergers proving that the Milky Way galaxy was built through hierarchical accretion
 
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
-#### Gaia-Enceladus
+#### Gaia-Enceladus Sausage
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/disc/kavli.jpg" style="width: 100%;">
+  <img src="assets/disc/kavlimedal.png" style="width: 10%;">
 </div>
 
 <div style="display: flex; justify-content: center;">
@@ -185,6 +187,13 @@ Kavli prize - Rodrigo Ibata
   <img src="assets/mergers/sausage.jpg" style="width: 100%;">
 </div>
 
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2010A%26A...511L..10N/abstract">Nissen & Schuster 2010</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
+</div>
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -195,25 +204,36 @@ Kavli prize - Rodrigo Ibata
 Note:
 The other part of the Kavli prize was given to Belkurov and Amina Helmi fort
 
-PEN results
+With Gaia data, we got motion. Not just where they are on the sky, but how they were movement.
+Groups lead by Amina Helmi and Vasily Belokurov found that the bulk of the halo stars were moving on these odd radial paths.
 
-Helmi / Belkurov
+This is the trace of a head-on collion, a dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
 
-Kavli price this year
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
 #### The Milky Way grew through mergers
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/borre_mergerremnants.jpeg" style="width: 70%;">
+</div>
 
-Merger remnants
-
-Montalban/Borre
-
-nuindi!
-
-Dan/Jens/Mia/Chris -- the synergy with learning about the low-metallicity systematics are incredibly important.
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2020NatAs...4..382C/abstract">
+Chaplin et al. 2020</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">
+Montalbán et al. 2021</a>,
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.2527B/abstract">
+Borre et al. 2022</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">
+Lindsay et al. 2025</a>
+</div>
 
 
 <div class="slide-footer">
@@ -223,7 +243,65 @@ Dan/Jens/Mia/Chris -- the synergy with learning about the low-metallicity system
 
 
 Note:
+Here asteroseismology is important!
+
+
+Going through more of the Gaia data in more detail many, many smaller associations seems to have been found. 
+
+Study of several smaller galaxies fall in together? 
+
+Or are some outer parts of the same galaxy?
+
 Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
+
+the synergy with learning about the low-metallicity systematics are incredibly important.
+The old Galactic disk was splashed and heated.
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+#### The Milky Way grew through mergers
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/lundkvist_overview.png" style="width: 100%;">
+</div>
+
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">
+Huber et al. 2024</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">
+Larsen et al. 2025</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">
+Lundkvist et al. 2025</a>,
+<a class="paper-ref"
+   href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">
+Marasco et al. 2025</a>,
+</div>
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+Going through more of the Gaia data in more detail many, many smaller associations seems to have been found. 
+
+Study of several smaller galaxies fall in together? 
+
+Or are some outer parts of the same galaxy?
+
+Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
+
+the synergy with learning about the low-metallicity systematics are incredibly important.
+The old Galactic disk was splashed and heated.
+
+---
 
 
 <!-- .slide: data-auto-animate -->
@@ -234,6 +312,22 @@ Arjuna/Sequoia/l’itoi -- satellite dwarf galaxies
 Kraken/midgalaxy
 All of them :) but also the caveat that just because you can fit a Gaussian to some outliers does not mean it is an independent merger.
 We have learned a lot and 
+
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">
+Huber et al. 2024</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">
+Larsen et al. 2025</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">
+Lundkvist et al. 2025</a>,
+<a class="paper-ref"
+   href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">
+Marasco et al. 2025</a>,
+</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -284,6 +378,19 @@ Kraken/midgalaxy results
 Simulations
 Nepal paper
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/bulge/bulge.png" style="width: 100%;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">
+Kruijssen et al. 2020</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">
+Horta et al. 2021</a>,
+</div>
+
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
     <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
@@ -299,10 +406,24 @@ Results fra JWST
 
 #### Globular clusters and their potential origins
 
-Omega Cen
 
-Classifications of globular clusters
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/clusters.png" style="width: 100%;">
+</div>
 
+<div class="footrefs">
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">
+Massari et al. 2019</a>,
+</div>
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">
+Kruijssen et al. 2019</a>,
+</div>
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">
+Boldrini et al. 2025</a>,
+</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -311,7 +432,48 @@ Classifications of globular clusters
 
 
 Note:
-Results fra JWST
+Classifications of globular clusters
+In this paper they combined data with comparisons to hydrodynamical cosmological simulations (TNG50) and developed their classification scheme in that way,
+But there are a couple of different approaches in the litterature, both data-driven or some including more chemical signatures and so on.
+
+GCs are sorted from the most to the least bound in energy.
+in situ clusters (blue)/ ex situ red
+Magenta: Sgr
+Blue: NGC 6397
+Green: Omega Cen plus six associated clusters
+Grey: Low-energy from Massari et al. 2019
+
+------
+
+<!-- .slide: data-auto-animate -->
+
+#### Omega Cen
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">
+Häberle et al. 2024</a>,
+<a class="paper-ref"
+   href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">
+Noyola et al. 2008</a>,
+</div>
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+Omega Cen is the largest and brightest globular cluster
+
+In 2024, seven fast-moving stars in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
+The only object that can be so massive is a black hole, with a mass at least 8200 times that of our Sun.
+
 
 ---
 
@@ -376,62 +538,16 @@ Results fra JWST
 
 ---
 
-
 <!-- .slide: data-auto-animate -->
 
-#### Current time line of Galactic events*
-<div class="horizontal-timeline">
-<div class="timeline-line-horizontal"></div>
-<div class="timeline-arrow-horizontal"></div>
+#### Hydrodynamical cosmological simulations are reaching resolutions of GC
 
-<!-- Event dots -->
-<div class="timeline-dot"
-     style="left:0%;"></div>
-<div class="timeline-dot"
-     style="left:23.1%;"></div>
-<div class="timeline-dot"
-     style="left:38.5%;"></div>
-<div class="timeline-dot"
-     style="left:53.8%;"></div>
-<div class="timeline-dot"
-     style="left:76.9%;"></div>
-<div class="timeline-dot"
-     style="left:92.3%;"></div>
-<div class="timeline-dot"
-     style="left:100%;"></div>
-
-<!-- Labels -->
-<div class="timeline-year" style="left:0%;">
-13
+<div class="footrefs">
+  <span class="prefix">see </span>
+<a class="paper-ref highlight"
+   href="https://ui.adsabs.harvard.edu/abs/2025Natur.645..327T/abstract">
+Taylor et al. 2025</a>,
 </div>
-
-<div class="timeline-year" style="left:23.1%;">
-10
-</div>
-
-<div class="timeline-year" style="left:38.5%;">
-8
-</div>
-
-<div class="timeline-year" style="left:53.8%;">
-6
-</div>
-
-<div class="timeline-year" style="left:76.9%;">
-3
-</div>
-
-<div class="timeline-year" style="left:92.3%;">
-1
-</div>
-
-<div class="timeline-year" style="left:100%;">
-0
-</div>
-
-</div>
-
-
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -440,5 +556,4 @@ Results fra JWST
 
 
 Note:
-Results
-
+Results fra JWST

@@ -98,9 +98,6 @@ Proper motions: 2.7 (DR4), 6.6 (DR5)
 
 #### Nancy Grace Roman Space Telescope
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/missions/plato_fov.png" style="width: 100%;">
-</div>
 
 
 <div class="footrefs">

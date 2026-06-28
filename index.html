@@ -164,6 +164,24 @@
     font-weight: 700;
 }
 
+.launch-list {
+  list-style: none;
+  padding-left: 0;
+  line-height: 1.8;
+}
+
+.launch-list li::before {
+  display: inline-block;
+  width: 4em;
+  font-weight: bold;
+  color: #4da6ff;   /* choose your preferred colour */
+}
+.launch-list li.y2026::before { content: "2026"; }
+.launch-list li.y2027::before { content: "2027"; }
+.launch-list li.y2028::before { content: "2028"; }
+.launch-list li.y2030::before { content: "2030"; }
+.launch-list li.y2035::before { content: "2035"; }
+
 </style>
 
 </head>
