@@ -2,19 +2,21 @@
 
 #### The Galaxy is not in dynamic equilibrium
 
-We have know that the Milky Way is not in dynamics equilibrium since 1957.
+<p class="slide-note">
+The Milky Way is still responding to recent interactions and has not yet dynamically relaxed.
+</p>
 
-But as we can probe deeper out in the Galaxy, we are learning that the extent exceised our believes from a decade ago.
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/disc/MW_precessing.gif" style="width: 90%;">
+</div>
 
 
 <div class="footrefs">
-  <span class="prefix">see e.g.</span>
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/1957AJ.....62...93K/abstract">
-Kerr 1957</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">
-Hunt & Vasiliev 2025</a>,
+<a class="paper-ref highlight" href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_discovers_our_galaxy_s_great_wave">Credits: Stefan Payne-Wardenaar (ESA)</a>,
+  <span class="prefix">see also e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/1957AJ.....62...93K/abstract">Kerr 1957</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">Hunt & Vasiliev 2025</a>
 </div>
 
 
@@ -25,38 +27,37 @@ Hunt & Vasiliev 2025</a>,
 
 
 Note:
-So the Galaxy is not in dynamic equilibrium. We have know this for year
-During a Hubble time, the Milky Way disk at the radius of the Sun has only had time to rotate 40 or 50 times.
-Our Sun has only made about 20 revolutions in its lifetime.
-So there is little time for dynamical relaxation.
+- We've known since the late 1950s that the Milky Way is not in perfect dynamical equilibrium.
+- At the Solar radius, the Galactic disk completes only about 40–50 rotations over a Hubble time.
+- The Sun itself has completed just over 20 orbits around the Galactic centre since it formed.
+- In other words, the Galaxy has had **surprisingly little time to dynamically relax**.
 
-A decade ago, the belief was that our Galaxy was a relatively calm environment.
-We could observe merger events going on in other galaxies, but our own seemed rather calm -- unusual for the largest galaxy in our local galaxy cluster!
+We observed **mergers and strong interactions in many external galaxies**, while our own Galaxy appeared **unusually undisturbed for being of the two dominant members of the Local Group**.
 
-But we were wrong.
+- **Gaia has completely changed that picture.**
+- We now know that the Milky Way is full of dynamical substructure and bears clear signatures of recent interactions, mergers, and ongoing phase mixing.
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
-#### The Phase spiral
+#### The Gaia snail or phase-space spiral
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/antoja_phase_spiral.jpg" style="width: 100%;">
-</div>
+<p class="slide-note">
+Recent perturbation of the Galactic disk
+</p>
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/newer_phase_spiral.jpg" style="width: 100%;">
+<div style="display: flex; gap: 1em; justify-content: center; align-items: flex-start;">
+  <img src="assets/disc/antoja-phase-spiral.jpg" style="width: 75%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
-  <span class="prefix">see e.g.</span>
   <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018Natur.561..360A/abstract">Antoja et al. 2018</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.481.1501B/abstract">Binney &amp; Schönrich 2018</a>,
-  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.516L...7H/abstract">Hunt et al. 2022</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.516L...7H/abstract">Hunt et al. 2022</a>,<br>
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524..801G/abstract">Grand et al. 2023</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...673A.115A/abstract">Antoja et al. 2023</a>,
-  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...987...81F/abstract">Frankel et al. 2025</a>
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...987...81F/abstract">Frankel et al. 2025</a>
 </div>
 
 
@@ -67,10 +68,22 @@ But we were wrong.
 
 
 Note:
-One of the most important discoveries made since the launch of the Gaia Mission has been the discovery of the 
+One of the most **important discoveries** made since the launch of the Gaia Mission has been the discovery of the 
 phase space spiral or the Gaia snail.
 
-It was first discovered in the solar vicinity 
+- This is an **updated plot of the original** plot from the Antoja 2018 paper that used Gaia DR2, this is Gaia DR3, but the image shows the same thing.
+First we have a density plot, then density contrast, then a colour-coded by radial velocity, then azimuthal velocity.
+- This **spiral pattern** shows that stars in the Galactic disk prefer some phases of their orbits over others. 
+- This is **surprising** if we think that stars are **usually born right into the midplane of the Galactic disk with little vertical motion**.
+- As time goes they get **slowly dynamically heated up by random kicks** up and down and acquire random vertical motion
+- If **it all random, there should be no preffered orbital phase**.
+- So how did the stars **end-up in this phase spiral**?
+- **What kicked these stars**, perturbed their phases and caused this signature?
+- After enough time, the system becomes sufficiently phase mixed and the spiral disappears, so this pattern also tell us than this perturbation is recent, within the last 0.8 Gyr.
+(Frankel et al. 2023 (and other papers) found models between 0.2 to 0.8Gyr ago.)
+- (While this coincides when the Sagittarius crossed the Milky Way disk, it does not quite add up.)
+(Sgr does not seem to be massive enough to produce that strong of a signal as the one we see and the timing of the perturbation really changes depending on where in the Galaxy you look.
+It could also be more than one event and that it is the total effect of all the satellite galaxies in the Milky Way perturbing the disc we observe.)
 
 ---
 
@@ -78,14 +91,20 @@ It was first discovered in the solar vicinity
 
 #### The Great Wave
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/poggio_greatwave_press.jpg" style="width: 100%;">
+<p class="slide-note">
+Correlated wave-like movement across the disk
+</p>
+
+
+<div style="display: flex; gap: 0.5em; justify-content: center; align-items: flex-start;">
+  <img src="assets/disc/poggio_residualplot.png" style="width: 60%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/disc/poggio_greatwave_press.jpg" style="width: 40%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
 <a class="paper-ref highlight"
    href="https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.199P/abstract">
-Poggio et al. 2025</a>,
+Poggio et al. 2025</a>
 </div>
 
 
@@ -96,9 +115,11 @@ Poggio et al. 2025</a>,
 
 
 Note:
-One of the big results of last year was the discovery of the Great wave in our Galactic disc.
-
-This
+- We also see a ripple-like movement on a greater scale.
+- One of the big results of last year was the discovery of the **so-called Great wave in our Galactic disc**.
+Where we essentially see this ripple-like pattern over a scale of the **entire scale of the Disk, 20 kpc**.
+- Traced by young giants and cepheids and modelling the Galactic wrap, Poggio et al found this large-scale ripple, which is both clear in the different velocity dimensions and position.
+- (Cepheid: rare but span large distances (3000 across 15 kpc), young giants (17000, within 6 kpc).
 
 ------
 
@@ -107,19 +128,15 @@ This
 #### The Radcliffe Wave
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/disc/radcliffe-wave-animated.gif" style="width: 100%;">
-</div>
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/radcliffe-wave-animated.gif" style="width: 100%;">
+  <img src="assets/disc/poggio_greatwave_vs_radcliffe.png" style="width: 50%;">
+  <img src="assets/disc/radcliffe-wave-animated.gif" style="width: 50%;">
 </div>
 
 
 <div class="footrefs">
   <span class="prefix">see </span>
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.199P/abstract">
-Poggio et al. 2025</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020Natur.578..237A/abstract">Alves et al. 2020</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...699A.199P/abstract"> Poggio et al. 2025</a>
 </div>
 
 
@@ -130,12 +147,8 @@ Poggio et al. 2025</a>,
 
 
 Note:
-This is distinct to the Radcliffe wave.
-
 The Radcliffe wave is an on-going wave in a gas cloud.
 It was discovered in the radial velocities of this gas cloud.
-
-The Great wave and the Radcliffe wave differ: 
 
 ---
 
@@ -143,13 +156,21 @@ The Great wave and the Radcliffe wave differ:
 
 ### Saggittaurius Dwarf Galaxy
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/sgr.jpg" style="width: 100%;">
-</div>
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/kavlimedal.png" style="width: 10%;">
+<div style="position: relative; display: flex; justify-content: center;">
+  <img src="assets/disc/sgr.jpg" style="width: 100%; max-height: 65vh; object-fit: contain;">
+  <img src="assets/disc/kavlimedal.png" class="fragment fade-in"
+     data-id="kavli-medal"
+       style="position: absolute; top: 0.5em; right: 0.5em; width: 12%; margin: 0;">
 </div>
 
+<div class="footrefs">
+<a class="paper-ref highlight" href="https://www.esa.int/ESA_Multimedia/Images/2020/05/Sagittarius_collisions_trigger_star_formation_in_Milky_Way">Credits: ESA</a><br>
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/1994Natur.370..194I/abstract">Ibata et al. 1994</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.481..286L/abstract">Laporte et al. 2018</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...622L...6K/abstract">Khoperskov et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..114T/abstract">Tremaine et al. 2023</a>,
+</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -158,11 +179,16 @@ The Great wave and the Radcliffe wave differ:
 
 
 Note:
-Can this ringing be explained by
-Saggittaurius Dwarf Galaxy
-
-Kavli prize this year was awarded partly to prof. Rodrigo Ibata for the discovery of the Saggiraurius dwarf galaxy and 
-for uncovering the fossil evidence of past mergers proving that the Milky Way galaxy was built through hierarchical accretion
+**So why do we see these ripples?**
+- One possible explanation is the interactions with the Saggittaurius Dwarf Galaxy.
+- The Sagittarius Dwarf Galaxy was discovered more than **30 years ago** and it is a irregular dwarf galaxy that is currently being **tidally disrupted by the Milky Way**.
+- And while especially the latest, the third pericentric passiage through the Milky Way' disk could have **disrupted the equlibrium** and cause the stars to **slush around like ripples**, it is **not perfectly given** that that is the case.
+- But while it is clear that this ongoing interaction has impacted the star forming regions of the Galaxy throughout the last six gigayears, the severity of these effects is not solved.
+- Simulations find that these signatures like the phase spiral and the great wave **can not solely** be caused by the Saggitarius Dwarf Galaxy, unless it has a **mass much larger than our current best estimates** (Bennett et al. 2022)
+- And there are also **other channels within lambda-CDM** that could explain both of these signatures of a recent large-scale perturbation. 
+- The effect can also in simulations be reproduced by **many smaller disturbances** instead of just a single bigger one and that the **dark matter substructure might play a bigger role to explain the exact shape** of the phase-space spiral. It could also be explained by **interactions between the Galactic disk and the Galactic bar** (Khoperskov et al. 2019). So this is still an **ongoing and open question**.
+- The Kavli prize this year was awarded partly to Rodrigo Ibata for the discovery of the Saggiraurius dwarf galaxy and 
+for uncovering **the fossil evidence of past mergers proving that the Milky Way galaxy was built through hierarchical accretion**.
 
 
 ---
@@ -171,27 +197,22 @@ for uncovering the fossil evidence of past mergers proving that the Milky Way ga
 
 #### Gaia-Enceladus Sausage
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/disc/kavlimedal.png" style="width: 10%;">
+<div style="position: relative; display: flex; justify-content: center;">
+  <img src="assets/disc/kavlimedal.png"
+     data-id="kavli-medal"
+       style="position: absolute; top: 0.5em; right: 0.5em; width: 12%; margin: 0;">
+  <img src="assets/mergers/koppelman_ges.gif" style="width: 70%; max-height: 65vh; object-fit: contain;">
 </div>
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/pen.jpg" style="width: 100%;">
-</div>
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/helmi.jpg" style="width: 100%;">
-</div>
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/sausage.jpg" style="width: 100%;">
-</div>
-
-<div class="footrefs">
+<div class="footrefs" data-id="ges-refs">
   <span class="prefix">see e.g.</span>
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2010A%26A...511L..10N/abstract">Nissen & Schuster 2010</a>,
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...860L..11K/abstract">Koppelman et al. 2018</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract">Horta et al. 2022</a>,
+
 </div>
 
 
@@ -202,37 +223,161 @@ for uncovering the fossil evidence of past mergers proving that the Milky Way ga
 
 
 Note:
-The other part of the Kavli prize was given to Belkurov and Amina Helmi fort
+- The other part of the Kavli prize was awarded to **Vasily Belkurov and Amina Helmi** for their investigations of merger remnants and in particular for the discovery of the halo structure known as the Gaia-Enceladus Sausage or Gaia Sausage-Enceladus.
 
-With Gaia data, we got motion. Not just where they are on the sky, but how they were movement.
-Groups lead by Amina Helmi and Vasily Belokurov found that the bulk of the halo stars were moving on these odd radial paths.
-
-This is the trace of a head-on collion, a dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
+- Groups lead by Amina Helmi and Vasily Belokurov found that **the bulk of the halo stars were moving on these odd radial paths**
+- **This is the trace of a head-on collion**, a massive dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
 
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
-#### The Milky Way grew through mergers
-<div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/borre_mergerremnants.jpeg" style="width: 70%;">
+#### Gaia-Sausage/Enceladus
+
+<div style="position: relative; width: 100%; display: flex; gap: 1em; align-items: flex-start;">
+  <img src="assets/mergers/pen_2010.png"
+       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
+       class="fragment fade-out" data-fragment-index="0">
+  <img src="assets/mergers/pen_2010_toomre.png"
+       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
+       class="fragment fade-out" data-fragment-index="0">
+  <img src="assets/mergers/horta2022.png"
+       style="position: absolute; top: 0; left: 0; width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
+       class="fragment fade-in" data-fragment-index="1">
+  <img src="assets/mergers/helmi2020b.png"
+       style="position: absolute; top: 0; left: calc(50% + 0.5em); width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
+       class="fragment fade-in" data-fragment-index="1">
+</div>
+
+
+<div class="footrefs" data-id="ges-refs">
+  <span class="prefix">see e.g.</span>
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2010A%26A...511L..10N/abstract">Nissen & Schuster 2010</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...860L..11K/abstract">Koppelman et al. 2018</a>,
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract">Horta et al. 2022</a>,
+
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+- There has been clues for the existance of this population even before Gaia. 
+- In 2010, Nissen and Schuster published this investigation of **92 dwarf stars in the galactic thick disk and halo** for which they had determined presice abundance ratios from high-resolution spectra from UVES and FIES.
+- And they say this **clear split in the populations in the alpha/Fe vs Fe/H plane** where we have these two parallel trends, **indicating two populations of stars born in two distinct environments** 
+
+- With Gaia data, we got high-precision motion. 
+- And now the shear number of stars on these these slightly retrograde orbits really stand out in the velocity spaces and their sequence in the alpha-elements and metallicity space also stands out.
+
+
+------
+
+<!-- .slide: data-auto-animate -->
+
+#### Gaia-Sausage/Enceladus
+
+<div style="position: relative; width: 100%; display: flex; gap: 1em; align-items: flex-start;">
+  <img src="assets/mergers/pen_2010.png"
+       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
+       class="fragment fade-out" data-fragment-index="0">
+  <img src="assets/mergers/pen_2010_toomre.png"
+       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
+       class="fragment fade-out" data-fragment-index="0">
+  <img src="assets/mergers/horta2022.png"
+       style="position: absolute; top: 0; left: 0; width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
+       class="fragment fade-in" data-fragment-index="1">
+  <img src="assets/mergers/helmi2020b.png"
+       style="position: absolute; top: 0; left: calc(50% + 0.5em); width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
+       class="fragment fade-in" data-fragment-index="1">
+</div>
+
+
+<div class="footrefs" data-id="ges-refs">
+  <span class="prefix">see e.g.</span>
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2010A%26A...511L..10N/abstract">Nissen & Schuster 2010</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...860L..11K/abstract">Koppelman et al. 2018</a>,
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
+  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract">Horta et al. 2022</a>,
+
+</div>
+
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+- This merger is currently 
+- Splash star and the formation of the thick disk.
+- this lead to a massive star formation boom in our galaxy.
+
+---
+
+<!-- .slide: data-auto-animate -->
+
+#### The Milky Way grows through mergers
+<div style="display:flex; gap:2rem; align-items:flex-start;">
+  <div style="flex:0.9; font-size:0.75em;">
+    <ul>
+      <li>Gaia-Sausage/Enceladus</li>
+      <li>Sequoia/</li>
+      <li>Kraken</li>
+      <li>Pontus</li>
+      <li>Heracles</li>
+      <li>Thamnos</li>
+      <li>Helmi streams</li>
+      <li>Arjuna</li>
+      <li>Wukong</li>
+      <li>l’itoi</li>
+      <li>Aleph</li>
+      <li>...</li>
+    </ul>
+  </div>
+  <div style="flex:1.1; position:relative; height:65vh;">
+    <img
+      src="assets/mergers/borre_mergerremnants.jpeg"
+      style="
+        position:absolute;
+        width:85%;
+        top:0;
+        right:0;
+        border-radius:6px;
+      ">
+    <img
+      src="assets/mergers/second_figure.png"
+      style="
+        position:absolute;
+        width:45%;
+        bottom:0;
+        left:0;
+        border-radius:6px;
+        z-index:2;
+      ">
+
+  </div>
+
 </div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2020NatAs...4..382C/abstract">
-Chaplin et al. 2020</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">
-Montalbán et al. 2021</a>,
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.2527B/abstract">
-Borre et al. 2022</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">
-Lindsay et al. 2025</a>
+<a class="paper-ref" href="">Myeong et al. 2019</a>,
+<a class="paper-ref" href="">Koppelman et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N/abstract">Naidu et al. 2020</a>,
+<a class="paper-ref" href="">Necib et al. 2020</a>,
+<a class="paper-ref" href="">Kruijssen et al. 2020</a>,
+<a class="paper-ref" href="">Horta et al. 2021</a>,
+<a class="paper-ref" href="">Malhan et al. 2022</a>,
+<a class="paper-ref" href="">Massari et al. 2026</a>,
 </div>
 
 
@@ -243,45 +388,32 @@ Lindsay et al. 2025</a>
 
 
 Note:
-Here asteroseismology is important!
+- Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
+- Since Gaia DR2 there has been an increased interest in isolating merger remnants and to better understand the hierarchical merger history of the Milkt Way.
+- There has been a number of different data-driven methods applied to find clusters of similar stars across different dimensions -- I do not have time to discuss them today.
+- This list is not exhausted, and there are some of the substructure that has been discovered a couple of times and therefore have multiple names.
+- Disentangling these accreted debris of smaller systems is ongoing research.
 
+Naidu: Aleph, Arjuna, I'itoi, Wukong.
 
-Going through more of the Gaia data in more detail many, many smaller associations seems to have been found. 
-
-Study of several smaller galaxies fall in together? 
-
-Or are some outer parts of the same galaxy?
-
-Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
-
-the synergy with learning about the low-metallicity systematics are incredibly important.
-The old Galactic disk was splashed and heated.
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
-#### The Milky Way grew through mergers
-
+#### The Milky Way grows through mergers
 <div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/lundkvist_overview.png" style="width: 100%;">
+  <img src="assets/mergers/borre_mergerremnants.jpeg" style="width: 70%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">
-Huber et al. 2024</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">
-Larsen et al. 2025</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">
-Lundkvist et al. 2025</a>,
-<a class="paper-ref"
-   href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">
-Marasco et al. 2025</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020NatAs...4..382C/abstract">Chaplin et al. 2020</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">Montalbán et al. 2021</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.2527B/abstract">Borre et al. 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">Lindsay et al. 2025</a>
 </div>
+
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -290,43 +422,30 @@ Marasco et al. 2025</a>,
 
 
 Note:
-Going through more of the Gaia data in more detail many, many smaller associations seems to have been found. 
-
-Study of several smaller galaxies fall in together? 
-
-Or are some outer parts of the same galaxy?
-
-Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
-
-the synergy with learning about the low-metallicity systematics are incredibly important.
-The old Galactic disk was splashed and heated.
+- It is especially in this endeavour that asteroseismology in the last few years have played a central and important role, adding some time constraints to these events in the nascent galaxy!
+- Adding the ages of members of these population can really help solve the big puzzle.
+- Here I show one asteroseismic study, Borre et al, that used APOGEE spectroscopy and radial modes from Kepler and K2 data to measure the ages of a number of stars formed ex-situ, mostly Gaia-Enceladus/Sausage but also possibly this even more retrograde Sequoia/I'itoi/ component over here.
+- How many of these structures are physically distinct and independent merger remnants?
+- How many were part of system of dwarf galaxies being merged at the same time?
+- Or are the structures related, say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?
+- How massive were these mergers? Adding time to the simulations of these events really narrow down the possible parameter space.
 
 ---
 
-
 <!-- .slide: data-auto-animate -->
 
-#### Other galaxy relics
+#### The Milky Way grows through mergers
 
-Arjuna/Sequoia/l’itoi -- satellite dwarf galaxies 
-Kraken/midgalaxy
-All of them :) but also the caveat that just because you can fit a Gaussian to some outliers does not mean it is an independent merger.
-We have learned a lot and 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/mergers/lundkvist_overview.png" style="width: 70%; max-height: 65vh; overflow: hidden;">
+</div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">
-Huber et al. 2024</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">
-Larsen et al. 2025</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">
-Lundkvist et al. 2025</a>,
-<a class="paper-ref"
-   href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">
-Marasco et al. 2025</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">Huber et al. 2024</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">Larsen et al. 2025</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">Lundkvist et al. 2025</a>,
+<a class="paper-ref" href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">Marasco et al. 2025</a>
 </div>
 
 <div class="slide-footer">
@@ -336,20 +455,20 @@ Marasco et al. 2025</a>,
 
 
 Note:
-There has been a deep
-Results fra JWST
-Just because you find 
+- But this is also here where recent efforts within our community, the synergy with learning about the low-metallicity systematics are incredibly important.
+- Understanding whether our asteroseismic scaling relations depend on metallicity or whether assumptions we normally operate under work on stars deviating more from the structure of the Sun critically impacts how we can infer properties on these structures.
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
-#### The Galactic bulge
+#### The inner Galaxy
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/bulge/euclid_bulge.jpg" style="width: 100%;">
+  <img src="assets/bulge/euclid_bulge.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
 </div>
 
+ESA/Euclid/Euclid Consortium/NASA, CFHT, image processing by J.-C. Cuillandre and E. Bertin (CEA Paris-Saclay)
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -358,13 +477,11 @@ Just because you find
 
 
 Note:
-Another area of interest now and in the near-future is the Galactic bulge.
+Another area of interest now is the **Galactic bulge and the innermost region of the Milky Way**.
 
-This is the largest high-resolution photo ever made of our Milky Way galaxy’s centre in visible light.
-
-It was taken on 23 March 2025 by the ESA Euclid and the size of it corresponds to 22 times the area of the full Moon as seen from Earth.
-
-This single mosaic encompasses the entire region that Roman will monitor.
+**I love this photo** -- it is the largest high-resolution photo ever made of our Milky Way galaxy’s centre in visible light.
+- It was taken on 23 March 2025 by the ESA Euclid and the size of it corresponds to 22 times the area of the full Moon as seen from Earth.
+- This single mosaic encompasses the entire region that Roman will monitor.
 
 (Euclid main mission: study high-redshift galaxies and from their position and velocities study the properties of dark matter and dark energy.)
 
@@ -374,21 +491,14 @@ This single mosaic encompasses the entire region that Roman will monitor.
 
 #### The Galactic bulge
 
-Kraken/midgalaxy results
-Simulations
-Nepal paper
-
 <div style="display: flex; justify-content: center;">
-  <img src="assets/bulge/bulge.png" style="width: 100%;">
+  <img src="assets/bulge/bulge.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">
-Kruijssen et al. 2020</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">
-Horta et al. 2021</a>,
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">Kruijssen et al. 2020</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,
 </div>
 
 <div class="slide-footer">
@@ -398,7 +508,12 @@ Horta et al. 2021</a>,
 
 
 Note:
-Results fra JWST
+This will continue to be a 
+Kraken/midgalaxy results
+Simulations
+Nepal paper
+
+
 
 ---
 
@@ -406,23 +521,15 @@ Results fra JWST
 
 #### Globular clusters and their potential origins
 
-
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/clusters.png" style="width: 100%;">
+  <img src="assets/clusters/clusters.png" style="width: 70%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">
-Massari et al. 2019</a>,
-</div>
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">
-Kruijssen et al. 2019</a>,
-</div>
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">
-Boldrini et al. 2025</a>,
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">Massari et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">Kruijssen et al. 2019</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a>
 </div>
 
 <div class="slide-footer">
@@ -443,6 +550,8 @@ Blue: NGC 6397
 Green: Omega Cen plus six associated clusters
 Grey: Low-energy from Massari et al. 2019
 
+This is another endeavour where there is great synergy with asteroseismic studies.
+
 ------
 
 <!-- .slide: data-auto-animate -->
@@ -450,16 +559,12 @@ Grey: Low-energy from Massari et al. 2019
 #### Omega Cen
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%;">
+  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">
-Häberle et al. 2024</a>,
-<a class="paper-ref"
-   href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">
-Noyola et al. 2008</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
 </div>
 
 <div class="slide-footer">
@@ -481,6 +586,14 @@ The only object that can be so massive is a black hole, with a mass at least 820
 
 #### Secular evolutionary processes at play
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+</div>
 Andrea: Velocity and age components of the disk
 My paper
 Spitoni papers
@@ -495,7 +608,6 @@ Radial-migration Galactic disc expansion
 
 
 Note:
-Results fra JWST
 
 ---
 
@@ -503,6 +615,14 @@ Results fra JWST
 
 #### Secular evolutionary processes at play
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+</div>
 Andrea: Velocity and age components of the disk
 My paper
 Spitoni papers
@@ -525,7 +645,14 @@ Results fra JWST
 
 #### We are rewritting what we know about cosmic dawn and cosmic noon
 
-JWST
+<div style="display: flex; justify-content: center;">
+  <img src="assets//hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -534,19 +661,24 @@ JWST
 
 
 Note:
-Results fra JWST
+Since its launch in December 2021, the James Webb Space Telescope has observed the Universe more precisely, deeply and with higher resolution in the infrared wavelengths.
 
----
+JWST was specifically designed to observe cosmic dawn, a time during the first billion years of the universe when the first stars and galaxies were forming.
+What we expected to see were a few faint galaxies, hints of what would become the galaxies we see nearby.
+
+However 
+
+------
 
 <!-- .slide: data-auto-animate -->
 
 #### Hydrodynamical cosmological simulations are reaching resolutions of GC
 
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/taylor_fig3.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+</div>
 <div class="footrefs">
-  <span class="prefix">see </span>
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2025Natur.645..327T/abstract">
-Taylor et al. 2025</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025Natur.645..327T/abstract">Taylor et al. 2025</a>,
 </div>
 
 <div class="slide-footer">
@@ -556,4 +688,11 @@ Taylor et al. 2025</a>,
 
 
 Note:
-Results fra JWST
+One recent exciting result is how fast hydrodynamical cosmological simulations are evolving.
+This study from last year can achieve a spatial resolution of only aboput 3 pc and this capture the impact of Supernova and stellar feedback way better than previously.
+They find that from their simulations they can accurately describe the emergence of dwarf galaxies and globular clusters, but also a third group inbetween the two mass-wise that they call GCD (globular cluster-like dwarfs).
+Here we can see how the star formation can be followed in these EDGE simulation, notice the scale!
+This is exciting because we 
+
+
+

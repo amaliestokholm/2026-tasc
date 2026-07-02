@@ -117,10 +117,10 @@
   font-weight: 300;
 }
 .reveal .slides section.small-text {
-  font-size: 0.75em;
+  font-size: 0.77em;
 }
 .small-text {
-  font-size: 0.75em;
+  font-size: 0.77em;
 }
 .small-text table {
   transform: scale(0.7);
@@ -138,13 +138,12 @@
   width: 100%;
 }
 .reveal .footrefs {
-    position: absolute;
-    left: 0.8em;
-    right: 0.8em;
-    bottom: 0.5em;
+    display: block;
+    margin-top: auto;
     font-size: 0.5em;
     line-height: 1.05;
-    text-align: left;
+    text-align: right;
+    padding: 0 0.8em 3em 0.8em;
 }
 .reveal .footrefs .prefix {
     color: #6272a4;
@@ -164,23 +163,18 @@
     font-weight: 700;
 }
 
-.launch-list {
-  list-style: none;
-  padding-left: 0;
-  line-height: 1.8;
+.reveal .slides section img {
+    max-height: 58vh;
+    object-fit: contain;
 }
 
-.launch-list li::before {
-  display: inline-block;
-  width: 4em;
-  font-weight: bold;
-  color: #4da6ff;   /* choose your preferred colour */
+.reveal .slide-note {
+    font-size: 0.77em;
+    color: #d8d8d8;
+    line-height: 1.15;
+    margin: 0.2em auto 0.2em auto;
+    max-width: 80%;
 }
-.launch-list li.y2026::before { content: "2026"; }
-.launch-list li.y2027::before { content: "2027"; }
-.launch-list li.y2028::before { content: "2028"; }
-.launch-list li.y2030::before { content: "2030"; }
-.launch-list li.y2035::before { content: "2035"; }
 
 </style>
 
