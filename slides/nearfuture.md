@@ -96,25 +96,6 @@ Proper motions: 2.7 (DR4), 6.6 (DR5)
 
 <!-- .slide: data-auto-animate -->
 
-#### Nancy Grace Roman Space Telescope
-
-
-
-<div class="footrefs">
-  <span class="prefix">see </span>
-<a class="paper-ref highlight"
-   href="https://ui.adsabs.harvard.edu/abs/2025A%26A...694A.313N/abstract">
-Nascimbeni et al. 2025</a>,
-</div>
-
-
-Note:
-Roman
-
-------
-
-<!-- .slide: data-auto-animate -->
-
 #### PLATO
 <div style="display: flex; justify-content: center;">
   <img src="assets/missions/plato_fov.png" style="width: 100%;">

@@ -330,7 +330,7 @@ Note:
   <div style="flex:0.9; font-size:0.75em;">
     <ul>
       <li>Gaia-Sausage/Enceladus</li>
-      <li>Sequoia/</li>
+      <li>Sequoia</li>
       <li>Kraken</li>
       <li>Pontus</li>
       <li>Heracles</li>
@@ -339,13 +339,18 @@ Note:
       <li>Arjuna</li>
       <li>Wukong</li>
       <li>l’itoi</li>
+      <li>Shiva</li>
       <li>Aleph</li>
+      <li>Shakti</li>
+      <li>Nyx</li>
+      <li>Prograde Substructure 1</li>
+      <li>Cluster 3 (C3)</li>
       <li>...</li>
     </ul>
   </div>
   <div style="flex:1.1; position:relative; height:65vh;">
     <img
-      src="assets/mergers/borre_mergerremnants.jpeg"
+      src="assets/mergers/dodd_2022.png"
       style="
         position:absolute;
         width:85%;
@@ -354,18 +359,36 @@ Note:
         border-radius:6px;
       ">
     <img
-      src="assets/mergers/second_figure.png"
+      src="assets/mergers/haoyang.jpg"
       style="
         position:absolute;
-        width:45%;
+        width:75%;
         bottom:0;
         left:0;
         border-radius:6px;
-        z-index:2;
+        z-index:3;
       ">
-
+    <img
+      src="assets/mergers/deleo_fig9.png"
+      style="
+        position:absolute;
+        width:60%;
+        bottom:50%;
+        left:45%;
+        border-radius:6px;
+        z-index:3;
+      ">
+    <img
+      src="assets/mergers/malhan2022.jpg"
+      style="
+        position:absolute;
+        width:85%;
+        bottom:18%;
+        left:24%;
+        border-radius:6px;
+        z-index:4;
+      ">
   </div>
-
 </div>
 
 <div class="footrefs">
@@ -373,10 +396,13 @@ Note:
 <a class="paper-ref" href="">Myeong et al. 2019</a>,
 <a class="paper-ref" href="">Koppelman et al. 2019</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N/abstract">Naidu et al. 2020</a>,
-<a class="paper-ref" href="">Necib et al. 2020</a>,
+<a class="paper-ref" href="">Necib et al. 2020</a>,<br>
 <a class="paper-ref" href="">Kruijssen et al. 2020</a>,
 <a class="paper-ref" href="">Horta et al. 2021</a>,
-<a class="paper-ref" href="">Malhan et al. 2022</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2022ApJ...926..107M/abstract">Malhan et al. 2022</a>,<br>
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670L...2D/abstract">Dodd et al. 2023</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...976..161L/abstract">Haoyang et al. 2024</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2026A%26A...707A.310D/abstract">De Leo et al. 2026</a>,
 <a class="paper-ref" href="">Massari et al. 2026</a>,
 </div>
 
@@ -394,7 +420,11 @@ Note:
 - This list is not exhausted, and there are some of the substructure that has been discovered a couple of times and therefore have multiple names.
 - Disentangling these accreted debris of smaller systems is ongoing research.
 
-Naidu: Aleph, Arjuna, I'itoi, Wukong.
+Necib+2020,2022: Nyx
+Koppelman+2019: Thamnos
+Naidu+2020: Aleph, Arjuna, I'itoi, Wukong. (Wukong/LMS-1 in Yuan et al. 2020)
+Malhan and Rix 2024: Shakti and Shiva
+Cluster 3 (Lovdal and Ruiz-Lara
 
 
 ---
@@ -422,9 +452,8 @@ Naidu: Aleph, Arjuna, I'itoi, Wukong.
 
 
 Note:
-- It is especially in this endeavour that asteroseismology in the last few years have played a central and important role, adding some time constraints to these events in the nascent galaxy!
-- Adding the ages of members of these population can really help solve the big puzzle.
-- Here I show one asteroseismic study, Borre et al, that used APOGEE spectroscopy and radial modes from Kepler and K2 data to measure the ages of a number of stars formed ex-situ, mostly Gaia-Enceladus/Sausage but also possibly this even more retrograde Sequoia/I'itoi/ component over here.
+- It is **especially in this endeavour** that asteroseismology in the last few years have played a central and important role, **adding time constraints to these events in the nascent galaxy!**
+- Here I show one asteroseismic study, Borre et al, that used APOGEE spectroscopy and radial modes from Kepler and K2 data to measure the ages of a number of stars formed ex-situ, mostly Gaia-Enceladus/Sausage but also possibly this even more retrograde Sequoia/I'itoi/Arjuna component over here.
 - How many of these structures are physically distinct and independent merger remnants?
 - How many were part of system of dwarf galaxies being merged at the same time?
 - Or are the structures related, say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?
@@ -455,8 +484,8 @@ Note:
 
 
 Note:
-- But this is also here where recent efforts within our community, the synergy with learning about the low-metallicity systematics are incredibly important.
-- Understanding whether our asteroseismic scaling relations depend on metallicity or whether assumptions we normally operate under work on stars deviating more from the structure of the Sun critically impacts how we can infer properties on these structures.
+- But this is also here where recent efforts within our community, **the synergy with learning about the low-metallicity systematics are incredibly important**.
+- Understanding whether **our asteroseismic scaling relations depend on metallicity** or whether **assumptions we normally operate under** do apply to stars that deviate more significantly from the structure of the Sun critically impacts how we can infer properties on these structures.
 
 ---
 
@@ -464,11 +493,19 @@ Note:
 
 #### The inner Galaxy
 
-<div style="display: flex; justify-content: center;">
-  <img src="assets/bulge/euclid_bulge.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
+<div style="position: relative; width: 80%; height: 65vh; margin: 0 auto;">
+  <img src="assets/bulge/full_euclid_bulge.jpg"
+       class="fragment fade-out"
+       data-fragment-index="0" style="position: absolute; inset: 0; object-fit: cover">
+  <img src="assets/bulge/euclid_bulge.jpg"
+       class="fragment fade-in"
+       data-fragment-index="0" style="position: absolute; inset: 0; object-fit: cover">
 </div>
 
-ESA/Euclid/Euclid Consortium/NASA, CFHT, image processing by J.-C. Cuillandre and E. Bertin (CEA Paris-Saclay)
+
+<div class="footrefs">
+<a class="paper-ref highlight" href="https://www.nasaspaceflight.com/2026/06/euclid-galactic-bulge-survey/">Credits: ESA/Euclid/Euclid Consortium/NASA,<br> J.-C. Cuillandre and E. Bertin (CEA Paris-Saclay)</a>
+</div>
 
 <div class="slide-footer">
     <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
@@ -480,8 +517,8 @@ Note:
 Another area of interest now is the **Galactic bulge and the innermost region of the Milky Way**.
 
 **I love this photo** -- it is the largest high-resolution photo ever made of our Milky Way galaxy’s centre in visible light.
-- It was taken on 23 March 2025 by the ESA Euclid and the size of it corresponds to 22 times the area of the full Moon as seen from Earth.
-- This single mosaic encompasses the entire region that Roman will monitor.
+- It was taken over **26 hours** on 23 March 2025 by the ESA Euclid and the size of it corresponds to 22 times the area of the full Moon as seen from Earth.
+- This single mosaic encompasses **the region that Roman will monitor**.
 
 (Euclid main mission: study high-redshift galaxies and from their position and velocities study the properties of dark matter and dark energy.)
 
@@ -508,11 +545,8 @@ Another area of interest now is the **Galactic bulge and the innermost region of
 
 
 Note:
-This will continue to be a 
-Kraken/midgalaxy results
-Simulations
-Nepal paper
-
+- The innermost part of the
+- Most dense, crowded area
 
 
 ---
@@ -522,7 +556,7 @@ Nepal paper
 #### Globular clusters and their potential origins
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/clusters.png" style="width: 70%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/clusters/clusters.png" style="width: 50%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
@@ -539,18 +573,20 @@ Nepal paper
 
 
 Note:
-Classifications of globular clusters
-In this paper they combined data with comparisons to hydrodynamical cosmological simulations (TNG50) and developed their classification scheme in that way,
-But there are a couple of different approaches in the litterature, both data-driven or some including more chemical signatures and so on.
+- On a rather related note, there has been a **renewed interest of the origin of globular clusters** we current find within the Milky Way. 
+- So whether they formed in-situ, inside the Milky Way potential, or elsewhere ex-situ.
+- In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
+- But there are a couple of different approaches in the litterature, both data-driven or some including more chemical signatures and so on.
 
-GCs are sorted from the most to the least bound in energy.
-in situ clusters (blue)/ ex situ red
-Magenta: Sgr
-Blue: NGC 6397
-Green: Omega Cen plus six associated clusters
-Grey: Low-energy from Massari et al. 2019
+- GCs are sorted from the most to the least bound in energy.
+- in situ clusters (blue)/ ex situ red
+- Magenta: Sgr
+- Blue: NGC 6397
+- Green: Omega Cen plus six associated clusters
+- Grey: Low-energy from Massari et al. 2019
 
 This is another endeavour where there is great synergy with asteroseismic studies.
+(Maddie Howell? Poster/talk number?)
 
 ------
 
@@ -559,7 +595,7 @@ This is another endeavour where there is great synergy with asteroseismic studie
 #### Omega Cen
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/clusters/hubble_omegacen_zoom.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
@@ -574,10 +610,9 @@ This is another endeavour where there is great synergy with asteroseismic studie
 
 
 Note:
-Omega Cen is the largest and brightest globular cluster
-
-In 2024, seven fast-moving stars in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
-The only object that can be so massive is a black hole, with a mass at least 8200 times that of our Sun.
+- **Omega Cen** is the largest and brightest globular cluster
+- In **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
+The only object that can be so massive is a black hole, with a mass at **least 8200 times** that of our Sun.
 
 
 ---
@@ -591,14 +626,10 @@ The only object that can be so massive is a black hole, with a mass at least 820
 </div>
 
 <div class="footrefs">
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract">Miglio et al. 2021</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.109S/abstract">Spitoni et al. 2023</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1634S/abstract">Stokholm et al. 2023</a>,
 </div>
-Andrea: Velocity and age components of the disk
-My paper
-Spitoni papers
-
-Radial-migration Galactic disc expansion
 
 
 <div class="slide-footer">
@@ -608,50 +639,28 @@ Radial-migration Galactic disc expansion
 
 
 Note:
+- Not everything is driven by mergers. Even in isolation, the Galaxy evolves and there has also been recent work on better describing/modelling these processes.
 
----
-
-<!-- .slide: data-auto-animate -->
-
-#### Secular evolutionary processes at play
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
-</div>
-
-<div class="footrefs">
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
-</div>
 Andrea: Velocity and age components of the disk
 My paper
 Spitoni papers
 
 Radial-migration Galactic disc expansion
 
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-Results fra JWST
-
----
+------
 
 <!-- .slide: data-auto-animate -->
 
 #### We are rewritting what we know about cosmic dawn and cosmic noon
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets//hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/jwst/jades.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970...31R/abstract">Robertson et al. 2024</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...988...19S/abstract">Schouws et al. 2025</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...696A..87C/abstract">Carniani et al. 2025</a>,
 </div>
 
 <div class="slide-footer">
@@ -661,12 +670,12 @@ Results fra JWST
 
 
 Note:
-Since its launch in December 2021, the James Webb Space Telescope has observed the Universe more precisely, deeply and with higher resolution in the infrared wavelengths.
+- Since its launch in December 2021, the James Webb Space Telescope has observed the Universe more precisely, deeply and with higher resolution in the infrared wavelengths.
+- JWST was specifically designed to **observe cosmic dawn**, a time during the first billion years of the universe when the first stars and galaxies were forming.
+- There have been multiple discoveries that **rewrite how early galaxy formation occurs and how rapidly a galaxy can evolve**.
+- This galaxy has a redshift of **14.32**, makingit the current record-holder for the most distant known galaxy. This corresponds to a time less than 300 million years after the big bang. This galaxy is also way to luminous from light that seem to come mostly from young stars and the light is also not as blue as we thought it would be: there are indications of dust and even emission lines from oxygen, which is very surprising. (suggests multiple generations of very massive stars has already taken place)
 
-JWST was specifically designed to observe cosmic dawn, a time during the first billion years of the universe when the first stars and galaxies were forming.
-What we expected to see were a few faint galaxies, hints of what would become the galaxies we see nearby.
-
-However 
+Gif: Abell 2744 combined infrared JWST with X-ray sensitive Chandra space observatory for these lensed galaxies. They measured light-to-mass ratios for these early galaxies, and found that they are way to heavy compared to the starlight emitted.
 
 ------
 
@@ -675,7 +684,7 @@ However
 #### Hydrodynamical cosmological simulations are reaching resolutions of GC
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/taylor_fig3.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/clusters/taylor_fig3.png" style="width: 80%; max-height: 65vh; overflow: hidden;">
 </div>
 <div class="footrefs">
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025Natur.645..327T/abstract">Taylor et al. 2025</a>,
@@ -688,11 +697,8 @@ However
 
 
 Note:
-One recent exciting result is how fast hydrodynamical cosmological simulations are evolving.
-This study from last year can achieve a spatial resolution of only aboput 3 pc and this capture the impact of Supernova and stellar feedback way better than previously.
-They find that from their simulations they can accurately describe the emergence of dwarf galaxies and globular clusters, but also a third group inbetween the two mass-wise that they call GCD (globular cluster-like dwarfs).
-Here we can see how the star formation can be followed in these EDGE simulation, notice the scale!
-This is exciting because we 
-
-
-
+- One recent exciting result is **how fast hydrodynamical cosmological simulations are evolving**.
+- Here we can see how the star formation can be followed in these EDGE simulation, notice the scale!
+- This study from last year can achieve a **spatial resolution of only about 3 pc** and this capture the impact of Supernova and stellar feedback way better than previously.
+0 They find that from their simulations they can accurately describe the emergence of dwarf galaxies and globular clusters, but also a third group inbetween the two mass-wise that they call GCD (globular cluster-like dwarfs).
+- This is exciting as these advances are making it more and more possible to test predictions from theories of galaxy evolution against real data, real stars. 
