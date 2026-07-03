@@ -46,7 +46,7 @@
 .horizontal-timeline {
   position: relative;
   width: 80%;
-  margin: 60px auto 20px;
+  margin: 250px auto 20px; /* extra room above the line for picture/label callouts */
   height: 80px;
 }
 .timeline-line-horizontal {
@@ -60,7 +60,7 @@
 }
 .timeline-arrow-horizontal {
   position: absolute;
-  top: 40px;
+  top: 45px;
   right: 0;
   transform: translateY(-50%);
   width: 0;
@@ -81,33 +81,58 @@
 }
 /* Dynamic gradient colors using color-mix based on position */
 /* The color interpolates from purple (#bd93f9) to pink (#ff79c6) based on left percentage */
-.timeline-dot[style*="left:0%"] {
-  background: color-mix(in srgb,#bd93f9 100%,#ff79c6 0%);
+/* Picture callouts: top edge sits at -150px, line sits at 40px (in .horizontal-timeline
+   coordinates) so the box height is fixed at 190px and a flex connector stretches to
+   fill whatever space the image+label don't use, so it always reaches the line exactly. */
+.timeline-callout {
+  position: absolute;
+  top: -190px;
+  height: 230px;
+  transform: translateX(-50%);
+  width: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.timeline-callout img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #ff79c6;
+  box-shadow: 0 4px 14px rgba(0,0,0,0.45);
+  display: block;
+  flex-shrink: 0;
+}
+.timeline-callout .callout-label {
+  font-size: 0.42em;
+  color: #f8f8f2;
+  margin-top: 8px;
+  line-height: 1.25;
+  flex-shrink: 0;
+}
+.timeline-callout-connector {
+  position: relative;
+  width: 3px;
+  flex: 1 1 auto;
+  min-height: 14px;
+  margin-top: 6px;
+  background: #ff79c6;
+  opacity: 1;
+}
+.timeline-callout-connector::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0; height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid #ff79c6;
 }
 
-.timeline-dot[style*="left:23.1%"] {
-  background: color-mix(in srgb,#bd93f9 77%,#ff79c6 23%);
-}
-
-.timeline-dot[style*="left:38.5%"] {
-  background: color-mix(in srgb,#bd93f9 62%,#ff79c6 38%);
-}
-
-.timeline-dot[style*="left:53.8%"] {
-  background: color-mix(in srgb,#bd93f9 46%,#ff79c6 54%);
-}
-
-.timeline-dot[style*="left:76.9%"] {
-  background: color-mix(in srgb,#bd93f9 23%,#ff79c6 77%);
-}
-
-.timeline-dot[style*="left:92.3%"] {
-  background: color-mix(in srgb,#bd93f9 8%,#ff79c6 92%);
-}
-
-.timeline-dot[style*="left:100%"] {
-  background:#ff79c6;
-}
 .timeline-year {
   position: absolute;
   top: 60px;
@@ -115,6 +140,44 @@
   font-size: 0.7em;
   color: #6272a4;
   font-weight: 300;
+}
+
+/* Label-only markers: top edge at -70px, same 40px line, so fixed height 110px. */
+.timeline-label-arrow {
+  position: absolute;
+  top: -30px;
+  height: 70px;
+  transform: translateX(-50%);
+  width: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.timeline-label-arrow .callout-label {
+  font-size: 0.4em;
+  color: #f8f8f2;
+  flex-shrink: 0;
+}
+.timeline-label-arrow-connector {
+  position: relative;
+  width: 3px;
+  flex: 1 1 auto;
+  min-height: 10px;
+  margin-top: 6px;
+  background: #bd93f9;
+  opacity: 1;
+}
+.timeline-label-arrow-connector::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0; height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 9px solid #bd93f9;
 }
 .reveal .slides section.small-text {
   font-size: 0.77em;

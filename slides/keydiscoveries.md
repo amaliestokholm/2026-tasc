@@ -197,6 +197,11 @@ for uncovering **the fossil evidence of past mergers proving that the Milky Way 
 
 #### Gaia-Enceladus Sausage
 
+<p class="slide-note">
+Massive merger event, triggering starburst and the thick-to-thin disk transition
+</p>
+
+
 <div style="position: relative; display: flex; justify-content: center;">
   <img src="assets/disc/kavlimedal.png"
      data-id="kavli-medal"
@@ -212,6 +217,7 @@ for uncovering **the fossil evidence of past mergers proving that the Milky Way 
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
   <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract">Horta et al. 2022</a>,
+  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/arXiv:2507.22979">Funakoshi et al. 2025</a>,
 
 </div>
 
@@ -228,12 +234,14 @@ Note:
 - Groups lead by Amina Helmi and Vasily Belokurov found that **the bulk of the halo stars were moving on these odd radial paths**
 - **This is the trace of a head-on collion**, a massive dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
 
+(- thick disk formed under cold-mode accretion, GSE triggered starburst and increased total mass of Galaxy, causing the transistion to hot-mode accretion, causing the scale length of the star forming disc to change before inside-out growth of thin disc)
 
 ---
 
 <!-- .slide: data-auto-animate -->
 
 #### Gaia-Sausage/Enceladus
+
 
 <div style="position: relative; width: 100%; display: flex; gap: 1em; align-items: flex-start;">
   <img src="assets/mergers/pen_2010.png"
@@ -283,30 +291,21 @@ Note:
 
 #### Gaia-Sausage/Enceladus
 
-<div style="position: relative; width: 100%; display: flex; gap: 1em; align-items: flex-start;">
-  <img src="assets/mergers/pen_2010.png"
-       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
-       class="fragment fade-out" data-fragment-index="0">
-  <img src="assets/mergers/pen_2010_toomre.png"
-       style="width: 50%; max-height: 65vh; object-fit: contain; margin: 0;"
-       class="fragment fade-out" data-fragment-index="0">
-  <img src="assets/mergers/horta2022.png"
-       style="position: absolute; top: 0; left: 0; width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
-       class="fragment fade-in" data-fragment-index="1">
-  <img src="assets/mergers/helmi2020b.png"
-       style="position: absolute; top: 0; left: calc(50% + 0.5em); width: calc(50% - 0.5em); height: 100%; object-fit: contain; margin: 0;"
-       class="fragment fade-in" data-fragment-index="1">
+<p class="slide-note">
+Massive merger event, triggering starburst and the thick-to-thin disk transition
+</p>
+
+<div style="display: flex; gap: 1em; justify-content: center; align-items: flex-start;">
+  <img src="assets/mergers/spitoni2023.png" style="width: 50%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/mergers/miglio2021.png" style="width: 50%; max-height: 65vh; overflow: hidden;">
 </div>
 
-
-<div class="footrefs" data-id="ges-refs">
+<div class="footrefs">
   <span class="prefix">see e.g.</span>
-  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2010A%26A...511L..10N/abstract">Nissen & Schuster 2010</a>,
-  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018ApJ...860L..11K/abstract">Koppelman et al. 2018</a>,
-  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2018Natur.563...85H/abstract">Helmi et al. 2018</a>,
-  <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.478..611B/abstract">Belokurov et al. 2018</a>,
-  <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.520.5671H/abstract">Horta et al. 2022</a>,
-
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract">Miglio et al. 2021</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.109S/abstract">Spitoni et al. 2023</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/arXiv:2203.12110">Xiang & Rix 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1634S/abstract">Stokholm et al. 2023</a>
 </div>
 
 
@@ -317,9 +316,12 @@ Note:
 
 
 Note:
-- This merger is currently 
+- Massive merger event with a dwarf galaxy with roughly **20–30% of the Milky Way's mass**
+- This lead to a massive star formation boom in our galaxy.
 - Splash star and the formation of the thick disk.
-- this lead to a massive star formation boom in our galaxy.
+- Stellar ages derived using asteroseismology allows us to better understand the distinct properties of the disc structures which helps us understand the 
+- Not everything is driven by mergers. Even in isolation, the Galaxy evolves and there has also been recent work on better describing/modelling these processes.
+- This merger is currently 
 
 ---
 
@@ -336,6 +338,7 @@ Note:
       <li>Heracles</li>
       <li>Thamnos</li>
       <li>Helmi streams</li>
+      <li>Koala</li>
       <li>Arjuna</li>
       <li>Wukong</li>
       <li>l’itoi</li>
@@ -393,17 +396,17 @@ Note:
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
-<a class="paper-ref" href="">Myeong et al. 2019</a>,
-<a class="paper-ref" href="">Koppelman et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.488.1235M/abstract">Myeong et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...631L...9K/abstract">Koppelman et al. 2019</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020ApJ...901...48N/abstract">Naidu et al. 2020</a>,
-<a class="paper-ref" href="">Necib et al. 2020</a>,<br>
-<a class="paper-ref" href="">Kruijssen et al. 2020</a>,
-<a class="paper-ref" href="">Horta et al. 2021</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020ApJ...903...25N/abstract">Necib et al. 2020</a>,<br>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">Kruijssen et al. 2020</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2022ApJ...926..107M/abstract">Malhan et al. 2022</a>,<br>
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670L...2D/abstract">Dodd et al. 2023</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...976..161L/abstract">Haoyang et al. 2024</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2026A%26A...707A.310D/abstract">De Leo et al. 2026</a>,
-<a class="paper-ref" href="">Massari et al. 2026</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2026arXiv260118896M/abstract">Massari et al. 2026</a>,
 </div>
 
 
@@ -432,6 +435,11 @@ Cluster 3 (Lovdal and Ruiz-Lara
 <!-- .slide: data-auto-animate -->
 
 #### The Milky Way grows through mergers
+
+<p class="slide-note">
+Asteroseismic ages can put upper limits to these infall events.
+</p>
+
 <div style="display: flex; justify-content: center;">
   <img src="assets/mergers/borre_mergerremnants.jpeg" style="width: 70%; max-height: 65vh; overflow: hidden;">
 </div>
@@ -464,6 +472,10 @@ Note:
 <!-- .slide: data-auto-animate -->
 
 #### The Milky Way grows through mergers
+
+<p class="slide-note">
+Understanding the metal-poor regime is critical
+</p>
 
 <div style="display: flex; justify-content: center;">
   <img src="assets/mergers/lundkvist_overview.png" style="width: 70%; max-height: 65vh; overflow: hidden;">
@@ -526,16 +538,22 @@ Another area of interest now is the **Galactic bulge and the innermost region of
 
 <!-- .slide: data-auto-animate -->
 
-#### The Galactic bulge
+#### The inner Galaxy
+
+<p class="slide-note">
+The inner Galaxy is dense, crowded and filled with structure!
+</p>
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/bulge/bulge.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/bulge/horta2020.jpeg" style="width: 55%; max-height: 65vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">Kruijssen et al. 2020</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514..689B/abstract">Belokurov & Kravtsov 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022ApJ...941...45R/abstract">Rix et al. 2022</a>,
 </div>
 
 <div class="slide-footer">
@@ -545,8 +563,10 @@ Another area of interest now is the **Galactic bulge and the innermost region of
 
 
 Note:
-- The innermost part of the
-- Most dense, crowded area
+- The innermost part of the galaxy has received increased attention as well recently. 
+- This is most dense and most crowded area og the galaxy
+- There seem to be a more metal-rich population that formed in-situ
+- But there also are indications of a distinct metal-poor component, which probably accreted earlier than Gaia-Sausage/Enceladus and which seem to potentially be even more massive.
 
 
 ---
@@ -614,38 +634,6 @@ Note:
 - In **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
 The only object that can be so massive is a black hole, with a mass at **least 8200 times** that of our Sun.
 
-
----
-
-<!-- .slide: data-auto-animate -->
-
-#### Secular evolutionary processes at play
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/hubble_omegacen_zoom.png" style="width: 100%; max-height: 65vh; overflow: hidden;">
-</div>
-
-<div class="footrefs">
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract">Miglio et al. 2021</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.109S/abstract">Spitoni et al. 2023</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1634S/abstract">Stokholm et al. 2023</a>,
-</div>
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-- Not everything is driven by mergers. Even in isolation, the Galaxy evolves and there has also been recent work on better describing/modelling these processes.
-
-Andrea: Velocity and age components of the disk
-My paper
-Spitoni papers
-
-Radial-migration Galactic disc expansion
 
 ------
 

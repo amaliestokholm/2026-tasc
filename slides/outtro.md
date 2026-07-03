@@ -1,107 +1,99 @@
-<!-- .slide: data-auto-animate -->
-
+<!-- .slide: data-auto-animate class="small-text" -->
 #### Take-away message
-
-We have moved from small stellar samples to data-rich, chemo-dynamic
-
-<div class="fragment" data-fragment-index="1">
-We live in a post-Gaia era. We have parallaxes, proper motions and positions with micro-arcsecond precision.
-We have broad-band spectroscopy for most brighter targets, we have both broad and relatively narrow band photometry available.
-We have classifications and
-<br>
-<div class="fragment" data-fragment-index="2">
-Other missions as well.
-</div>
-<div class="fragment" data-fragment-index="3">
-We have better technologies. Big data tools, ML, better computer, gpu/cpu. Better simulations with better resolutions
-</div>
-<br>
-<div class="fragment" data-fragment-index="4">
-So we are exploring deeper into our own galaxy.
-</div>
-
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-
-Ten years ago we mostly studied nearby stars.
-
-Today we have positions, motions, chemistry and classifications for unprecedented numbers of stars.
-
-Combined with modern computational tools, we can study the Milky Way as a system rather than isolated pieces of it.
-
-Galactic events leave scars that can survice for billions of years.
+<b>Galactic events leave scars that can survive for billions of years</b>.
 We finally have the data and tools to read those scars.
 
-In the last few years, so many things have happened that have revolutionizes the way we see galactic history and galactic evolution.
-We used to have smaller stellar samples, mostly ion the solar neighbourhood.
-We now build on that legacy with tools and methods that allows us to
+Today we have data allowing <b>kinematics studies for unprecedented numbers of stars</b>.
+<b>Soon we will have spectroscopy</b> covering most of the sky
 
+Combined with <b>modern computational tools</b>,
+we can study the Milky Way as <b>a system rather than isolated pieces of it.</b>
 
-Now we can see further away and study the differences across the Galactic disk and structure.s
-We have 6D phase information available for more than 1 billion stars from Gaia.
-We also have photometry and classificaitons.
-
-We have better cpu/gpu availability and we can utilise a different toolbox for analysing big data.
-
-------
-
-<!-- .slide: data-auto-animate -->
-
-#### Current time line of Galactic events*
 <div class="horizontal-timeline">
 <div class="timeline-line-horizontal"></div>
 <div class="timeline-arrow-horizontal"></div>
 
+<!-- Picture callouts -->
+<div class="timeline-callout" style="left:5.8%;">
+  <img src="assets/kraken.jpg" alt="Event at 13 Gyr ago">
+  <div class="callout-label">Low-energy / Kraken / Heracles</div>
+  <div class="timeline-callout-connector"></div>
+</div>
+<div class="timeline-callout" style="left:27.5%;">
+  <img src="assets/gse.jpg" alt="Event at 10 Gyr ago">
+  <div class="callout-label">Gaia-Sausage / Enceladus</div>
+  <div class="timeline-callout-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:31.2%;">
+  <div class="callout-label"><br><br>?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:41.2%;">
+  <div class="callout-label"><br><br>?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-callout" style="left:60.1%;">
+  <img src="assets/sgr.jpg" alt="Event at 5.5 Gyr ago">
+  <div class="callout-label">Saggitarius <br>1. passage</div>
+  <div class="timeline-callout-connector"></div>
+</div>
+<div class="timeline-callout" style="left:86.4%;">
+  <img src="assets/sgr.jpg" alt="2 passage">
+  <div class="callout-label">Saggitarius <br>2. passage</div>
+  <div class="timeline-callout-connector"></div>
+</div>
+<div class="timeline-callout" style="left:95.0%;">
+  <img src="assets/sgr.jpg" alt="3 passage">
+  <div class="callout-label">Saggitarius <br>3. passage</div>
+  <div class="timeline-callout-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:10.2%;">
+  <div class="callout-label"><br><br>?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:11.2%;">
+  <div class="callout-label"><br>Sequoia++?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:15.2%;">
+  <div class="callout-label"><br><br>?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:18.0%;">
+  <div class="callout-label">Thamnos?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:21.2%;">
+  <div class="callout-label"><br><br>?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+<div class="timeline-label-arrow" style="left:24.9%;">
+  <div class="callout-label"><br>Shakti / <br>Shiva?</div>
+  <div class="timeline-label-arrow-connector"></div>
+</div>
+
 <!-- Event dots -->
-<div class="timeline-dot"
-     style="left:0%;"></div>
-<div class="timeline-dot"
-     style="left:23.1%;"></div>
-<div class="timeline-dot"
-     style="left:38.5%;"></div>
-<div class="timeline-dot"
-     style="left:53.8%;"></div>
-<div class="timeline-dot"
-     style="left:76.9%;"></div>
-<div class="timeline-dot"
-     style="left:92.3%;"></div>
-<div class="timeline-dot"
-     style="left:100%;"></div>
+<div class="timeline-dot" style="left:5.8%; background:color-mix(in srgb, #bd93f9 94.2%, #ff79c6 5.8%);"></div>
+<div class="timeline-dot" style="left:27.5%; background:color-mix(in srgb, #bd93f9 72.5%, #ff79c6 27.5%);"></div>
+<div class="timeline-dot" style="left:60.1%; background:color-mix(in srgb, #bd93f9 39.9%, #ff79c6 60.1%);"></div>
+<div class="timeline-dot" style="left:86.4%; background:color-mix(in srgb, #bd93f9 19.6%, #ff79c6 86.4%);"></div>
+<div class="timeline-dot" style="left:95.0%; background:color-mix(in srgb, #bd93f9 7.2%, #ff79c6 95.0%);"></div>
 
 <!-- Labels -->
-<div class="timeline-year" style="left:0%;">
-13
-</div>
-<div class="timeline-year" style="left:23.1%;">
-10
-</div>
-
-<div class="timeline-year" style="left:38.5%;">
-8
-</div>
-
-<div class="timeline-year" style="left:53.8%;">
-6
-</div>
-
-<div class="timeline-year" style="left:76.9%;">
-3
-</div>
-
-<div class="timeline-year" style="left:92.3%;">
-1
-</div>
-
-<div class="timeline-year" style="left:100%;">
-0
-</div>
-
+<!-- <div class="timeline-year" style="left:5.8%;">13</div> -->
+<div class="timeline-year" style="left:13.0%;">12</div>
+<!-- <div class="timeline-year" style="left:20.3%;">11</div> -->
+<div class="timeline-year" style="left:27.5%;">10</div>
+<!-- <div class="timeline-year" style="left:34.8%;">9</div> -->
+<div class="timeline-year" style="left:42.0%;">8</div>
+<!-- <div class="timeline-year" style="left:49.3%;">7</div> -->
+<div class="timeline-year" style="left:56.5%;">6</div>
+<!-- <div class="timeline-year" style="left:63.8%;">5</div> -->
+<div class="timeline-year" style="left:71.0%;">4</div>
+<!-- <div class="timeline-year" style="left:78.3%;">3</div> -->
+<div class="timeline-year" style="left:85.5%;">2</div>
+<!-- <div class="timeline-year" style="left:92.8%;">1</div> -->
+<div class="timeline-year" style="left:99.8%;">today</div>
 </div>
 
 
