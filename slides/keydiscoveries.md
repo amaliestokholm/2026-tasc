@@ -14,7 +14,8 @@ The Milky Way is still responding to recent interactions and has not yet dynamic
 
 <div class="footrefs">
 <a class="paper-ref highlight" href="https://www.esa.int/Science_Exploration/Space_Science/Gaia/Gaia_discovers_our_galaxy_s_great_wave">Credits: Stefan Payne-Wardenaar (ESA)</a>,
-  <span class="prefix">see also e.g.</span>
+  <span class="prefix"><br>see also e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/1957Natur.180..677K/abstract">Kerr 1957</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/1957AJ.....62...93K/abstract">Kerr 1957</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">Hunt & Vasiliev 2025</a>
 </div>
@@ -28,13 +29,12 @@ The Milky Way is still responding to recent interactions and has not yet dynamic
 
 Note:
 - We've known since the late 1950s that the Milky Way is not in perfect dynamical equilibrium.
+- This was with the discovery of this, the Galactic warp, which shows that our potential is not perfectly axisymmetric, but that the disk as a whole has this warp.
 - At the Solar radius, the Galactic disk completes only about 40–50 rotations over a Hubble time.
 - The Sun itself has completed just over 20 orbits around the Galactic centre since it formed.
 - In other words, the Galaxy has had **surprisingly little time to dynamically relax**.
 
-We observed **mergers and strong interactions in many external galaxies**, while our own Galaxy appeared **unusually undisturbed for being of the two dominant members of the Local Group**.
-
-- **Gaia has completely changed that picture.**
+Observations of external galaxies frequently revealed evidence for mergers, tidal interactions, and disturbed morphologies, but pre-gaia: the Milky Way appeared to be an **unusually quiescent spiral galaxy, despite it being one of the dominant members of the Local Group**.
 - We now know that the Milky Way is full of dynamical substructure and bears clear signatures of recent interactions, mergers, and ongoing phase mixing.
 
 ---
@@ -72,15 +72,16 @@ One of the most **important discoveries** made since the launch of the Gaia Miss
 phase space spiral or the Gaia snail.
 
 - This is an **updated plot of the original** plot from the Antoja 2018 paper that used Gaia DR2, this is Gaia DR3, but the image shows the same thing.
-First we have a density plot, then density contrast, then a colour-coded by radial velocity, then azimuthal velocity.
+First we have a density plot of stars in the solar neighbourhood, then density contrast, then a colour-coded by radial velocity and azimuthal velocity.
 - This **spiral pattern** shows that stars in the Galactic disk prefer some phases of their orbits over others. 
 - This is **surprising** if we think that stars are **usually born right into the midplane of the Galactic disk with little vertical motion**.
 - As time goes they get **slowly dynamically heated up by random kicks** up and down and acquire random vertical motion
 - If **it all random, there should be no preffered orbital phase**.
 - So how did the stars **end-up in this phase spiral**?
 - **What kicked these stars**, perturbed their phases and caused this signature?
-- After enough time, the system becomes sufficiently phase mixed and the spiral disappears, so this pattern also tell us than this perturbation is recent, within the last 0.8 Gyr.
+- **This spiral also has a limited lifetime**: After enough time, the system becomes sufficiently phase mixed and the spiral disappears, so this pattern also tell us than this perturbation is recent, within the last 0.8 Gyr.
 (Frankel et al. 2023 (and other papers) found models between 0.2 to 0.8Gyr ago.)
+- **Next slide**
 - (While this coincides when the Sagittarius crossed the Milky Way disk, it does not quite add up.)
 (Sgr does not seem to be massive enough to produce that strong of a signal as the one we see and the timing of the perturbation really changes depending on where in the Galaxy you look.
 It could also be more than one event and that it is the total effect of all the satellite galaxies in the Milky Way perturbing the disc we observe.)
@@ -118,7 +119,10 @@ Note:
 - We also see a ripple-like movement on a greater scale.
 - One of the big results of last year was the discovery of the **so-called Great wave in our Galactic disc**.
 Where we essentially see this ripple-like pattern over a scale of the **entire scale of the Disk, 20 kpc**.
-- Traced by young giants and cepheids and modelling the Galactic wrap, Poggio et al found this large-scale ripple, which is both clear in the different velocity dimensions and position.
+- Traced by young giants and cepheids and modelling the Galactic warp, Poggio et al found this large-scale ripple, which is both clear in the different velocity dimensions and position.
+- **So we have this large-scale wave behaviour not just in 3D space but also in the stellar motions**
+- This was found essentially by modelling the Galactic warp, removing it from their motions and studying their residuals.
+- Does not overlap with the Perseus spiral arm.
 - (Cepheid: rare but span large distances (3000 across 15 kpc), young giants (17000, within 6 kpc).
 
 ------
@@ -155,6 +159,10 @@ It was discovered in the radial velocities of this gas cloud.
 <!-- .slide: data-auto-animate -->
 
 ### Saggittaurius Dwarf Galaxy
+
+<p class="slide-note">
+It alone cannot explain these perturbations
+</p>
 
 <div style="position: relative; display: flex; justify-content: center;">
   <img src="assets/disc/sgr.jpg" style="width: 100%; max-height: 65vh; object-fit: contain;">
@@ -198,7 +206,7 @@ for uncovering **the fossil evidence of past mergers proving that the Milky Way 
 #### Gaia-Enceladus Sausage
 
 <p class="slide-note">
-Massive merger event, triggering starburst and the thick-to-thin disk transition
+Ancient merger event between nascent Milky Way and massive dwarf galaxy
 </p>
 
 
@@ -230,7 +238,6 @@ Massive merger event, triggering starburst and the thick-to-thin disk transition
 
 Note:
 - The other part of the Kavli prize was awarded to **Vasily Belkurov and Amina Helmi** for their investigations of merger remnants and in particular for the discovery of the halo structure known as the Gaia-Enceladus Sausage or Gaia Sausage-Enceladus.
-
 - Groups lead by Amina Helmi and Vasily Belokurov found that **the bulk of the halo stars were moving on these odd radial paths**
 - **This is the trace of a head-on collion**, a massive dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
 
@@ -242,6 +249,9 @@ Note:
 
 #### Gaia-Sausage/Enceladus
 
+<p class="slide-note">
+Revealed by clues in motion and chemistry
+</p>
 
 <div style="position: relative; width: 100%; display: flex; gap: 1em; align-items: flex-start;">
   <img src="assets/mergers/pen_2010.png"
@@ -278,21 +288,22 @@ Note:
 
 Note:
 - There has been clues for the existance of this population even before Gaia. 
-- In 2010, Nissen and Schuster published this investigation of **92 dwarf stars in the galactic thick disk and halo** for which they had determined presice abundance ratios from high-resolution spectra from UVES and FIES.
+- In 2010, Nissen and Schuster published this investigation of **94 dwarf stars in the galactic thick disk and halo** for which they had determined presice abundance ratios from high-resolution spectra from UVES and FIES.
+- This study found remarkable differences in Na and Ni as well as alpha elements between these two halo populations.
 - And they say this **clear split in the populations in the alpha/Fe vs Fe/H plane** where we have these two parallel trends, **indicating two populations of stars born in two distinct environments** 
 
 - With Gaia data, we got high-precision motion. 
 - And now the shear number of stars on these these slightly retrograde orbits really stand out in the velocity spaces and their sequence in the alpha-elements and metallicity space also stands out.
 
 
-------
+---
 
 <!-- .slide: data-auto-animate -->
 
 #### Gaia-Sausage/Enceladus
 
 <p class="slide-note">
-Massive merger event, triggering starburst and the thick-to-thin disk transition
+Asteroseismic studies of ensembles of stars help constrain galactic models
 </p>
 
 <div style="display: flex; gap: 1em; justify-content: center; align-items: flex-start;">
@@ -302,10 +313,12 @@ Massive merger event, triggering starburst and the thick-to-thin disk transition
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020A%26A...635A..58S/abstract">Spitoni et al. 2020</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract">Miglio et al. 2021</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.109S/abstract">Spitoni et al. 2023</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/arXiv:2203.12110">Xiang & Rix 2022</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1634S/abstract">Stokholm et al. 2023</a>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp..295W/abstract">Willett et al. 2026</a>
 </div>
 
 
@@ -316,12 +329,12 @@ Massive merger event, triggering starburst and the thick-to-thin disk transition
 
 
 Note:
-- Massive merger event with a dwarf galaxy with roughly **20–30% of the Milky Way's mass**
-- This lead to a massive star formation boom in our galaxy.
-- Splash star and the formation of the thick disk.
-- Stellar ages derived using asteroseismology allows us to better understand the distinct properties of the disc structures which helps us understand the 
-- Not everything is driven by mergers. Even in isolation, the Galaxy evolves and there has also been recent work on better describing/modelling these processes.
-- This merger is currently 
+- The discovery of Gaia-Sausage/Enceladus merger event let to quite a lot of follow-up studies.
+- Through galactic modelling the dwarf galaxy involved with this event had a mass of roughly **20–30% of the Milky Way's mass**
+- And this significantly perturbed the orbits of the stars born in the early Milky Way galaxy and the huge infall of gass lead to a massive star formation boom in our galaxy.
+- Asteroseismology has played a great role in understanding the characteristics of the emerging stellar populations, these two examples show examples from the Galactic disk populations.
+- Learning that the scale of the star formation rate as a function of age required presice asteroseismic ages
+- as well as cleanly seeing this beautiful devide in the vertical velocity dispersions when you have access to precise asteroseismic ages, which helps constrain models for the formation of the Galactic thin and thick disks.
 
 ---
 
@@ -337,7 +350,6 @@ Note:
       <li>Pontus</li>
       <li>Heracles</li>
       <li>Thamnos</li>
-      <li>Helmi streams</li>
       <li>Koala</li>
       <li>Arjuna</li>
       <li>Wukong</li>
@@ -417,17 +429,19 @@ Note:
 
 
 Note:
-- Remnants of devoured galaxies prove that our galaxy is a survivor of these enourmous cosmic collisions.
-- Since Gaia DR2 there has been an increased interest in isolating merger remnants and to better understand the hierarchical merger history of the Milkt Way.
-- There has been a number of different data-driven methods applied to find clusters of similar stars across different dimensions -- I do not have time to discuss them today.
-- This list is not exhausted, and there are some of the substructure that has been discovered a couple of times and therefore have multiple names.
-- Disentangling these accreted debris of smaller systems is ongoing research.
+- **Since Gaia DR2 there has** been an increased **interest in isolating merger remnants** to better understand the **hierarchical merger history of the Milky Way**.
+- A great number of structures have been **found and named**. 
+- These remnants of devoured galaxies prove that our **galaxy is a survivor of** these enourmous **cosmic collisions**.
+- There has been a number of **different data-driven methods** applied to find clusters of similar stars across different dimensions -- I do not have time to discuss them today.
+- This list is **not complete**, and there are some of the substructure that has been **discovered a couple of times and therefore have multiple names**.
+- **Disentangling these accreted debris** of smaller systems is **ongoing research**.
 
+(
 Necib+2020,2022: Nyx
 Koppelman+2019: Thamnos
 Naidu+2020: Aleph, Arjuna, I'itoi, Wukong. (Wukong/LMS-1 in Yuan et al. 2020)
 Malhan and Rix 2024: Shakti and Shiva
-Cluster 3 (Lovdal and Ruiz-Lara
+Cluster 3 (Lovdal and Ruiz-Lara))
 
 
 ---
@@ -447,7 +461,8 @@ Asteroseismic ages can put upper limits to these infall events.
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020NatAs...4..382C/abstract">Chaplin et al. 2020</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">Montalbán et al. 2021</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">Montalbán et al. 2021</a>,<br>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021ApJ...916...88G/abstract">Grunblatt et al. 2021</a>
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.2527B/abstract">Borre et al. 2022</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">Lindsay et al. 2025</a>
 </div>
@@ -461,11 +476,9 @@ Asteroseismic ages can put upper limits to these infall events.
 
 Note:
 - It is **especially in this endeavour** that asteroseismology in the last few years have played a central and important role, **adding time constraints to these events in the nascent galaxy!**
-- Here I show one asteroseismic study, Borre et al, that used APOGEE spectroscopy and radial modes from Kepler and K2 data to measure the ages of a number of stars formed ex-situ, mostly Gaia-Enceladus/Sausage but also possibly this even more retrograde Sequoia/I'itoi/Arjuna component over here.
-- How many of these structures are physically distinct and independent merger remnants?
-- How many were part of system of dwarf galaxies being merged at the same time?
-- Or are the structures related, say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?
-- How massive were these mergers? Adding time to the simulations of these events really narrow down the possible parameter space.
+- Here I show **one asteroseismic study, Borre et al,** that used APOGEE spectroscopy and **radial modes from Kepler and K2** data to measure the ages of a number of stars formed ex-situ.
+- **Mostly Gaia-Enceladus/Sausage** but also possibly this **even more retrograde high-energy** Sequoia/I'itoi/Arjuna component over here.
+- **The ages of stars help put upper limits on when** merger events have happen and can help **characterize the population** and their distinct differences to other remnants, possibly revealing how structures are related (say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?)
 
 ---
 
@@ -484,7 +497,7 @@ Understanding the metal-poor regime is critical
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">Huber et al. 2024</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">Larsen et al. 2025</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">Larsen et al. 2025</a>,<br>
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">Lundkvist et al. 2025</a>,
 <a class="paper-ref" href="https://ui.adsMarasco.harvard.edu/abs/2025ApJ...986..144M/abstract">Marasco et al. 2025</a>
 </div>
@@ -496,7 +509,7 @@ Understanding the metal-poor regime is critical
 
 
 Note:
-- But this is also here where recent efforts within our community, **the synergy with learning about the low-metallicity systematics are incredibly important**.
+- Galactic archaeology also has great synergy with recent efforts in our community **exposing the systematics** related to stellar age, **especially for chemical compositions that deviate more severely from solar composition**
 - Understanding whether **our asteroseismic scaling relations depend on metallicity** or whether **assumptions we normally operate under** do apply to stars that deviate more significantly from the structure of the Sun critically impacts how we can infer properties on these structures.
 
 ---
@@ -544,16 +557,19 @@ Another area of interest now is the **Galactic bulge and the innermost region of
 The inner Galaxy is dense, crowded and filled with structure!
 </p>
 
-<div style="display: flex; justify-content: center;">
+<div style="position: relative; display: flex; justify-content: center;">
   <img src="assets/bulge/horta2020.jpeg" style="width: 55%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/bulge/massari26_fig1.png" class="fragment fade-in"
+       style="position: absolute; top: 4.5em; right: 0.5em; width: 100%; margin: 0;">
 </div>
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2020MNRAS.498.2472K/abstract">Kruijssen et al. 2020</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514..689B/abstract">Belokurov & Kravtsov 2022</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022ApJ...941...45R/abstract">Rix et al. 2022</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2026arXiv260118896M/abstract">Massari et al. 2026</a>
 </div>
 
 <div class="slide-footer">
@@ -563,10 +579,10 @@ The inner Galaxy is dense, crowded and filled with structure!
 
 
 Note:
-- The innermost part of the galaxy has received increased attention as well recently. 
-- This is most dense and most crowded area og the galaxy
-- There seem to be a more metal-rich population that formed in-situ
-- But there also are indications of a distinct metal-poor component, which probably accreted earlier than Gaia-Sausage/Enceladus and which seem to potentially be even more massive.
+- The innermost part of the galaxy is **incredibly interesting**, especially as it is **the most dense and most crowded area of the galaxy**
+- But there is a long standing controversy in the age distribution and about how many different **physicsally distinct** stellar structures live there.
+- There is also more and more evidence of a massive merger event of similar mass to that of Gaia-Enceladus/Sausage but occuring even earlier in the history of the Milky Way.
+- The remnants of this merger are only present in the inner 5 kpc of the Galaxy. This paper is under review in Nature and here the evidence from comparisons with globular clusters in the inner galaxy compared to cosmological hydrodynamical simulations.
 
 
 ---
@@ -574,13 +590,22 @@ Note:
 <!-- .slide: data-auto-animate -->
 
 #### Globular clusters and their potential origins
+<p class="slide-note">
+Many globular clusters are not born within the Milky Way potential!
+</p>
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/clusters.png" style="width: 50%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/clusters/clusters.png" style="width: 55%; max-height: 65vh; overflow: hidden;">
 </div>
+
 
 <div class="footrefs">
   <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.461..760M/abstract">Miglio et al. 2016</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022A%26A...662L...7T/abstract">Tailo et al. 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3184H/abstract">Howell et al. 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.7974H/abstract">2024</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.1389H/abstract">2025</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">Massari et al. 2019</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">Kruijssen et al. 2019</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a>
@@ -593,10 +618,13 @@ Note:
 
 
 Note:
-- On a rather related note, there has been a **renewed interest of the origin of globular clusters** we current find within the Milky Way. 
-- So whether they formed in-situ, inside the Milky Way potential, or elsewhere ex-situ.
+- **Globular clusters play a big role in Galactic archaeology**.
+- In our community, asteroseismic signatures in globular clusters have been investigated recently in a number of papers, including a lot of recent papers led by Maddie Howell.
+- But in galactic context, there has also been a **great interest of globular cluster** we current find within the Milky Way. 
+- The origin of these many system is a great open question: essentially whether they **formed in-situ**, inside the Milky Way potential, or **ex-situ** elsewhere.
 - In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
 - But there are a couple of different approaches in the litterature, both data-driven or some including more chemical signatures and so on.
+- **This is another endeavour where there is great synergy with asteroseismic studies**.
 
 - GCs are sorted from the most to the least bound in energy.
 - in situ clusters (blue)/ ex situ red
@@ -605,14 +633,16 @@ Note:
 - Green: Omega Cen plus six associated clusters
 - Grey: Low-energy from Massari et al. 2019
 
-This is another endeavour where there is great synergy with asteroseismic studies.
-(Maddie Howell? Poster/talk number?)
 
 ------
 
 <!-- .slide: data-auto-animate -->
 
 #### Omega Cen
+
+<p class="slide-note">
+Potentially a core of a disrupted galaxy
+</p>
 
 <div style="display: flex; justify-content: center;">
   <img src="assets/clusters/hubble_omegacen_zoom.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
@@ -631,8 +661,10 @@ This is another endeavour where there is great synergy with asteroseismic studie
 
 Note:
 - **Omega Cen** is the largest and brightest globular cluster
-- In **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
+- It has multiple stellar populations and there has been indications of a central black hole for years.
+- With new evidence in **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
 The only object that can be so massive is a black hole, with a mass at **least 8200 times** that of our Sun.
+- HAYDN goal of a first seismic age mapping of omega Cen could teach us much about the formation of early galaxies, so that is incredibly exciting.
 
 
 ------
@@ -658,8 +690,8 @@ The only object that can be so massive is a black hole, with a mass at **least 8
 
 
 Note:
+- I do not have time to go into a lot of the recent intersting studies changes in galactic evolutionary theories right now, but I do want to highlight that by using **data from JWST** we are learning that **a lot more was going on very early on in our university**
 - Since its launch in December 2021, the James Webb Space Telescope has observed the Universe more precisely, deeply and with higher resolution in the infrared wavelengths.
-- JWST was specifically designed to **observe cosmic dawn**, a time during the first billion years of the universe when the first stars and galaxies were forming.
 - There have been multiple discoveries that **rewrite how early galaxy formation occurs and how rapidly a galaxy can evolve**.
 - This galaxy has a redshift of **14.32**, makingit the current record-holder for the most distant known galaxy. This corresponds to a time less than 300 million years after the big bang. This galaxy is also way to luminous from light that seem to come mostly from young stars and the light is also not as blue as we thought it would be: there are indications of dust and even emission lines from oxygen, which is very surprising. (suggests multiple generations of very massive stars has already taken place)
 

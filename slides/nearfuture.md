@@ -23,7 +23,7 @@ WEAVE
 4MOST
 </li>
 <li>
-Haydn (proposed)
+HAYDN (proposed)
 </li>
 <li>
 Gaia NIR (proposed)
@@ -64,6 +64,7 @@ SDSS Milky Way Mapper (complementary, different resolution and wavelength covera
 
 ELT: observations of the halo, bulge and disk. It will cover 50 percent of the South Galactic Pole.
 
+HAYDN: Will be perfect for a lot of intersting Galactic studies.
 
 GaiaNIR: a Gaia-like mission extending to the near infrared.
 Probing 20 times more sources.

@@ -27,6 +27,8 @@ Note:
 My name is **Amalie Stokholm** , UoB
 - And to **kick this session off**, I will give you a review of Galactic Archaeology.
 - I would like to **thank the S O C** for giving me this time and opportunity to do so.
+Alright, let us do this.
+
 - I know that it is **8:30** and there was the conference dinner yesterday,
 So before we begin, 
 so I would like all of you to do a quick little **exercise with me** to wake up your body and mind
@@ -41,15 +43,16 @@ Faster
 - And I think we stop before the zero-age main sequence
 
 **Thank you all so much!**, please sit down again
-Alright, let us do this.
 
 ---
 
 <!-- .slide: data-auto-animate data-auto-animate-duration="0.85" -->
 
 #### What is Galactic archaeology?
-✨ Stars as cosmic clocks ✨
 
+<div class="fragment" data-fragment-index="0">
+The aim of Galactic archaeology is to <b>unravel the physics of galaxies by studying the Galaxy</b> we live within. </div>
+<br>
 <div class="fragment" data-fragment-index="1">
 <b>The Universe evolves on time scales far longer than human life times</b>, making it difficult to study when what happened and at what rate. </div>
 <br>
@@ -58,7 +61,7 @@ We treat <b>stars as fossil records</b>, which <b>allows</b> us to construct a m
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
-Stars provide us with a <b>seismic</b> probe into otherwise hidden interiors, yielding remarkably <b>precise age records</b>.</p>
+✨ Stars as cosmic clocks ✨ </p>
 </div>
 
 
@@ -70,12 +73,13 @@ Stars provide us with a <b>seismic</b> probe into otherwise hidden interiors, yi
 
 Note:
 So what is Galactic archaeology?
-- When we want to study of Galaxy, the Milky Way, **our challenge is** that
+- The aim of Galactic archaeology is to unravel the physics of high-redshift galaxies by studying the galaxy we live within and to study **how galaxy formation and evolution from cosmic Dawn until today has affected the Milky Way**.
+- When we want to study the Milky Way **our challenge is** that
 the Universe **evolves on times scales far longer than human life times**,
 - making it difficult to **obtain the temporal resolution needed to disentangle** the events and processes that shape it. 
-- Stars have been around **cosmically for a long time**, 
+- Stars have been around **cosmically for a long time**, for many stars their lifetimes are on the order of the Hubble time
 - the metaphor goes that we **treat stars as fossil records** and study **how they have been shaped and influenced** over billions of years,
-- we can i**construct a timeline of cosmic events that have happened** in the Milky Way's past.
+- we can **construct a timeline of cosmic events that have happened** in the Milky Way's past.
 - **The Galaxy remembers its past and stars preserve that memory**.
 - So by **learning to read the stars, we can learn the history of the Milky Way**
 
@@ -211,6 +215,9 @@ Better and more <b>realistic modelling</b> and computing:
 <br>
 <div style="font-size: 0.85em; opacity: 0.7;">IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...</div>
 </li>
+<li class="fragment" data-fragment-index="5">
+So essentially we now live in the <b>era of big data</b and are able to test hypotheses at scale like ever before.
+</li>
 </ul>
 
 
@@ -226,12 +233,13 @@ So why is this **such an exciting time** to be doing Galactic Archaeology?
 After more than **11 years in space**, Gaia **completed its survey** of the Milky Way
 in January last year — giving us positions, proper motions, and parallaxes **over two billion targets**.
 So now we have a **map of our Galaxy we simply didn't have before**.
-- Large spectroscopic surveys such as APOGEE, GALAH, LAMOST, Gaia-ESO, have **added the chemical dimension to a significant fraction of the sky**.
+- Large spectroscopic surveys have **added the chemical dimension to a significant fraction of the sky**.
 We can now measure the elemental abundances of millions of stars
 (GALAH is 900k stars, APOGEE almost 700k, LAMOST 5 million, Gaia-ESO about 100k)
 - **And of course, asteroseismology giving us the precise ages to anchor it all in time.**
-- On top of that, **modern cosmological simulations** such as IllustrisTNG, Auriga, EAGLE, FIRE, and EDGE can **produce Milky Way-like galaxies in a cosmological context**,
-while **advances in computingi** allow us to **compare those models directly with these big observational datasets**.
+- On top of that, **modern cosmological simulations produce Milky Way-like galaxies in a cosmological context**,
+while **advances in computing** allow us to **compare those models directly with these big observational datasets**.
+
 
 
 ---

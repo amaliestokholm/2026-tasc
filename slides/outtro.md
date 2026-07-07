@@ -14,12 +14,12 @@ we can study the Milky Way as <b>a system rather than isolated pieces of it.</b>
 <div class="timeline-arrow-horizontal"></div>
 
 <!-- Picture callouts -->
-<div class="timeline-callout" style="left:5.8%;">
+<div class="timeline-callout" style="left:11.8%;">
   <img src="assets/kraken.jpg" alt="Event at 13 Gyr ago">
   <div class="callout-label">Low-energy / Kraken / Heracles</div>
   <div class="timeline-callout-connector"></div>
 </div>
-<div class="timeline-callout" style="left:27.5%;">
+<div class="timeline-callout" style="left:30.5%;">
   <img src="assets/gse.jpg" alt="Event at 10 Gyr ago">
   <div class="callout-label">Gaia-Sausage / Enceladus</div>
   <div class="timeline-callout-connector"></div>
@@ -51,15 +51,15 @@ we can study the Milky Way as <b>a system rather than isolated pieces of it.</b>
   <div class="callout-label"><br><br>?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
-<div class="timeline-label-arrow" style="left:11.2%;">
+<div class="timeline-label-arrow" style="left:26.2%;">
   <div class="callout-label"><br>Sequoia++?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
-<div class="timeline-label-arrow" style="left:15.2%;">
+<div class="timeline-label-arrow" style="left:19.2%;">
   <div class="callout-label"><br><br>?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
-<div class="timeline-label-arrow" style="left:18.0%;">
+<div class="timeline-label-arrow" style="left:37.0%;">
   <div class="callout-label">Thamnos?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
@@ -67,14 +67,14 @@ we can study the Milky Way as <b>a system rather than isolated pieces of it.</b>
   <div class="callout-label"><br><br>?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
-<div class="timeline-label-arrow" style="left:24.9%;">
+<div class="timeline-label-arrow" style="left:14.9%;">
   <div class="callout-label"><br>Shakti / <br>Shiva?</div>
   <div class="timeline-label-arrow-connector"></div>
 </div>
 
 <!-- Event dots -->
-<div class="timeline-dot" style="left:5.8%; background:color-mix(in srgb, #bd93f9 94.2%, #ff79c6 5.8%);"></div>
-<div class="timeline-dot" style="left:27.5%; background:color-mix(in srgb, #bd93f9 72.5%, #ff79c6 27.5%);"></div>
+<div class="timeline-dot" style="left:11.8%; background:color-mix(in srgb, #bd93f9 88.2%, #ff79c6 5.8%);"></div>
+<div class="timeline-dot" style="left:30.5%; background:color-mix(in srgb, #bd93f9 69.5%, #ff79c6 27.5%);"></div>
 <div class="timeline-dot" style="left:60.1%; background:color-mix(in srgb, #bd93f9 39.9%, #ff79c6 60.1%);"></div>
 <div class="timeline-dot" style="left:86.4%; background:color-mix(in srgb, #bd93f9 19.6%, #ff79c6 86.4%);"></div>
 <div class="timeline-dot" style="left:95.0%; background:color-mix(in srgb, #bd93f9 7.2%, #ff79c6 95.0%);"></div>
