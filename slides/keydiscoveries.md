@@ -529,6 +529,86 @@ Note:
 
 <!-- .slide: data-auto-animate -->
 
+#### Globular clusters and their potential origins
+<p class="slide-note">
+Many globular clusters are not born within the Milky Way potential!
+</p>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/clusters.png" style="width: 55%; max-height: 50vh; overflow: hidden;">
+</div>
+
+
+<div class="footrefs">
+  <span class="prefix">see e.g.</span>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.461..760M/abstract">Miglio et al. 2016</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022A%26A...662L...7T/abstract">Tailo et al. 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3184H/abstract">Howell et al. 2022</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.7974H/abstract">2024</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.1389H/abstract">2025</a>,<br>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">Massari et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">Kruijssen et al. 2019</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a>
+</div>
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+- **Globular clusters play a big role in Galactic archaeology**.
+- One big push recently has been to understand **the origin of these systems** : whether they **formed in-situ**, inside the Milky Way potential, or **ex-situ** elsewhere.
+- Here I show a recent overview of these efforts, colour-coded by whether a classification study found them to be born within the Milky Way (blue) or outside.
+- **This is another endeavour where there is great synergy with asteroseismic studies**.
+- NEXT
+- In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
+- GCs are sorted from the most to the least bound in energy.
+- in situ clusters (blue)/ ex situ red
+- Magenta: Sgr
+- Blue: NGC 6397
+- Green: Omega Cen plus six associated clusters
+- Grey: Low-energy from Massari et al. 2019
+
+
+------
+
+<!-- .slide: data-auto-animate -->
+
+#### Omega Cen
+
+<p class="slide-note">
+Potentially a core of a disrupted galaxy
+</p>
+
+<div style="display: flex; justify-content: center;">
+  <img src="assets/clusters/hubble_omegacen_zoom.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
+</div>
+
+<div class="footrefs">
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
+</div>
+
+<div class="slide-footer">
+    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
+    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
+</div>
+
+
+Note:
+- **Omega Cen** is the largest and brightest globular cluster
+- It has multiple stellar populations and there has been indications of a central black hole for years.
+- With new evidence in **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
+The only object that can be so massive is a black hole, with a mass at **least 8200 times** that of our Sun.
+- HAYDN goal of a first seismic age mapping of omega Cen could teach us much about the formation of early galaxies, so that is incredibly exciting.
+
+
+---
+
+<!-- .slide: data-auto-animate -->
+
 #### The inner Galaxy
 
 <div style="position: relative; width: 80%; height: 65vh; margin: 0 auto;">
@@ -607,87 +687,7 @@ Note:
 - The remnants of this merger are only present in the inner 5 kpc of the Galaxy. This paper is under review in Nature and here the evidence from comparisons with globular clusters in the inner galaxy compared to cosmological hydrodynamical simulations.
 
 
----
-
-<!-- .slide: data-auto-animate -->
-
-#### Globular clusters and their potential origins
-<p class="slide-note">
-Many globular clusters are not born within the Milky Way potential!
-</p>
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/clusters.png" style="width: 55%; max-height: 50vh; overflow: hidden;">
-</div>
-
-
-<div class="footrefs">
-  <span class="prefix">see e.g.</span>
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2016MNRAS.461..760M/abstract">Miglio et al. 2016</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022A%26A...662L...7T/abstract">Tailo et al. 2022</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.515.3184H/abstract">Howell et al. 2022</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024MNRAS.527.7974H/abstract">2024</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.1389H/abstract">2025</a>,<br>
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">Massari et al. 2019</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">Kruijssen et al. 2019</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a>
-</div>
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-- **Globular clusters play a big role in Galactic archaeology**.
-- One big push recently has been to understand **the origin of these systems** : whether they **formed in-situ**, inside the Milky Way potential, or **ex-situ** elsewhere.
-- Here I show a recent overview of these efforts, colour-coded by whether a classification study found them to be born within the Milky Way (blue) or outside.
-- **This is another endeavour where there is great synergy with asteroseismic studies**.
-- NEXT
-- In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
-- GCs are sorted from the most to the least bound in energy.
-- in situ clusters (blue)/ ex situ red
-- Magenta: Sgr
-- Blue: NGC 6397
-- Green: Omega Cen plus six associated clusters
-- Grey: Low-energy from Massari et al. 2019
-
-
 ------
-
-<!-- .slide: data-auto-animate -->
-
-#### Omega Cen
-
-<p class="slide-note">
-Potentially a core of a disrupted galaxy
-</p>
-
-<div style="display: flex; justify-content: center;">
-  <img src="assets/clusters/hubble_omegacen_zoom.jpg" style="width: 100%; max-height: 65vh; overflow: hidden;">
-</div>
-
-<div class="footrefs">
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2008ApJ...676.1008N/abstract">Noyola et al. 2008</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...970..192H/abstract">Häberle et al. 2024</a>,
-</div>
-
-<div class="slide-footer">
-    <div data-id="conference" style="color: #6272a4; font-size: 0.45em; letter-spacing: 0.08em;">TASC · July 2026</div>
-    <div data-id="speaker-name" style="font-size: 0.45em;">Amalie Stokholm</div>
-</div>
-
-
-Note:
-- **Omega Cen** is the largest and brightest globular cluster
-- It has multiple stellar populations and there has been indications of a central black hole for years.
-- With new evidence in **2024, seven fast-moving stars** in the innermost region, provides evidence for presence of an intermediate-msas black hole using 500 Hubble images
-The only object that can be so massive is a black hole, with a mass at **least 8200 times** that of our Sun.
-- HAYDN goal of a first seismic age mapping of omega Cen could teach us much about the formation of early galaxies, so that is incredibly exciting.
-
-
----
 
 <!-- .slide: data-auto-animate -->
 
