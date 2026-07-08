@@ -49,7 +49,7 @@ We treat <b>stars as fossil records</b>, which <b>allows</b> us to construct a m
 </div>
 <br>
 <div class="fragment" data-fragment-index="3">
-✨ Stars as cosmic clocks ✨ </p>
+The Galaxy remembers its past and <b>stars preserve that memory</b></p>
 </div>
 
 

@@ -28,13 +28,13 @@ The Milky Way is still responding to recent interactions and has not yet dynamic
 
 
 Note:
-- We've known since the late 1950s that the Milky Way is not perfectly axisymmetric and not in perfect dynamical equilibrium.
+- We've known since the late 1950s that the Milky Way is not in perfect dynamical equilibrium.
 - At the Solar radius, the Galactic disk completes only about 40–50 rotations over a Hubble time.
 - The Sun itself has completed just over 20 orbits around the Galactic centre since it formed.
 - In other words, the Galaxy has had **surprisingly little time to dynamically relax**.
 
-Observations of external galaxies frequently revealed evidence for mergers, tidal interactions, and disturbed morphologies, but pre-gaia: the Milky Way appeared to be an **unusually quiescent spiral galaxy, despite it being one of the dominant members of the Local Group**.
-- We now know that the Milky Way is full of dynamical substructure and bears clear signatures of recent interactions, mergers, and ongoing phase mixing.
+Observations of external galaxies frequently revealed evidence for big mergers events but pre-gaia: the Milky Way appeared to be an **unusually quiescent spiral galaxy, despite it being one of the dominant members of the Local Group**.
+- But now we really see that that is not true
 
 ---
 
@@ -79,9 +79,9 @@ It shows phase space, so coordinate vs velocity for the vertical component.
 - As time goes they get **slowly dynamically heated up by random kicks** up and down and acquire random vertical motion
 - If **it all random, there should be no preffered orbital phase**.
 - So how did the stars **end-up in this phase spiral**?
+- That is currently being investigated **Next slide**
 - **What kicked these stars**, perturbed their phases and caused this signature?
 - **If this spiral is caused by a single, massive perturbation, then it has a rather limited lifetime**: After enough time, the system becomes sufficiently phase mixed and the spiral disappears, so this pattern also tell us than this perturbation is recent, within the last 0.8 Gyr.
-- **Next slide**
 (Frankel et al. 2023 (and other papers) found models between 0.2 to 0.8Gyr ago.)
 - (While this coincides when the Sagittarius crossed the Milky Way disk, it does not quite add up.)
 (Sgr does not seem to be massive enough to produce that strong of a signal as the one we see and the timing of the perturbation really changes depending on where in the Galaxy you look.
@@ -120,8 +120,10 @@ Note:
 - We also see a ripple-like movement on a greater scale.
 - One of the big results of last year was the discovery of the **so-called Great wave in our Galactic disc**.
 - Poggio et al. found this ripple by modelling the Galactic warp and precession and studying the residuals in position and motions and found this ripple-like pattern over a scale of the **entire scale of the Disk, 20 kpc**
-- So there are indications of coherent, systematic wave-like rippling in the disk, with coherent radial and vertical motion.
 - Does not overlap with the Perseus spiral arm.
+- So this is another signature of ongoing or a recent perturbation.
+- NEXT
+- So there are indications of coherent, systematic wave-like rippling in the disk, with coherent radial and vertical motion.
 - **So we have this large-scale wave behaviour not just in 3D space but also in the stellar motions**
 - (Cepheid: rare but span large distances (3000 across 15 kpc), young giants (17000, within 6 kpc).
 
@@ -198,11 +200,14 @@ Note:
 **So why do we see these ripples?**
 - One possible explanation is the interactions with the Saggittaurius Dwarf Galaxy.
 - The Sagittarius Dwarf Galaxy was discovered more than **30 years ago** and it is a irregular dwarf galaxy that is currently being **tidally disrupted by the Milky Way**.
-- And while especially the latest, the third pericentric passiage through the Milky Way' disk could have **disrupted the equlibrium** and cause the stars to **slush around like ripples**, it is **not perfectly given** that that is the case.
-- But while it is clear that this ongoing interaction has impacted the star forming regions of the Galaxy throughout the last six gigayears, the severity of these effects is not solved.
-- Simulations find that these signatures like the phase spiral and the great wave **can not solely** be caused by the Saggitarius Dwarf Galaxy, unless it has a **mass much larger than our current best estimates** (Bennett et al. 2022)
-- And there are also **other channels within lambda-CDM** that could explain both of these signatures of a recent large-scale perturbation. 
-- The effect can also in simulations be reproduced by **many smaller disturbances** instead of just a single bigger one and that the **dark matter substructure might play a bigger role to explain the exact shape** of the phase-space spiral. It could also be explained by **interactions between the Galactic disk and the Galactic bar** (Khoperskov et al. 2019). So this is still an **ongoing and open question**.
+- and it could in principle disrupt equilibrium and cause the stars to slush around like ripples.
+- It has for sure impact the star forming regions in the solar neighbourhoods, but it has been found that it cannot cause these signatures of recent perturbations unless it has a **mass much larger than our current best estimates** (Bennett et al. 2022)
+- So other channels **other channels within lambda-CDM** are also being investigated.
+- It could be caused by a different satellite, but it is rather unlikely as the Sagittaurius is the most influencial one in the solar neighbourhood.
+- It could be caused by interactions between the bar or spiral arms with the galactic disk. So something like **buckling or resonances** with the bar or the spiral arms.
+- It could also be due to dark matter substructure playing a bigger role on the movement of stars in our part of the galaxy.o
+- Or it could be essentially everything all at once, so many different smaller interactions amplifying each other.
+- This is an open question receiving a lot of attention recently.
 - The Kavli prize this year was awarded partly to Rodrigo Ibata for the discovery of the Saggiraurius dwarf galaxy and 
 for uncovering **the fossil evidence of past mergers proving that the Milky Way galaxy was built through hierarchical accretion**.
 
@@ -246,7 +251,7 @@ Ancient merger event between nascent Milky Way and massive dwarf galaxy
 
 Note:
 - The other part of the Kavli prize was awarded to **Vasily Belkurov and Amina Helmi** for their investigations of merger remnants and in particular for the discovery of the halo structure known as the Gaia-Enceladus Sausage or Gaia Sausage-Enceladus.
-- Groups lead by Amina Helmi and Vasily Belokurov found that **the bulk of the halo stars were moving on these odd radial paths**
+- They found that **the bulk of the halo stars were moving on these odd radial paths**
 - **This is the trace of a head-on collion**, a massive dwarf galaxy crashed into the Milky Way and being torn apart and left its stars flying back and fourh 
 
 (- thick disk formed under cold-mode accretion, GSE triggered starburst and increased total mass of Galaxy, causing the transistion to hot-mode accretion, causing the scale length of the star forming disc to change before inside-out growth of thin disc)
@@ -302,6 +307,7 @@ Note:
 
 - With Gaia data, we got high-precision motion. 
 - And now the shear number of stars on these these slightly retrograde orbits really stand out in the velocity spaces and their sequence in the alpha-elements and metallicity space also stands out.
+- So the existance of this halo population formed ex-situ has been confirmed.
 
 
 ---
@@ -336,9 +342,11 @@ Asteroseismic studies of ensembles of stars help constrain galactic models
 
 
 Note:
-- Asteroseismology has played a great role in understanding the characteristics of the stellar populations affected by this massive merger event, these two examples show examples from the Galactic disk populations.
-- Learning that the scale of the star formation rate as a function of age required presice asteroseismic ages
-- as well as cleanly seeing this beautiful devide in the vertical velocity dispersions when you have access to precise asteroseismic ages, which helps constrain models for the formation of the Galactic thin and thick disks.
+- Asteroseismology has played a great role in understanding the characteristics of the stellar populations affected by this massive merger event.
+- Here I show two examples from two such studies of the last couple of years.
+- Spitoni et al. used the asteroseismic ages in combination with chemical signatures to constrain possible galactic evolutionary models.
+- Asteroseismic ages allowed them to measure the star formation rate as a function of look-back time
+- And asteroseismic ages also allowed Miglio et al. to find this beautiful devide in the vertical velocity dispersions, which helps constrain models for the formation of the Galactic thin and thick disks.
 
 ---
 
@@ -432,11 +440,11 @@ Note:
 
 
 Note:
-- A different but related interest since Gaia DR2 has been to **isolating merger remnants** to better understand the **hierarchical merger history of the Milky Way**.
+- A related interest has been to isolate merger remnants.
 - These remnants of devoured galaxies prove that our **galaxy is a survivor of** these enourmous **cosmic collisions**.
-- A great number of structures have been **found and named**. 
-- There has been a number of **different data-driven methods** applied to find clusters of similar stars across different dimensions -- I do not have time to discuss them today.
-- This list is **not complete**, and there are some of the substructure that has been **discovered a couple of times and therefore have multiple names**.
+- A great number of structures have been **found and named** -- this list does not include all.
+- A number of **different data-driven methods** was applied to find clusters of similar stars across different dimensions -- I do not have time to discuss them today.
+- Some of the substructure that has been **discovered a couple of times or overlap significantly in parameter space and therefore have multiple names in the litterature**.
 - **Disentangling these accreted debris** of smaller systems is **ongoing research**.
 
 (
@@ -478,11 +486,12 @@ Asteroseismic ages can put upper limits to these infall events.
 
 
 Note:
-- Asteroseismology can help this endeavour as some of these merger remnants contain stars with observable oscillations.
-- **adding time constraints to these events in the nascent galaxy!**
+- Asteroseismology can help this endeavour by adding the time dimension.
 - Here I show **one asteroseismic study, Borre et al,** that used APOGEE spectroscopy and **radial modes from Kepler and K2** data to measure the ages of a number of stars formed ex-situ.
 - **Mostly Gaia-Enceladus/Sausage** but also possibly this **even more retrograde high-energy** Sequoia/I'itoi/Arjuna component over here.
-- **The ages of stars help put upper limits on when** merger events have happen and can help **characterize the population** and their distinct differences to other remnants, possibly revealing how structures are related (say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?)
+- **The ages of stars help put upper limits on when** merger events have happen and can help **characterize the population** and their distinct differences to other remnants, possibly revealing how structures are related 
+- NEXT
+- say the outer part and the inner part of a decent mass dwarf galaxy with a radial metallicity gradient that got accreted by the Milky Way at different passages, at different times?)
 
 ---
 
@@ -632,13 +641,11 @@ Many globular clusters are not born within the Milky Way potential!
 
 Note:
 - **Globular clusters play a big role in Galactic archaeology**.
-- In our community, asteroseismic signatures in globular clusters have been investigated recently in a number of papers, including a lot of recent papers led by Maddie Howell.
-- But in galactic context, there has also been a **great interest of globular cluster** we current find within the Milky Way. 
-- The origin of these many system is a great open question: essentially whether they **formed in-situ**, inside the Milky Way potential, or **ex-situ** elsewhere.
-- In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
-- But there are a couple of different approaches in the litterature, both data-driven or some including more chemical signatures and so on.
+- One big push recently has been to understand **the origin of these systems** : whether they **formed in-situ**, inside the Milky Way potential, or **ex-situ** elsewhere.
+- Here I show a recent overview of these efforts, colour-coded by whether a classification study found them to be born within the Milky Way (blue) or outside.
 - **This is another endeavour where there is great synergy with asteroseismic studies**.
-
+- NEXT
+- In this paper they combined data with comparisons to **hydrodynamical cosmological simulations (TNG50)** and developed their classification scheme in that way,
 - GCs are sorted from the most to the least bound in energy.
 - in situ clusters (blue)/ ex situ red
 - Magenta: Sgr
@@ -680,7 +687,7 @@ The only object that can be so massive is a black hole, with a mass at **least 8
 - HAYDN goal of a first seismic age mapping of omega Cen could teach us much about the formation of early galaxies, so that is incredibly exciting.
 
 
-------
+---
 
 <!-- .slide: data-auto-animate -->
 
