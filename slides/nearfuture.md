@@ -23,6 +23,9 @@ WEAVE
 4MOST
 </li>
 <li>
+ET
+</li>
+<li>
 HAYDN (proposed)
 </li>
 <li>
@@ -46,6 +49,10 @@ Epoch astrometry, radial velocities, exoplanet list, variable-stars and non-sing
 
 Improvements in catalogue values by a significant factor as well.
 
+Roman will look edge-on into the disk towards the Galactic center and help uncover its secrets.
+
+Soon these huge complementary spectroscopic surveys with different resolution but essentially close to all-sky coverage can provide us with even better chemical dimensions.
+
 Gaia DR5 released at some point after 2030. 
 It will be the final release of all Gaia data, containing the extended mission data from 2019 to 2025.
 
@@ -61,6 +68,8 @@ Both will do near-field cosmology tests, survey major stellar components in the 
 4MOST will target the Magellanic Clouds, aims to target 500k stars in the two galaxies.
 
 SDSS Milky Way Mapper (complementary, different resolution and wavelength coverage) Focus on 6 million red giants
+
+ET
 
 ELT: observations of the halo, bulge and disk. It will cover 50 percent of the South Galactic Pole.
 

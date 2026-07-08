@@ -27,22 +27,10 @@ Note:
 My name is **Amalie Stokholm** , UoB
 - And to **kick this session off**, I will give you a review of Galactic Archaeology.
 - I would like to **thank the S O C** for giving me this time and opportunity to do so.
-Alright, let us do this.
 
-- I know that it is **8:30** and there was the conference dinner yesterday,
-So before we begin, 
-so I would like all of you to do a quick little **exercise with me** to wake up your body and mind
-- **stand up with me**, please, if you can.
-- Then move your arms **like the oscillations of a red giant**
-**Slow waves but big amplitudes**. Think: lots of power and a delightfully mixture of p and g modes.
-- Let us move **down the evolutionary track to a subgiant**.
-A bit faster, smaller amplitude, don't forget to throw a few mixed modes in there.
-- Then a **main sequence star**. **Nice and regular, but still stochastic** . Quicker, quicker.
-Faster
-Faster
-- And I think we stop before the zero-age main sequence
+- I would also like to thank all of you, because I know that it is **8:30** and there was the conference dinner yesterday, so thank you all for being here with me this morning.
+- Without further adou, let us get started.
 
-**Thank you all so much!**, please sit down again
 
 ---
 
@@ -73,7 +61,8 @@ We treat <b>stars as fossil records</b>, which <b>allows</b> us to construct a m
 
 Note:
 So what is Galactic archaeology?
-- The aim of Galactic archaeology is to unravel the physics of high-redshift galaxies by studying the galaxy we live within and to study **how galaxy formation and evolution from cosmic Dawn until today has affected the Milky Way**.
+- The aim of Galactic archaeology is to unravel the physics of high-redshift galaxies by studying the galaxy we live within
+- We want to study **how galaxy formation and evolution from cosmic Dawn until today has affected the Milky Way**.
 - When we want to study the Milky Way **our challenge is** that
 the Universe **evolves on times scales far longer than human life times**,
 - making it difficult to **obtain the temporal resolution needed to disentangle** the events and processes that shape it. 
@@ -184,13 +173,11 @@ border-radius:20px;
 
 Note:
 - **The Milky Way has patterns and structure**
-- Our Galaxy looks more like this. We have big structural components such as the **Galactic disk and the Galactic bulge**.
+- We have big structural components such as the **Galactic disk and the Galactic bulge**.
 - We have **spiral arms, streams, ripples and other dynamical scars**
 - The colored patterns are **all intertwined**, but leave important clues about the strength of the different processes that made them.
 - These structures in movement are caused by **interactions in the Galactic past perturbating** the **stars and the underlying potential**.
-- Perturbations to the potential and to the stellar movements take millions or billions of years to *reach equilibrium and disappear**
-- **So by looking at stars
-we can still today see these ripples of events that happened long ago.**
+- **So by looking at stars we can still today see these ripples of events that happened long ago.**
 
 ---
 
@@ -211,12 +198,12 @@ Stellar <b>chemistry at scale</b>:
 Advances in <b>asteroseismology</b> anchoring precise ages
 </li>
 <li class="fragment" data-fragment-index="4">
-Better and more <b>realistic modelling</b> and computing:
+Better and more <b>realistic modelling</b>
 <br>
 <div style="font-size: 0.85em; opacity: 0.7;">IllustrisTNG, Auriga, EAGLE, FIRE, EDGE, ...</div>
 </li>
 <li class="fragment" data-fragment-index="5">
-So essentially we now live in the <b>era of big data</b and are able to test hypotheses at scale like ever before.
+So we are now able to <b>test galactic hypotheses</b> like ever before.
 </li>
 </ul>
 
@@ -236,7 +223,7 @@ So now we have a **map of our Galaxy we simply didn't have before**.
 - Large spectroscopic surveys have **added the chemical dimension to a significant fraction of the sky**.
 We can now measure the elemental abundances of millions of stars
 (GALAH is 900k stars, APOGEE almost 700k, LAMOST 5 million, Gaia-ESO about 100k)
-- **And of course, asteroseismology giving us the precise ages to anchor it all in time.**
+- **And of course, asteroseismology or methods calibrated against asteroseismology is providing us with precise ages to anchor it all in time.**
 - On top of that, **modern cosmological simulations produce Milky Way-like galaxies in a cosmological context**,
 while **advances in computing** allow us to **compare those models directly with these big observational datasets**.
 

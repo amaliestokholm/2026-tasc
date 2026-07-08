@@ -1,13 +1,13 @@
 <!-- .slide: data-auto-animate class="small-text" -->
 #### Take-away message
-<b>Galactic events leave scars that can survive for billions of years</b>.
+<b>Galactic events leave scars that can survive for billions of years</b>.<br>
 We finally have the data and tools to read those scars.
 
 Today we have data allowing <b>kinematics studies for unprecedented numbers of stars</b>.
-<b>Soon we will have spectroscopy</b> covering most of the sky
+<b>Soon</b> we will have <b>spectroscopy</b> covering most of the sky
 
 Combined with <b>modern computational tools</b>,
-we can study the Milky Way as <b>a system rather than isolated pieces of it.</b>
+we can study the Milky Way as the <b>a complex system</b> it is.
 
 <div class="horizontal-timeline">
 <div class="timeline-line-horizontal"></div>
