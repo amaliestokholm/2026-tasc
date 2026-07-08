@@ -2,9 +2,12 @@
 
 #### Some data sets to look forward to
 
-<ul style="list-style-type: disc; line-height: 1.8;">
+<ul style="list-style-type: disc; line-height: 1.4;">
 <li>
 Gaia DR4 (and 5)
+</li>
+<li>
+JWST
 </li>
 <div style="font-size: 0.85em; opacity: 0.7;"></div>
 <li>
