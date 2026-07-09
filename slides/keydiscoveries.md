@@ -33,7 +33,7 @@ Note:
 - The Sun itself has completed just over 20 orbits around the Galactic centre since it formed.
 - In other words, the Galaxy has had **surprisingly little time to dynamically relax**.
 
-Observations of external galaxies frequently revealed evidence for big mergers events but pre-gaia: the Milky Way appeared to be an **unusually quiescent spiral galaxy, despite it being one of the dominant members of the Local Group**.
+Observations of external galaxies frequently revealed evidence for big mergers events but pre-gaia: the Milky Way appeared to be an **unusually boring spiral galaxy, despite it being one of the dominant members of the Local Group**.
 - But now we really see that that is not true
 
 ---
@@ -306,8 +306,8 @@ Note:
 - And they say this **clear split in the populations in the alpha/Fe vs Fe/H plane** where we have these two parallel trends, **indicating two populations of stars born in two distinct environments** 
 
 - With Gaia data, we got high-precision motion. 
-- And now the shear number of stars on these these slightly retrograde orbits really stand out in the velocity spaces and their sequence in the alpha-elements and metallicity space also stands out.
-- So the existance of this halo population formed ex-situ has been confirmed.
+- And now the shear number of stars make this population stand out both in chemistry and kinematic parameter spaces.
+- So the existance of this halo population formed ex-situ has been confirmed and its properties to be better studied.
 
 
 ---

@@ -47,10 +47,6 @@ The aim of Galactic archaeology is to <b>unravel the physics of galaxies by stud
 <div class="fragment" data-fragment-index="2">
 We treat <b>stars as fossil records</b>, which <b>allows</b> us to construct a more <b>precise timeline</b> of cosmic events.
 </div>
-<br>
-<div class="fragment" data-fragment-index="3">
-The Galaxy remembers its past and <b>stars preserve that memory</b></p>
-</div>
 
 
 
@@ -69,8 +65,7 @@ the Universe **evolves on times scales far longer than human life times**,
 - Stars have been around **cosmically for a long time**, for many stars their lifetimes are on the order of the Hubble time
 - the metaphor goes that we **treat stars as fossil records** and study **how they have been shaped and influenced** over billions of years,
 - we can **construct a timeline of cosmic events that have happened** in the Milky Way's past.
-- **The Galaxy remembers its past and stars preserve that memory**.
-- So by **learning to read the stars, we can learn the history of the Milky Way**
+- and better understand the processes that have shaped it into the galaxy we see today.
 
 ---
 
@@ -177,7 +172,7 @@ Note:
 - We have **spiral arms, streams, ripples and other dynamical scars**
 - The colored patterns are **all intertwined**, but leave important clues about the strength of the different processes that made them.
 - These structures in movement are caused by **interactions in the Galactic past perturbating** the **stars and the underlying potential**.
-- **So by looking at stars we can still today see these ripples of events that happened long ago.**
+- So there is a lot of information hidden in plain sight that we can use to better understand the galaxy.
 
 ---
 
