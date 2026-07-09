@@ -185,7 +185,7 @@ It alone cannot explain these perturbations
   <span class="prefix">see e.g.</span>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/1994Natur.370..194I/abstract">Ibata et al. 1994</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2018MNRAS.481..286L/abstract">Laporte et al. 2018</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...622L...6K/abstract">Khoperskov et al. 2019</a>,
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...622L...6K/abstract">Khoperskov et al. 2019</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.521..114T/abstract">Tremaine et al. 2023</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025NewAR.10001721H/abstract">Hunt & Vasiliev 2025</a>
 </div>
@@ -331,7 +331,8 @@ Asteroseismic studies of ensembles of stars help constrain galactic models
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021A%26A...645A..85M/abstract">Miglio et al. 2021</a>,
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2023A%26A...670A.109S/abstract">Spitoni et al. 2023</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2023MNRAS.524.1634S/abstract">Stokholm et al. 2023</a>
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp..295W/abstract">Willett et al. 2026</a>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2026MNRAS.tmp..295W/abstract">Willett et al. 2026</a><br>
+  <span class="poster-ref">See talk by A. Singh</span>
 </div>
 
 
@@ -475,7 +476,8 @@ Asteroseismic ages can put upper limits to these infall events.
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021NatAs...5..640M/abstract">Montalbán et al. 2021</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2021ApJ...916...88G/abstract">Grunblatt et al. 2021</a>
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514.2527B/abstract">Borre et al. 2022</a>,
-<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">Lindsay et al. 2025</a>
+<a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025ApJ...989..189L/abstract">Lindsay et al. 2025</a><br>
+  <span class="poster-ref">See talks by E. I. Leitinger, D. H. Grossmann and C. Reyes</span>
 </div>
 
 
@@ -504,7 +506,7 @@ Understanding the metal-poor regime is critical
 </p>
 
 <div style="display: flex; justify-content: center;">
-  <img src="assets/mergers/lundkvist_overview.png" style="width: 70%; max-height: 65vh; overflow: hidden;">
+  <img src="assets/mergers/lundkvist_overview.png" style="width: 70%; max-height: 55vh; overflow: hidden;">
 </div>
 
 <div class="footrefs">
@@ -512,7 +514,9 @@ Understanding the metal-poor regime is critical
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2024ApJ...975...19H/abstract">Huber et al. 2024</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...697A.153L/abstract">Larsen et al. 2025</a>,<br>
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...703A.232L/abstract">Lundkvist et al. 2025</a>,
-<a class="paper-ref" href="https://ui.absads.harvard.edu/abs/2025ApJ...986..144M/abstract">Marasco et al. 2025</a>
+<a class="paper-ref" href="https://ui.absads.harvard.edu/abs/2025ApJ...986..144M/abstract">Marasco et al. 2025</a><br>
+  <span class="poster-ref">See talks by A. W. Neitzel, S. Bolwell, K. R. Sreenivas, M. H. Pinsonneault<br></span>
+  <span class="poster-ref">See poster 100 by S. Grunblatt</span>
 </div>
 
 <div class="slide-footer">
@@ -548,7 +552,9 @@ Many globular clusters are not born within the Milky Way potential!
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2025MNRAS.536.1389H/abstract">2025</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019A%26A...630L...4M/abstract">Massari et al. 2019</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2019MNRAS.486.3180K/abstract">Kruijssen et al. 2019</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a>
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2025A%26A...704A..81B/abstract">Boldrini et al. 2025</a><br>
+  <span class="poster-ref">See talks by K. Brogaard, Cs. Kalup</span><br>
+  <span class="poster-ref">See poster 90 by W. Niewiadomski</span>
 </div>
 
 <div class="slide-footer">
@@ -671,7 +677,8 @@ The inner Galaxy is dense, crowded and filled with structure!
 <a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2021MNRAS.500.1385H/abstract">Horta et al. 2021</a>,<br>
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022MNRAS.514..689B/abstract">Belokurov & Kravtsov 2022</a>,
 <a class="paper-ref" href="https://ui.adsabs.harvard.edu/abs/2022ApJ...941...45R/abstract">Rix et al. 2022</a>,
-<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2026arXiv260118896M/abstract">Massari et al. 2026</a>
+<a class="paper-ref highlight" href="https://ui.adsabs.harvard.edu/abs/2026arXiv260118896M/abstract">Massari et al. 2026</a><br>
+  <span class="poster-ref">See talk by M. Joyce</span>
 </div>
 
 <div class="slide-footer">
